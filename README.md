@@ -1,3 +1,4 @@
+https://optcgsim-thai.wasmer.app/
 # หน้าดาวน์โหลดม็อดการ์ดภาษาไทย OPTCGSim (Next.js)
 
 เว็บสแตติกที่สร้างด้วย Next.js (App Router) + Motion ธีม **แผนที่สมบัติ / ผจญภัยโจรสลัด** มีแอนิเมชันตามการเลื่อนหน้า
