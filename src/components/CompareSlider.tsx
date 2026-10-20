@@ -4,7 +4,7 @@ import { animate, motion, useInView, useMotionValue, useTransform } from "motion
 import { useEffect, useRef, useState } from "react";
 import { asset, siteData } from "@/lib/site";
 
-/** English / Thai card text panel with a draggable divider. Sweeps once by itself when it first appears. */
+/** English / Thai card text panel on a rolled scroll, with a draggable divider. It sweeps once by itself when it first appears. */
 export default function CompareSlider() {
   const [sample, setSample] = useState(0);
   const pos = useMotionValue(50);
@@ -38,23 +38,25 @@ export default function CompareSlider() {
           </button>
         ))}
       </div>
-      <div className="compare-frame" ref={frameRef} style={{ aspectRatio: `${dims.w} / ${dims.h}` }}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={asset(`/assets/cmp-${n}-en.webp`)} alt="กล่องข้อความการ์ดต้นฉบับภาษาอังกฤษ" width={dims.w} height={dims.h} />
-        <motion.img
-          src={asset(`/assets/cmp-${n}-th.webp`)}
-          alt="กล่องข้อความการ์ดที่แปลเป็นภาษาไทยแล้ว"
-          width={dims.w}
-          height={dims.h}
-          style={{ clipPath: clip }}
-        />
-        <motion.div className="compare-divider" style={{ left }} aria-hidden="true" />
-        <span className="tag l" aria-hidden="true">
-          ENG
-        </span>
-        <span className="tag r" aria-hidden="true">
-          ไทย
-        </span>
+      <div className="scroll">
+        <div className="compare-frame" ref={frameRef} style={{ aspectRatio: `${dims.w} / ${dims.h}` }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={asset(`/assets/cmp-${n}-en.webp`)} alt="กล่องข้อความการ์ดต้นฉบับภาษาอังกฤษ" width={dims.w} height={dims.h} />
+          <motion.img
+            src={asset(`/assets/cmp-${n}-th.webp`)}
+            alt="กล่องข้อความการ์ดที่แปลเป็นภาษาไทยแล้ว"
+            width={dims.w}
+            height={dims.h}
+            style={{ clipPath: clip }}
+          />
+          <motion.div className="compare-divider" style={{ left }} aria-hidden="true" />
+          <span className="tag l" aria-hidden="true">
+            ENG
+          </span>
+          <span className="tag r" aria-hidden="true">
+            ไทย
+          </span>
+        </div>
       </div>
       <label>
         <input

@@ -29,7 +29,15 @@ function Shot({
   const rotate = useTransform(scrollYProgress, [0, 0.5, 1], [drift > 0 ? -1.2 : 1.2, 0, drift > 0 ? 1.2 : -1.2]);
 
   return (
-    <motion.figure ref={ref} className={narrow ? "narrow-shot" : undefined} style={{ y, rotate }}>
+    <motion.figure ref={ref} className={narrow ? "photo narrow" : "photo"} style={{ y, rotate }}>
+      {narrow ? (
+        <>
+          <span className="tape l" aria-hidden="true" />
+          <span className="tape r" aria-hidden="true" />
+        </>
+      ) : (
+        <span className="pin" aria-hidden="true" />
+      )}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={asset(src)} width={width} height={height} loading="lazy" alt={alt} />
       <figcaption>{caption}</figcaption>
@@ -42,7 +50,7 @@ export default function Shots() {
     <section className="shots">
       <div className="wrap stack gap32">
         <Heading>ภาพจริงจากโปรแกรมและเกม</Heading>
-        <Reveal>
+        <Reveal className="board wood">
           <div className="grid">
             <Shot
               src="/assets/installer-window.webp"

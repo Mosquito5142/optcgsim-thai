@@ -2,7 +2,8 @@
 
 import { AnimatePresence, motion, useMotionValueEvent, useScroll, useSpring } from "motion/react";
 import { useRef, useState } from "react";
-import { CheckIcon, ClockIcon, CopyIcon, DesktopIcon, DownloadIcon, IphoneIcon, PhoneIcon, WarnIcon } from "./Icons";
+import { Chest, XMark } from "./Art";
+import { CheckIcon, ClockIcon, CopyIcon, DesktopIcon, IphoneIcon, PhoneIcon, WarnIcon } from "./Icons";
 import { usePlatform } from "./PlatformContext";
 import { Heading, Reveal } from "./Reveal";
 import { siteConfig } from "@/config/site.config";
@@ -32,6 +33,7 @@ function DownloadButton({ id, label, variant = "big" }: { id: DlKey; label: stri
   const enabled = id === "androidConverter" ? siteConfig.downloads.androidConverter.enabled === true : Boolean(cfg.url);
   const [state, setState] = useState<"idle" | "busy" | "done">("idle");
   const [mirror, setMirror] = useState(false);
+  const [hover, setHover] = useState(false);
 
   const click = () => {
     if (!enabled || state === "busy") return;
@@ -48,7 +50,7 @@ function DownloadButton({ id, label, variant = "big" }: { id: DlKey; label: stri
       ? "เร็วๆ นี้"
       : "ลิงก์ดาวน์โหลดยังไม่พร้อม"
     : state === "busy"
-      ? "กำลังเตรียมไฟล์..."
+      ? "กำลังขนสมบัติ..."
       : state === "done"
         ? "ดาวน์โหลดอีกครั้ง"
         : label;
@@ -64,6 +66,10 @@ function DownloadButton({ id, label, variant = "big" }: { id: DlKey; label: stri
         style={{ position: "relative", overflow: "hidden" }}
         whileHover={enabled ? { y: -2, scale: 1.02 } : undefined}
         whileTap={enabled ? { scale: 0.97 } : undefined}
+        onHoverStart={() => setHover(true)}
+        onHoverEnd={() => setHover(false)}
+        onFocus={() => setHover(true)}
+        onBlur={() => setHover(false)}
       >
         {state === "busy" && (
           <motion.span
@@ -74,7 +80,7 @@ function DownloadButton({ id, label, variant = "big" }: { id: DlKey; label: stri
             transition={{ duration: 0.9, ease: "easeInOut" }}
           />
         )}
-        <DownloadIcon size={variant === "big" ? 20 : 18} />
+        <Chest size={variant === "big" ? 34 : 28} open={enabled && (hover || state === "busy")} />
         <span style={{ position: "relative" }}>{text}</span>
       </motion.button>
       <AnimatePresence>
@@ -128,7 +134,7 @@ function HashButton({ file, prefix }: { file: FileKey; prefix?: string }) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
           >
-            <CheckIcon /> คัดลอกแล้ว
+            <CheckIcon /> ปักหมุดแล้ว (คัดลอก)
           </motion.span>
         )}
       </AnimatePresence>
@@ -204,6 +210,12 @@ function Steps({ title, steps }: { title: string; steps: Step[] }) {
             </div>
           </motion.div>
         ))}
+        <div className="treasure">
+          <div className="x">
+            <XMark size={30} show={reached >= steps.length} />
+          </div>
+          <span>ถึงเกาะสมบัติแล้ว — เปิดเกมได้เลย!</span>
+        </div>
       </div>
     </div>
   );
@@ -328,7 +340,7 @@ export default function Download() {
         <div>
           <Heading>เลือกแพลตฟอร์มของคุณ</Heading>
           <Reveal delay={0.1}>
-            <p style={{ marginTop: 8, fontSize: 14, color: "var(--text-muted)" }}>
+            <p style={{ marginTop: 8, fontSize: 14, color: "#d9ccaf" }}>
               รองรับเกมเวอร์ชัน {siteData.version} — ถ้าเกมอัปเดตเป็นเวอร์ชันใหม่ ให้ติดตั้งม็อดซ้ำอีกครั้ง
             </p>
           </Reveal>
@@ -355,7 +367,7 @@ export default function Download() {
               {platform === t.id && (
                 <motion.span
                   layoutId="tab-underline"
-                  style={{ position: "absolute", left: 0, right: 0, bottom: -1, height: 3, background: "var(--orange)", borderRadius: 3 }}
+                  style={{ position: "absolute", left: 0, right: 0, bottom: -1, height: 3, background: "var(--orange-strong)", borderRadius: 3, zIndex: 2 }}
                   transition={{ type: "spring", stiffness: 420, damping: 34 }}
                 />
               )}
@@ -367,7 +379,7 @@ export default function Download() {
           <AnimatePresence mode="wait">
             <motion.div
               key={platform}
-              className="panel"
+              className="panel sheet paper"
               role="tabpanel"
               id={`panel-${platform}`}
               aria-labelledby={`tab-${platform}`}

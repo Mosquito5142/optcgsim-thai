@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform, type Variants } from "motion/react";
 import { useRef } from "react";
+import { Waves } from "./Art";
 import CompareSlider from "./CompareSlider";
 import CountUp from "./CountUp";
 import { DownloadIcon } from "./Icons";
@@ -20,25 +21,39 @@ export default function Hero() {
   const { platform, detected } = usePlatform();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
 
-  const glowY = useTransform(scrollYProgress, [0, 1], [0, 180]);
+  const starsY = useTransform(scrollYProgress, [0, 1], [0, 90]);
+  const sunY = useTransform(scrollYProgress, [0, 1], [0, 170]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, -60]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.85], [1, 0.2]);
   const cardY = useTransform(scrollYProgress, [0, 1], [0, -110]);
   const rotateX = useTransform(scrollYProgress, [0, 1], [0, 14]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
+  const wave1 = useTransform(scrollYProgress, [0, 1], [0, 40]);
+  const wave2 = useTransform(scrollYProgress, [0, 1], [0, 18]);
 
   return (
     <section className="hero" ref={ref} id="top">
-      <motion.div
-        className="hero-glow"
-        style={{
-          y: glowY,
-          background:
-            "radial-gradient(ellipse 900px 480px at 15% 10%,rgba(226,130,63,.16),transparent 60%),radial-gradient(ellipse 700px 420px at 100% 15%,rgba(111,166,207,.13),transparent 55%)",
-        }}
-        aria-hidden="true"
-      />
-      <div className="wrap" style={{ position: "relative" }}>
+      <motion.div className="stars" style={{ y: starsY }} aria-hidden="true" />
+      <motion.div className="sun" style={{ y: sunY }} aria-hidden="true" />
+
+      {/* dotted route that draws itself toward an X (decorative) */}
+      <svg className="route" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+        <motion.path
+          d="M40 640 C 260 520, 420 600, 560 470 S 860 330, 1010 170"
+          initial={{ pathLength: 0 }}
+          animate={{ pathLength: 1 }}
+          transition={{ duration: 3.2, delay: 0.6, ease: "easeInOut" }}
+        />
+        <motion.path
+          d="M996 156 L1024 184 M1024 156 L996 184"
+          style={{ stroke: "#e2823f", strokeDasharray: "none", strokeWidth: 6 }}
+          initial={{ opacity: 0, scale: 0.4 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 3.6, duration: 0.5 }}
+        />
+      </svg>
+
+      <div className="wrap">
         <motion.div className="hero-text" style={{ y: textY, opacity: textOpacity }} variants={list} initial="hidden" animate="show">
           <motion.span className="badge" variants={rise}>
             ม็อดแฟนเมด • ไม่เกี่ยวข้องกับ Bandai
@@ -53,7 +68,7 @@ export default function Hero() {
           <motion.div className="cta-row" variants={rise}>
             <motion.a className="btn" href="#download-section" whileHover={{ y: -2, scale: 1.03 }} whileTap={{ scale: 0.97 }}>
               <DownloadIcon />
-              <span>ดาวน์โหลดสำหรับ {PLATFORM_LABELS[platform]}</span>
+              <span>ออกเรือ: ดาวน์โหลดสำหรับ {PLATFORM_LABELS[platform]}</span>
             </motion.a>
             <span className="faint">ตรวจพบอุปกรณ์: {PLATFORM_LABELS[detected]} • เปลี่ยนแพลตฟอร์มได้ด้านล่าง</span>
           </motion.div>
@@ -67,6 +82,15 @@ export default function Hero() {
           transition={{ duration: 0.9, delay: 0.35, ease: EASE }}
         >
           <CompareSlider />
+        </motion.div>
+      </div>
+
+      <div className="waves-wrap" aria-hidden="true">
+        <motion.div style={{ y: wave1, position: "absolute", inset: 0 }}>
+          <Waves color="#1f5560" duration={34} opacity={0.9} reverse />
+        </motion.div>
+        <motion.div style={{ y: wave2, position: "absolute", inset: 0 }}>
+          <Waves color="#16303a" duration={24} />
         </motion.div>
       </div>
     </section>

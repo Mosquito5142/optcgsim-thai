@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { PirateSilhouette } from "./Art";
 import { CoffeeIcon, MessageIcon } from "./Icons";
 import { Heading, Reveal } from "./Reveal";
 import { siteConfig } from "@/config/site.config";
@@ -52,20 +53,28 @@ export default function Support() {
           </Reveal>
         </div>
         <Reveal x={40} y={0}>
-          <div className="qr">
-            {promptpayQr ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={asset(promptpayQr)} alt="QR พร้อมเพย์สำหรับสนับสนุนผู้แปล" />
-            ) : (
-              <div className="ph">
-                QR พร้อมเพย์
-                <br />
-                (ยังไม่ได้ใส่)
-              </div>
-            )}
-            <span className="faint" style={{ fontSize: 12 }}>
-              สแกนเพื่อสนับสนุน
-            </span>
+          <div className="poster paper">
+            <span className="ttl">WANTED</span>
+            <div className="sil">
+              <PirateSilhouette size={130} />
+            </div>
+            <span className="who">{siteConfig.author}</span>
+            <span className="bounty">รางวัลนำจับ: กาแฟหนึ่งแก้ว</span>
+            <div className="qr">
+              {promptpayQr ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={asset(promptpayQr)} alt="QR พร้อมเพย์สำหรับสนับสนุนผู้แปล" />
+              ) : (
+                <div className="ph">
+                  QR พร้อมเพย์
+                  <br />
+                  (ยังไม่ได้ใส่)
+                </div>
+              )}
+              <span className="faint" style={{ fontSize: 12 }}>
+                สแกนเพื่อสนับสนุน
+              </span>
+            </div>
           </div>
         </Reveal>
       </div>

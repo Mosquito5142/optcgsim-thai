@@ -1,17 +1,22 @@
+import { WaxSeal } from "./Art";
 import CountUp from "./CountUp";
+import { CheckIcon } from "./Icons";
 import { Heading, Reveal } from "./Reveal";
 import { siteData } from "@/lib/site";
 
+/** Captain's log: ruled paper with a red margin line and a wax seal on the latest entry. */
 export default function Changelog() {
   return (
-    <section style={{ padding: "56px 24px", borderTop: "1px solid var(--border)" }}>
+    <section style={{ padding: "56px 24px" }}>
       <div className="wrap-narrow stack" style={{ gap: 20 }}>
-        <Heading>บันทึกอัปเดต</Heading>
+        <Heading>บันทึกการเดินทาง</Heading>
         <Reveal>
-          <div className="changelog">
+          <div className="logbook paper">
             <div className="v">
               <b>เวอร์ชัน {siteData.version}</b>
-              <span className="chip">ล่าสุด</span>
+              <WaxSeal size={34}>
+                <CheckIcon size={18} />
+              </WaxSeal>
               <span className="faint">{siteData.files.windows?.date}</span>
             </div>
             <ul>

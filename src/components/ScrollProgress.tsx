@@ -1,10 +1,19 @@
 "use client";
 
-import { motion, useScroll, useSpring } from "motion/react";
+import { motion, useScroll, useSpring, useTransform } from "motion/react";
+import { Ship } from "./Art";
 
-/** Thin bar at the top that fills while scrolling down the page. */
+/** A rope along the top of the screen; a little ship sails along it as you scroll down the page. */
 export default function ScrollProgress() {
   const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, { stiffness: 120, damping: 24, restDelta: 0.001 });
-  return <motion.div className="progress" style={{ scaleX }} aria-hidden="true" />;
+  const progress = useSpring(scrollYProgress, { stiffness: 110, damping: 22, restDelta: 0.001 });
+  const left = useTransform(progress, (v) => `calc(${v * 100}% - ${v * 44}px)`);
+  return (
+    <div className="sea-progress" aria-hidden="true">
+      <motion.div className="rope" style={{ scaleX: progress }} />
+      <motion.div className="ship" style={{ left }}>
+        <Ship size={44} />
+      </motion.div>
+    </div>
+  );
 }

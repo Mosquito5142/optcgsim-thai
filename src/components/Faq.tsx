@@ -45,7 +45,7 @@ export default function Faq() {
             const isOpen = open === i;
             return (
               <StaggerItem key={f.q} className="acc-item">
-                <div className="acc">
+                <div className="acc paper">
                   <button
                     type="button"
                     className="acc-btn"
