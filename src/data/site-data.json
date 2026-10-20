@@ -1,0 +1,42 @@
+{
+  "version": "1.44a",
+  "cards": 2640,
+  "uiLines": 1425,
+  "compare": [
+    {
+      "w": 420,
+      "h": 186
+    },
+    {
+      "w": 420,
+      "h": 186
+    },
+    {
+      "w": 420,
+      "h": 186
+    }
+  ],
+  "files": {
+    "windows": {
+      "name": "OPTCGSim-Thai-Installer.exe",
+      "bytes": 19609228,
+      "size": "19 MB",
+      "sha256": "9a3c1903ee3d9e57ce6f230993cc0e4eafc65f2cc86d1c2f193cc0fecf0e0388",
+      "date": "20 ต.ค. 2569"
+    },
+    "androidReady": {
+      "name": "1.44a_Android_TH.apk",
+      "bytes": 951807887,
+      "size": "908 MB",
+      "sha256": "0a81113f5e33bad0623b6b000110a48b908abc14f27d3d1298d97d4611a5669d",
+      "date": "20 ต.ค. 2569"
+    },
+    "ios": {
+      "name": "1.44a_iOS_TH_unsigned.ipa",
+      "bytes": 808709559,
+      "size": "771 MB",
+      "sha256": "9b2de67f65bd474c0f52b7b68f1d4506ddbcd6dde1c398252577f66a3b4461cd",
+      "date": "20 ต.ค. 2569"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+import type { Metadata, Viewport } from "next";
+import { Chonburi, Mali, Prompt } from "next/font/google";
+import "./globals.css";
+import Providers from "@/components/Providers";
+
+const prompt = Prompt({
+  subsets: ["thai", "latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-prompt",
+  display: "swap",
+});
+// Poster-style display face for headings; handwriting face for notes, labels and the ship's log.
+const display = Chonburi({ subsets: ["thai", "latin"], weight: "400", variable: "--font-display", display: "swap" });
+const hand = Mali({ subsets: ["thai", "latin"], weight: ["400", "600"], variable: "--font-hand", display: "swap" });
+
+export const metadata: Metadata = {
+  title: "ม็อดการ์ดภาษาไทย OPTCGSim — เล่นด้วยการ์ดและเมนูภาษาไทย",
+  description:
+    "ม็อดแฟนเมดแปลสกิลการ์ด OPTCGSim 2,640 ใบ และข้อความในเกม 1,425 บรรทัดเป็นภาษาไทย ติดตั้งง่ายบน Windows, Android และ iOS กลับเป็นภาษาอังกฤษได้ทุกเมื่อ",
+  openGraph: {
+    title: "ม็อดการ์ดภาษาไทย OPTCGSim",
+    description: "เล่น OPTCGSim ด้วยการ์ดและเมนูภาษาไทย แปลสกิลการ์ด 2,640 ใบ",
+    type: "website",
+    locale: "th_TH",
+  },
+  icons: {
+    icon:
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e2823f'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle' fill='%23241206' font-family='serif' font-weight='700'%3E%E0%B8%97%3C/text%3E%3C/svg%3E",
+  },
+};
+
+export const viewport: Viewport = { themeColor: "#0c1418", width: "device-width", initialScale: 1 };
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="th" className={`${prompt.variable} ${display.variable} ${hand.variable}`}>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
+    </html>
+  );
+}
