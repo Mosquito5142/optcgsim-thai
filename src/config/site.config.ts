@@ -13,15 +13,15 @@ export const siteConfig = {
   downloads: {
     // Windows: ตัวติดตั้ง .exe
     windows: {
-      url: "", // เช่น "https://github.com/ชื่อคุณ/โปรเจกต์/releases/download/v1.44a/OPTCGSim-Thai-Installer.exe"
-      mirror: "", // ลิงก์สำรอง (ไม่บังคับ) จะโผล่หลังกดดาวน์โหลด
+      url: "https://github.com/Mosquito5142/optcgsim-thai/releases/download/optcgsim-thai/OPTCGSim-Thai-Installer.exe",
+      mirror: "https://github.com/Mosquito5142/optcgsim-thai/releases/tag/optcgsim-thai", // ลิงก์สำรอง (ไม่บังคับ) จะโผล่หลังกดดาวน์โหลด
     },
     // Android: APK แปลไทยสำเร็จรูป (มีรูปการ์ด Bandai อยู่ในไฟล์ ระวังเรื่องลิขสิทธิ์ถ้าแจกสาธารณะ)
-    androidReady: { url: "", mirror: "" },
+    androidReady: { url: "https://drive.google.com/file/d/1wnc-Fq2koSxv0TGLoNHRxGzMunTEvQFT/view?usp=sharing", mirror: "" },
     // Android: เครื่องมือแปลง APK ของผู้เล่นเอง (ยังไม่เสร็จ ตั้ง enabled: true เมื่อพร้อม)
     androidConverter: { enabled: false, url: "", mirror: "" },
     // iOS: ไฟล์ .ipa (ต้องเซ็นด้วย Sideloadly/AltStore)
-    ios: { url: "", mirror: "" },
+    ios: { url: "https://drive.google.com/file/d/1WAZvw008lD9ausclL45opGUyF7W5LASU/view?usp=sharing", mirror: "" },
   },
 
   support: {
