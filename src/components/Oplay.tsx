@@ -24,8 +24,8 @@ export default function Oplay() {
           <Heading>เล่นบนเว็บ OPlayTCG ก็อ่านสกิลเป็นไทยได้</Heading>
           <Reveal delay={0.1}>
             <p style={{ marginTop: 8, fontSize: 14, color: "#d9ccaf" }}>
-              สคริปต์เสริมสำหรับคอมพิวเตอร์: ชี้เมาส์ที่การ์ดบน oplaytcg.com แล้วจะมีป๊อปอัปข้อความสกิลภาษาไทยขึ้นข้างเมาส์
-              แจกเฉพาะตัวอักษรคำแปล ไม่มีรูปการ์ด
+              สคริปต์เสริมสำหรับคอมพิวเตอร์: ชี้การ์ดบน oplaytcg.com แล้วกล่องข้อความสกิลบนการ์ดใบใหญ่จะเป็นภาษาไทย
+              หน้าตาเหมือนการ์ดไทยในม็อด OPTCGSim แจกเฉพาะตัวอักษรคำแปล ไม่มีรูปการ์ด
             </p>
           </Reveal>
         </div>
@@ -45,6 +45,10 @@ export default function Oplay() {
                         <b>ติดตั้งส่วนขยาย Tampermonkey (ครั้งเดียว)</b>
                       </div>
                       <p>เลือกตามเบราว์เซอร์ที่ใช้ แล้วกดเพิ่มส่วนขยาย</p>
+                      <p style={{ marginTop: 6 }}>
+                        <b>ผู้ใช้ Chrome:</b> เปิด chrome://extensions → กด &quot;รายละเอียด&quot; ที่ Tampermonkey → เปิดสวิตช์
+                        &quot;อนุญาตสคริปต์ของผู้ใช้&quot; (Allow User Scripts) ถ้าไม่เปิด สคริปต์จะไม่ทำงาน
+                      </p>
                       <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 6 }}>
                         {EXTENSION_LINKS.map((e) => (
                           <a key={e.label} className="btn small ghost" href={e.href} target="_blank" rel="noopener">
@@ -83,7 +87,8 @@ export default function Oplay() {
               </div>
 
               <ul className="hand" style={{ fontSize: 14, lineHeight: 1.9, color: "var(--ink-soft)", paddingLeft: 4 }}>
-                <li>✦ กด Alt+T เพื่อเปิด/ปิดป๊อปอัป</li>
+                <li>✦ เข้าเว็บแล้วมีข้อความ &quot;OPlay ไทย พร้อมใช้งาน&quot; ขึ้นด้านล่างจอ แปลว่าสคริปต์ทำงานแล้ว</li>
+                <li>✦ กด Alt+T เปิด/ปิดคำแปลบนการ์ด · กด Alt+P เปิดป๊อปอัปข้างเมาส์ (สำหรับการ์ดใบเล็กที่ยังไม่มีกล่องแปล)</li>
                 <li>✦ การ์ดที่ไม่มีข้อความสกิล หรือยังไม่ได้แปล จะไม่มีป๊อปอัป</li>
                 <li>✦ ใช้ได้เฉพาะคอมพิวเตอร์ (มือถือยังไม่รองรับ)</li>
               </ul>
