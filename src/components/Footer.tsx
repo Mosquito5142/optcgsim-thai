@@ -12,6 +12,14 @@ export default function Footer() {
         </p>
         <span className="sign">
           <Anchor size={18} />© 2026 แปลและพัฒนาโดย {siteConfig.author}
+          {siteConfig.youtube.channel && (
+            <>
+              {" · "}
+              <a href={siteConfig.youtube.channel} target="_blank" rel="noopener">
+                ช่อง YouTube
+              </a>
+            </>
+          )}
         </span>
       </div>
     </footer>

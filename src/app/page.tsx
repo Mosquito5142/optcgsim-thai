@@ -9,6 +9,7 @@ import Oplay from "@/components/Oplay";
 import { PlatformProvider } from "@/components/PlatformContext";
 import Shots from "@/components/Shots";
 import Support from "@/components/Support";
+import Videos from "@/components/Videos";
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <Hero />
         <Features />
         <Shots />
+        <Videos />
         <Download />
         <Oplay />
         <Faq />

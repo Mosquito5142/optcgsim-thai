@@ -49,6 +49,9 @@ export default function Support() {
                 <MessageIcon />
                 ช่องทางติดต่อ
               </LinkButton>
+              <LinkButton href={siteConfig.youtube.channel} ghost>
+                ช่อง YouTube
+              </LinkButton>
             </div>
           </Reveal>
         </div>
