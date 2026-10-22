@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         OPlayTCG ภาษาไทย (แปลสกิลบนการ์ด)
 // @namespace    https://github.com/Mosquito5142/optcgsim-thai
-// @version      0.2.261022.1007
+// @version      0.2.261022.1118
 // @description  แปลข้อความสกิลบนการ์ดใหญ่ของ oplaytcg.com เป็นภาษาไทย (กล่องข้อความไทยทับบนการ์ด เหมือนม็อด OPTCGSim) ม็อดแฟนเมด ไม่เป็นทางการ แปลโดย $ong$oul กด Alt+T เปิด/ปิด
 // @author       $ong$oul
 // @match        https://oplaytcg.com/*
 // @match        https://www.oplaytcg.com/*
-// @require      https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.data.js?v=0.2.261022.1007
+// @require      https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.data.js?v=0.2.261022.1118
 // @updateURL    https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.meta.js
 // @downloadURL  https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.user.js
 // @grant        none
@@ -73,6 +73,14 @@
   function idOf(img) {
     const m = ID_RE.exec(img.currentSrc || img.src);
     return m && m[1].toUpperCase();
+  }
+
+  // OPlayTCG already serves official Thai prints (.../<set>/th/...) for older sets: leave those cards alone.
+  // Newer sets fall back to .../en/..., which is where the overlay is needed.
+  const LANG_RE = /cards\.oplaytcg\.com\/[^/]+\/([a-z]{2})\//i;
+  function isThaiPrint(img) {
+    const m = LANG_RE.exec(img.currentSrc || img.src);
+    return Boolean(m) && m[1].toLowerCase() === "th";
   }
 
   // ---------- overlay on the big card ----------
@@ -152,7 +160,7 @@
         if (r.width < MIN_OVERLAY_W || r.height < MIN_OVERLAY_W * 1.2 || !img.complete || !img.naturalWidth) continue;
         const id = idOf(img);
         const card = id && DATA.cards[id];
-        if (!card) continue;
+        if (!card || isThaiPrint(img)) continue;
         live.add(img);
         let o = overlays.get(img);
         if (!o || o.id !== id) {
