@@ -24,9 +24,15 @@ export const siteConfig = {
     ios: { url: "https://drive.google.com/file/d/1WAZvw008lD9ausclL45opGUyF7W5LASU/view?usp=sharing", mirror: "" },
   },
 
+  oplay: {
+    // สคริปต์ Tampermonkey สำหรับเว็บ oplaytcg.com (สร้างด้วย  python build_oplay.py --site <โฟลเดอร์นี้>  ใน thai_cards)
+    // ไฟล์อยู่ใน public/oplay/ และต้อง push ขึ้น main ก่อนลิงก์ raw ถึงจะใช้ได้
+    userscript: "https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.user.js",
+  },
+
   support: {
     kofi: "", // เช่น "https://ko-fi.com/ชื่อคุณ"
     contact: "", // เช่น "https://discord.gg/xxxx" หรือ "mailto:you@example.com"
-    promptpayQr: "", // เช่น "/assets/promptpay-qr.png" (วางรูปไว้ใน public/assets)
+    promptpayQr: "/assets/promptpay-qr.png", // เช่น "/assets/promptpay-qr.png" (วางรูปไว้ใน public/assets)
   },
 };

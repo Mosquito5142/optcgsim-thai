@@ -5,6 +5,7 @@ import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Oplay from "@/components/Oplay";
 import { PlatformProvider } from "@/components/PlatformContext";
 import Shots from "@/components/Shots";
 import Support from "@/components/Support";
@@ -18,6 +19,7 @@ export default function Page() {
         <Features />
         <Shots />
         <Download />
+        <Oplay />
         <Faq />
         <Changelog />
         <Support />
