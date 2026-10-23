@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         OPlayTCG ภาษาไทย (แปลสกิลบนการ์ด)
 // @namespace    https://github.com/Mosquito5142/optcgsim-thai
-// @version      0.2.261022.1118
+// @version      0.2.261023.0953
 // @description  แปลข้อความสกิลบนการ์ดใหญ่ของ oplaytcg.com เป็นภาษาไทย (กล่องข้อความไทยทับบนการ์ด เหมือนม็อด OPTCGSim) ม็อดแฟนเมด ไม่เป็นทางการ แปลโดย $ong$oul กด Alt+T เปิด/ปิด
 // @author       $ong$oul
 // @match        https://oplaytcg.com/*
 // @match        https://www.oplaytcg.com/*
-// @require      https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.data.js?v=0.2.261022.1118
+// @require      https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.data.js?v=0.2.261023.0953
 // @updateURL    https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.meta.js
 // @downloadURL  https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.user.js
 // @grant        none
@@ -26,6 +26,7 @@
     set: (k, v) => { try { localStorage.setItem(k, v ? "1" : "0"); } catch (_) { /* storage blocked */ } },
   };
   let enabled = store.get("oplayThai.enabled", true) && Boolean(DATA);
+  let readMode = store.get("oplayThai.readMode", false); // touch: tap a card to read its Thai text in a bottom sheet
   let popupOn = store.get("oplayThai.popup", false); // small hover popup, for cards too small to carry the overlay
 
   const ID_RE = /([A-Za-z0-9]+-\d{3})[^/]*\.webp/;
@@ -50,11 +51,24 @@
     #oplay-th-tip{position:fixed;z-index:2147483647;max-width:min(340px,92vw);padding:12px 14px;border-radius:12px;
       background:#141a26;color:#eef1f7;border:1px solid #3a4560;box-shadow:0 12px 32px rgba(0,0,0,.55);
       font:14px/1.7 ${FONT};pointer-events:none;display:none}
-    #oplay-th-tip .h{font-size:12px;color:#9fb0cf;margin-bottom:6px}
-    #oplay-th-tip .a{margin:0 0 8px}
-    #oplay-th-tip .a:last-of-type{margin-bottom:0}
-    #oplay-th-tip .c{display:inline-block;padding:0 8px;margin:0 2px;border-radius:999px;font-weight:700;font-size:12.5px;line-height:1.55}
-    #oplay-th-tip .f{margin-top:8px;font-size:11px;color:#7d8aa6;text-align:right}
+    :is(#oplay-th-tip,#oplay-th-sheet) .h{font-size:12px;color:#9fb0cf;margin-bottom:6px}
+    :is(#oplay-th-tip,#oplay-th-sheet) .a{margin:0 0 8px}
+    :is(#oplay-th-tip,#oplay-th-sheet) .c{display:inline-block;padding:0 8px;margin:0 2px;border-radius:999px;font-weight:700;font-size:12.5px;line-height:1.55}
+    :is(#oplay-th-tip,#oplay-th-sheet) .f{margin-top:8px;font-size:11px;color:#7d8aa6;text-align:right}
+    #oplay-th-fab{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:2147483646;width:48px;height:48px;
+      border-radius:50%;background:#e2823f;color:#fff;border:2px solid #8a4313;font:700 14px/1 ${FONT};opacity:.8;padding:0;
+      box-shadow:0 4px 12px rgba(0,0,0,.5);touch-action:manipulation}
+    #oplay-th-fab.on{opacity:1;outline:3px solid #ffd36e}
+    #oplay-th-menu{position:fixed;right:14px;bottom:calc(72px + env(safe-area-inset-bottom,0px));z-index:2147483646;min-width:240px;max-width:86vw;
+      padding:8px 12px 10px;border-radius:14px;background:#141a26;color:#eef1f7;border:1px solid #3a4560;font:14px/1.5 ${FONT};display:none;
+      box-shadow:0 10px 28px rgba(0,0,0,.55)}
+    #oplay-th-menu label{display:flex;justify-content:space-between;align-items:center;gap:14px;min-height:44px}
+    #oplay-th-menu input{width:22px;height:22px}
+    #oplay-th-menu .hint{font-size:12px;color:#9fb0cf;margin-top:2px}
+    #oplay-th-sheet{position:fixed;left:0;right:0;bottom:0;max-height:55vh;overflow:auto;z-index:2147483645;display:none;
+      padding:14px 16px calc(76px + env(safe-area-inset-bottom,0px));border-radius:16px 16px 0 0;background:#141a26;color:#eef1f7;
+      border-top:1px solid #3a4560;box-shadow:0 -10px 30px rgba(0,0,0,.5);font:15px/1.75 ${FONT}}
+    #oplay-th-sheet .x{position:absolute;top:8px;right:10px;min-width:44px;min-height:36px;border:0;border-radius:10px;background:#24304a;color:#eef1f7;font:13px ${FONT}}
     #oplay-th-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;padding:8px 16px;
       border-radius:999px;background:#141a26;color:#eef1f7;border:1px solid #3a4560;font:13px ${FONT};
       pointer-events:none;opacity:0;transition:opacity .2s}`;
@@ -190,24 +204,25 @@
   tip.id = "oplay-th-tip";
   document.body.appendChild(tip);
 
-  function fillTip(id, card) {
-    tip.textContent = "";
+  /** Header + one block per ability + credit, shared by the hover popup and the touch bottom sheet. */
+  function fillPanel(el, id, card) {
+    el.textContent = "";
     const h = document.createElement("div");
     h.className = "h";
     h.textContent = card.n ? `${id} · ${card.n}` : id;
-    tip.appendChild(h);
+    el.appendChild(h);
     for (const [chips, parts] of card.a) {
       const p = document.createElement("div");
       p.className = "a";
       for (const c of chips) p.appendChild(chipEl(c));
       if (chips.length) p.appendChild(document.createTextNode(" "));
       for (const part of parts) p.appendChild(typeof part === "string" ? document.createTextNode(part) : chipEl(part));
-      tip.appendChild(p);
+      el.appendChild(p);
     }
     const f = document.createElement("div");
     f.className = "f";
     f.textContent = CREDIT + " · ไม่เป็นทางการ";
-    tip.appendChild(f);
+    el.appendChild(f);
   }
 
   /** Topmost card image under the pointer. elementsFromPoint sees through the transparent hit-layers and overlays the site stacks on cards. */
@@ -242,7 +257,7 @@
     if (!card) return hideTip();
     if (current !== img) {
       current = img;
-      fillTip(id, card);
+      fillPanel(tip, id, card);
     }
     tip.style.display = "block";
     placeTip();
@@ -263,6 +278,81 @@
   document.documentElement.addEventListener("mouseleave", hideTip);
   window.addEventListener("scroll", hideTip, true);
   window.addEventListener("blur", hideTip);
+
+  // ---------- touch UI: floating button, menu, bottom sheet, tap-to-read ----------
+
+  const touch = (typeof matchMedia === "function" && matchMedia("(pointer: coarse)").matches) ||
+    (typeof navigator !== "undefined" && navigator.maxTouchPoints > 0);
+  let sheet = null;
+
+  function hideSheet() { if (sheet) sheet.style.display = "none"; }
+
+  function showSheet(id, card) {
+    fillPanel(sheet, id, card);
+    const x = document.createElement("button");
+    x.type = "button";
+    x.className = "x";
+    x.textContent = "ปิด";
+    x.addEventListener("click", hideSheet);
+    sheet.appendChild(x);
+    sheet.style.display = "block";
+  }
+
+  function buildTouchUi() {
+    const fab = document.createElement("button");
+    fab.id = "oplay-th-fab";
+    fab.type = "button";
+    fab.textContent = "ไทย";
+    fab.setAttribute("aria-label", "เมนูคำแปลภาษาไทย");
+    const menu = document.createElement("div");
+    menu.id = "oplay-th-menu";
+    const paintFab = () => { fab.className = readMode && enabled ? "on" : ""; };
+    const rows = [
+      ["คำแปลบนการ์ดใบใหญ่", () => enabled, (v) => { enabled = v; store.set("oplayThai.enabled", v); if (!v) hideSheet(); }],
+      ["โหมดแตะอ่านการ์ด", () => readMode, (v) => { readMode = v; store.set("oplayThai.readMode", v); if (!v) hideSheet(); }],
+    ];
+    for (const [label, get, set] of rows) {
+      const row = document.createElement("label");
+      const span = document.createElement("span");
+      span.textContent = label;
+      const box = document.createElement("input");
+      box.type = "checkbox";
+      box.checked = get();
+      box.addEventListener("change", () => { set(box.checked); paintFab(); });
+      row.appendChild(span);
+      row.appendChild(box);
+      menu.appendChild(row);
+    }
+    const hint = document.createElement("div");
+    hint.className = "hint";
+    hint.textContent = "เปิดโหมดแตะอ่านการ์ดแล้วแตะการ์ดใบไหนก็ได้เพื่อดูสกิลภาษาไทย (ปิดเมื่อจะเล่นตามปกติ)";
+    menu.appendChild(hint);
+    fab.addEventListener("click", () => { menu.style.display = menu.style.display === "block" ? "none" : "block"; });
+    sheet = document.createElement("div");
+    sheet.id = "oplay-th-sheet";
+    sheet.lang = "th";
+    document.body.appendChild(fab);
+    document.body.appendChild(menu);
+    document.body.appendChild(sheet);
+    paintFab();
+  }
+
+  if (touch && DATA) {
+    buildTouchUi();
+    // Capture phase so the site's own tap handler (add card, select...) does not also run while reading.
+    document.addEventListener("click", (e) => {
+      const t = e.target;
+      if (t && t.closest && t.closest("#oplay-th-fab,#oplay-th-menu,#oplay-th-sheet")) return; // our own UI
+      if (!enabled || !readMode) { hideSheet(); return; }
+      const img = cardAt(e.clientX, e.clientY);
+      const id = img && idOf(img);
+      const card = id && DATA.cards[id];
+      if (!card) { hideSheet(); return; }
+      e.preventDefault();
+      e.stopPropagation();
+      showSheet(id, card);
+    }, true);
+  }
 
   // ---------- toast + keys ----------
 
@@ -295,7 +385,7 @@
   try {
     if (!sessionStorage.getItem("oplayThai.hello")) {
       sessionStorage.setItem("oplayThai.hello", "1");
-      toast(DATA ? `OPlay ไทย พร้อมใช้งาน (${Object.keys(DATA.cards).length} การ์ด) · ชี้การ์ดใหญ่ · Alt+T เปิด/ปิด` : "OPlay ไทย: โหลดข้อมูลคำแปลไม่สำเร็จ ลองรีเฟรชหน้า");
+      toast(DATA ? `OPlay ไทย พร้อมใช้งาน (${Object.keys(DATA.cards).length} การ์ด) · ${touch ? "แตะปุ่ม ไทย มุมจอเพื่อตั้งค่า" : "ชี้การ์ดใหญ่ · Alt+T เปิด/ปิด"}` : "OPlay ไทย: โหลดข้อมูลคำแปลไม่สำเร็จ ลองรีเฟรชหน้า");
     }
   } catch (_) { /* storage blocked */ }
   console.info("[OPlay ไทย]", DATA ? `loaded ${Object.keys(DATA.cards).length} cards` : "data missing");
