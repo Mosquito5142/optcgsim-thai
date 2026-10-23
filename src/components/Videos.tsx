@@ -34,7 +34,7 @@ function Player({ id, title }: { id: string; title: string }) {
   );
 }
 
-export default function Videos() {
+export default function Videos({ only }: { only?: "optcgsim" | "oplaytcg" }) {
   const { channel, channelName, videos } = siteConfig.youtube;
   return (
     <section id="video-section">
@@ -49,7 +49,7 @@ export default function Videos() {
         </div>
 
         <Stagger className="vids">
-          {videos.map((v) => (
+          {videos.filter((v) => !only || v.product === only).map((v) => (
             <StaggerItem key={v.id} className="vcard paper">
               <Player id={v.id} title={v.title} />
               <h3>{v.title}</h3>

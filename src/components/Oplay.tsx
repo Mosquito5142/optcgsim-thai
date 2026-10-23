@@ -18,10 +18,10 @@ export default function Oplay() {
   const [hover, setHover] = useState(false);
 
   return (
-    <section id="oplay-section">
+    <section id="install">
       <div className="wrap-narrow stack gap24">
         <div>
-          <Heading>เล่นบนเว็บ OPlayTCG ก็อ่านสกิลเป็นไทยได้</Heading>
+          <Heading>ติดตั้งสคริปต์ OPlayTCG ภาษาไทย</Heading>
           <Reveal delay={0.1}>
             <p style={{ marginTop: 8, fontSize: 14, color: "#d9ccaf" }}>
               สคริปต์เสริม (คอมพิวเตอร์ใช้ได้เต็มรูปแบบ มือถือดูหัวข้อด้านล่าง): ชี้การ์ดบน oplaytcg.com แล้วกล่องข้อความสกิลบนการ์ดใบใหญ่จะเป็นภาษาไทย

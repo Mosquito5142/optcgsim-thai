@@ -14,12 +14,12 @@ const display = Chonburi({ subsets: ["thai", "latin"], weight: "400", variable: 
 const hand = Mali({ subsets: ["thai", "latin"], weight: ["400", "600"], variable: "--font-hand", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "ม็อดการ์ดภาษาไทย OPTCGSim — เล่นด้วยการ์ดและเมนูภาษาไทย",
+  title: "ม็อดการ์ดภาษาไทย One Piece TCG — OPTCGSim และ OPlayTCG",
   description:
-    "ม็อดแฟนเมดแปลสกิลการ์ด OPTCGSim 2,640 ใบ และข้อความในเกม 1,425 บรรทัดเป็นภาษาไทย ติดตั้งง่ายบน Windows, Android และ iOS กลับเป็นภาษาอังกฤษได้ทุกเมื่อ",
+    "ม็อดแฟนเมดแปลสกิลการ์ดวันพีซเป็นภาษาไทย: เกม OPTCGSim (Windows, Android, iOS) และสคริปต์เสริมสำหรับเว็บ OPlayTCG กลับเป็นภาษาอังกฤษได้ทุกเมื่อ",
   openGraph: {
-    title: "ม็อดการ์ดภาษาไทย OPTCGSim",
-    description: "เล่น OPTCGSim ด้วยการ์ดและเมนูภาษาไทย แปลสกิลการ์ด 2,640 ใบ",
+    title: "ม็อดการ์ดภาษาไทย One Piece TCG",
+    description: "เลือกว่าคุณเล่นแบบไหน: เกม OPTCGSim หรือเว็บ OPlayTCG แล้วอ่านสกิลการ์ดเป็นภาษาไทย",
     type: "website",
     locale: "th_TH",
   },

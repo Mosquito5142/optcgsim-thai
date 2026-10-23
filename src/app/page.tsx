@@ -1,32 +1,21 @@
-import Changelog from "@/components/Changelog";
-import Download from "@/components/Download";
-import Faq from "@/components/Faq";
-import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Oplay from "@/components/Oplay";
-import { PlatformProvider } from "@/components/PlatformContext";
-import Shots from "@/components/Shots";
+import Landing from "@/components/Landing";
+import LegacyHashRedirect from "@/components/LegacyHashRedirect";
 import Support from "@/components/Support";
 import Videos from "@/components/Videos";
 
 export default function Page() {
   return (
-    <PlatformProvider>
-      <Header />
+    <>
+      <LegacyHashRedirect />
+      <Header page="home" />
       <main>
-        <Hero />
-        <Features />
-        <Shots />
+        <Landing />
         <Videos />
-        <Download />
-        <Oplay />
-        <Faq />
-        <Changelog />
         <Support />
       </main>
       <Footer />
-    </PlatformProvider>
+    </>
   );
 }

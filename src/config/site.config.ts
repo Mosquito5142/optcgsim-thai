@@ -28,8 +28,8 @@ export const siteConfig = {
     channel: "https://www.youtube.com/@songsoul_game",
     channelName: "$ong$oul_game",
     videos: [
-      { id: "zj9Lx5lMIP8", title: "แจกฟรี MOD OPTCGSim แปลไทย", text: "ติดตั้งม็อดการ์ดและเมนูภาษาไทยสำหรับเกม OPTCGSim บน Windows" },
-      { id: "0oCBK-wLoN0", title: "สอนติดตั้ง MOD ภาษาไทย OPlayTCG", text: "ติดตั้งสคริปต์ให้เว็บ OPlayTCG แสดงสกิลบนการ์ดเป็นภาษาไทย (คอมพิวเตอร์)" },
+      { id: "zj9Lx5lMIP8", product: "optcgsim", title: "แจกฟรี MOD OPTCGSim แปลไทย", text: "ติดตั้งม็อดการ์ดและเมนูภาษาไทยสำหรับเกม OPTCGSim บน Windows" },
+      { id: "0oCBK-wLoN0", product: "oplaytcg", title: "สอนติดตั้ง MOD ภาษาไทย OPlayTCG", text: "ติดตั้งสคริปต์ให้เว็บ OPlayTCG แสดงสกิลบนการ์ดเป็นภาษาไทย (คอมพิวเตอร์)" },
     ],
   },
 

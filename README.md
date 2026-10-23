@@ -4,6 +4,18 @@ https://optcgsim-thai.wasmer.app/
 เว็บสแตติกที่สร้างด้วย Next.js (App Router) + Motion ธีม **แผนที่สมบัติ / ผจญภัยโจรสลัด** มีแอนิเมชันตามการเลื่อนหน้า
 สร้างไฟล์ HTML/CSS/JS ล้วนใน `out/` นำไปวางที่ไหนก็ได้ (GitHub Pages, Cloudflare Pages, Netlify ฯลฯ)
 
+## หน้าในเว็บ
+
+| ที่อยู่ | เนื้อหา |
+|---|---|
+| `/` | หน้าเลือก 2 ทาง (OPTCGSim / OPlayTCG) + วิดีโอสอนทั้งสองคลิป + สนับสนุน |
+| `/optcgsim/` | ดาวน์โหลด Windows/Android/iOS, จุดเด่น, ภาพจริง, คลิป, FAQ, บันทึกอัปเดต |
+| `/oplaytcg/` | สคริปต์ OPlayTCG: ติดตั้งคอม/มือถือ, ก่อน-หลัง, คลิป, FAQ |
+
+- ลิงก์เก่า `/#download-section`, `/#faq-section`, `/#oplay-section` ถูกส่งต่อไปหน้าใหม่ให้เอง (`LegacyHashRedirect.tsx`)
+- ไฟล์สคริปต์ OPlayTCG อยู่ที่ `public/oplay/*.js` จึงใช้ชื่อหน้า `/oplaytcg/` (ไม่ใช้ `/oplay/`)
+- เนื้อหา FAQ อยู่ที่ `src/data/faqs.ts` (OPTCGSim / OPlayTCG แยกกัน)
+
 ## ธีมและแอนิเมชัน
 
 ภาพทั้งหมดวาดเองเป็น SVG/CSS ใน `src/components/Art.tsx` และ `src/app/globals.css`
