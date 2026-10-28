@@ -19,10 +19,10 @@
   "files": {
     "windows": {
       "name": "OPTCGSim-Thai-Installer.exe",
-      "bytes": 19609228,
+      "bytes": 19617386,
       "size": "19 MB",
-      "sha256": "9a3c1903ee3d9e57ce6f230993cc0e4eafc65f2cc86d1c2f193cc0fecf0e0388",
-      "date": "20 ต.ค. 2569"
+      "sha256": "7b7e74875c45d9ca3ec8afbe202aa02cd32c78a88e982748fd580c478f4b0777",
+      "date": "27 ต.ค. 2569"
     },
     "androidReady": {
       "name": "1.44a_Android_TH.apk",
