@@ -121,10 +121,39 @@ export default function Oplay() {
         </Reveal>
 
         <Reveal>
+          <div className="sheet paper" id="turbo" style={{ borderTopLeftRadius: 14 }}>
+            <div className="panel">
+              <div className="steps">
+                <h3>สคริปต์เสริม: โหลดรูปการ์ดล่วงหน้า (OPlay Turbo)</h3>
+                <ul className="hand" style={{ fontSize: 14, lineHeight: 1.9, color: "var(--ink-soft)", paddingLeft: 4 }}>
+                  <li>
+                    ✦ ช่วงคนเล่นเยอะ รูปการ์ดที่ยังไม่เคยเห็นจะขึ้นช้าหรือเป็นกรอบว่าง สคริปต์นี้โหลดรูปเก็บไว้ในเบราว์เซอร์ก่อน
+                    ตอนเล่นจริงรูปจึงขึ้นทันที
+                  </li>
+                  <li>
+                    ✦ กดปุ่ม <b>⚡</b> มุมซ้ายล่างของจอ แล้วเลือก &quot;โหลดรูปการ์ดชุดล่าสุด&quot; หรือเปิดเด็คใน Deck Builder แล้วกด
+                    &quot;โหลดรูปการ์ดในหน้านี้&quot; (แนะนำให้กดตอนคนเล่นน้อย)
+                  </li>
+                  <li>✦ มี &quot;โหมดลดเอฟเฟกต์&quot; (Alt+L) ปิดแอนิเมชันและเอฟเฟกต์เบลอ สำหรับเครื่องสเปกต่ำ</li>
+                  <li>
+                    ✦ <b>ไม่ได้ทำให้เซิร์ฟเวอร์เกมเร็วขึ้น</b> ถ้ากดแล้วเกมตอบสนองช้า เป็นที่เซิร์ฟเวอร์ของ OPlayTCG
+                  </li>
+                </ul>
+                <div className="dl" style={{ marginTop: 10 }}>
+                  <a className="btn" href={siteConfig.oplay.turbo || undefined} aria-disabled={!siteConfig.oplay.turbo}>
+                    {siteConfig.oplay.turbo ? "ติดตั้ง OPlay Turbo" : "ลิงก์ยังไม่พร้อม"}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal>
           <div className="warn" role="note">
             <p>
               เป็นสคริปต์แฟนเมด ไม่เกี่ยวข้องกับ OPlayTCG หรือ Bandai สคริปต์แค่แสดงข้อความเพิ่มบนหน้าเว็บในเครื่องของคุณ
-              ไม่ส่งข้อมูลใดออกไป และไม่แตะระบบเกมหรือผลการแข่ง
+              ไม่ส่งข้อมูลใดออกไป และไม่แตะระบบเกมหรือผลการแข่ง (OPlay Turbo แค่โหลดรูปการ์ดจากเซิร์ฟเวอร์ของ OPlayTCG เก็บไว้ในเบราว์เซอร์)
             </p>
           </div>
         </Reveal>

@@ -37,6 +37,8 @@ export const siteConfig = {
     // สคริปต์ Tampermonkey สำหรับเว็บ oplaytcg.com (สร้างด้วย  python build_oplay.py --site <โฟลเดอร์นี้>  ใน thai_cards)
     // ไฟล์อยู่ใน public/oplay/ และต้อง push ขึ้น main ก่อนลิงก์ raw ถึงจะใช้ได้
     userscript: "https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-thai.user.js",
+    // สคริปต์แยก: โหลดรูปการ์ดเก็บไว้ล่วงหน้า + โหมดลดเอฟเฟกต์ (สร้างพร้อมกันด้วย build_oplay.py)
+    turbo: "https://raw.githubusercontent.com/Mosquito5142/optcgsim-thai/main/public/oplay/oplaytcg-turbo.user.js",
   },
 
   support: {
