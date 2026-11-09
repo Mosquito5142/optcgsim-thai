@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         OPlayTCG Turbo (โหลดรูปการ์ดล่วงหน้า)
 // @namespace    https://github.com/Mosquito5142/optcgsim-thai
-// @version      0.2.261031.1509
+// @version      0.2.261109.1124
 // @description  โหลดรูปการ์ดของ oplaytcg.com เก็บไว้ในแคชของเบราว์เซอร์ล่วงหน้า (ชุดล่าสุด / การ์ดในหน้าเด็ค) ตอนเล่นจริงรูปขึ้นทันที และมีโหมดลดเอฟเฟกต์สำหรับเครื่องสเปกต่ำ ไม่ได้ทำให้เซิร์ฟเวอร์เกมเร็วขึ้น ม็อดแฟนเมด ไม่เป็นทางการ โดย $ong$oul
 // @author       $ong$oul
 // @match        https://oplaytcg.com/*
@@ -125,6 +125,43 @@
     return urls;
   }
 
+  // ---------- deck export for OPTCGSim ----------
+
+  // OPTCGSim imports a deck as "NxCODE" lines, leader first (same as its .deck files). In the deck builder every pile is
+  // [data-deck-pile][role=group] with aria-label "Name ×N" (the leader has no ×N) and an <img> whose URL holds the code;
+  // alternate arts (OP17-113_p1) are the same card for the game.
+  const CODE_RE = /\/([A-Z0-9]+-\d{3})(?:_[a-z]+\d*)?\.webp/i;
+
+  function deckCode(root = document) {
+    let leader = null;
+    const counts = new Map();
+    for (const pile of root.querySelectorAll('[data-deck-pile][role="group"]')) {
+      const img = pile.querySelector("img");
+      const m = img && CODE_RE.exec(img.getAttribute("src") || "");
+      if (!m) continue;
+      const code = m[1].toUpperCase();
+      const n = /×\s*(\d+)/.exec(pile.getAttribute("aria-label") || "");
+      if (!n) { leader = leader || code; continue; }
+      counts.set(code, (counts.get(code) || 0) + Number(n[1]));
+    }
+    const lines = (leader ? [`1x${leader}`] : []).concat([...counts].map(([c, k]) => `${k}x${c}`));
+    const total = [...counts.values()].reduce((a, b) => a + b, 0);
+    return { text: lines.join("\n"), leader, total };
+  }
+
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch (_) { /* fall back below */ }
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.cssText = "position:fixed;left:-9999px;top:0";
+    document.body.appendChild(ta);
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch (_) { ok = false; }
+    ta.remove();
+    return ok;
+  }
+
   function pageUrls() {
     const urls = [];
     for (const img of document.querySelectorAll('img[src*="cards.oplaytcg.com"]')) urls.push(...bothSizes(img.getAttribute("src") || ""));
@@ -152,6 +189,10 @@
   btnPage.className = "b";
   btnPage.type = "button";
   btnPage.textContent = "โหลดรูปการ์ดในหน้านี้ (เช่น เด็คที่เปิดอยู่)";
+  const btnDeck = document.createElement("button");
+  btnDeck.className = "b";
+  btnDeck.type = "button";
+  btnDeck.textContent = "คัดลอกเด็คสำหรับ OPTCGSim (เปิดเด็คใน Deck Builder ก่อน)";
   const bar = document.createElement("div");
   bar.className = "p";
   const fill = document.createElement("i");
@@ -168,7 +209,7 @@
   const hint = document.createElement("div");
   hint.className = "hint";
   hint.textContent = "แนะนำกดโหลดตอนคนเล่นน้อย รูปจะเก็บในเบราว์เซอร์ ช่วยเรื่องรูปขึ้นช้า ไม่ได้ทำให้เซิร์ฟเวอร์เกมเร็วขึ้น";
-  for (const el of [title, btnSet, btnPage, bar, status, liteRow, hint]) menu.appendChild(el);
+  for (const el of [title, btnSet, btnPage, bar, status, btnDeck, liteRow, hint]) menu.appendChild(el);
   document.body.appendChild(fab);
   document.body.appendChild(menu);
 
@@ -202,6 +243,19 @@
     enqueue(urls);
   });
 
+  btnDeck.addEventListener("click", async () => {
+    const deck = deckCode();
+    if (!deck.leader && !deck.total) {
+      status.textContent = "ไม่เจอเด็คในหน้านี้ เปิดเด็คใน Deck Builder ก่อนแล้วกดใหม่";
+      return;
+    }
+    const ok = await copyText(deck.text);
+    const warn = !deck.leader ? " · ยังไม่มีลีดเดอร์" : deck.total !== 50 ? ` · การ์ดหลักมี ${deck.total} ใบ (ปกติ 50)` : "";
+    status.textContent = (ok ? "คัดลอกแล้ว: " : "คัดลอกไม่ได้: ") + `ลีดเดอร์ 1 + การ์ด ${deck.total} ใบ${warn}` +
+      (ok ? " → ไปวางที่ปุ่มนำเข้าเด็คใน OPTCGSim" : "");
+    if (!ok) window.prompt("คัดลอกโค้ดเด็คนี้ไปวางใน OPTCGSim", deck.text);
+  });
+
   function setLite(on) {
     lite = on;
     liteBox.checked = on;
@@ -214,5 +268,5 @@
   });
 
   // for tests / the console
-  globalThis.__oplayTurbo = { enqueue, bothSizes, latestSet, setUrls, pageUrls, setLite, state: () => ({ active, done, failed, total, queued: queue.length }) };
+  globalThis.__oplayTurbo = { enqueue, bothSizes, latestSet, setUrls, pageUrls, setLite, deckCode, state: () => ({ active, done, failed, total, queued: queue.length }) };
 })();
