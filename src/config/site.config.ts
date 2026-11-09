@@ -13,8 +13,8 @@ export const siteConfig = {
   downloads: {
     // Windows: ตัวติดตั้ง .exe
     windows: {
-      url: "https://github.com/Mosquito5142/optcgsim-thai/releases/download/OPTCGSim_thai_V2.0/OPTCGSim-Thai-Installer.exe",
-      mirror: "https://github.com/Mosquito5142/optcgsim-thai/releases/tag/OPTCGSim_thai_V2.0", // ลิงก์สำรอง (ไม่บังคับ) จะโผล่หลังกดดาวน์โหลด
+      url: "https://github.com/Mosquito5142/optcgsim-thai/releases/download/optcg_sim_thai_v3.00/OPTCGSim-Thai-Installer.exe",
+      mirror: "https://github.com/Mosquito5142/optcgsim-thai/releases/tag/optcg_sim_thai_v3.00", // ลิงก์สำรอง (ไม่บังคับ) จะโผล่หลังกดดาวน์โหลด
     },
     // Android: APK แปลไทยสำเร็จรูป (มีรูปการ์ด Bandai อยู่ในไฟล์ ระวังเรื่องลิขสิทธิ์ถ้าแจกสาธารณะ)
     androidReady: { url: "https://drive.google.com/file/d/1wnc-Fq2koSxv0TGLoNHRxGzMunTEvQFT/view?usp=sharing", mirror: "" },

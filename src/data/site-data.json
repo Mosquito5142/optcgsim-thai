@@ -1,7 +1,7 @@
 {
   "version": "1.44a",
-  "cards": 2640,
-  "uiLines": 1425,
+  "cards": 2723,
+  "uiLines": 1452,
   "compare": [
     {
       "w": 420,
@@ -19,10 +19,10 @@
   "files": {
     "windows": {
       "name": "OPTCGSim-Thai-Installer.exe",
-      "bytes": 19617386,
+      "bytes": 19641216,
       "size": "19 MB",
-      "sha256": "7b7e74875c45d9ca3ec8afbe202aa02cd32c78a88e982748fd580c478f4b0777",
-      "date": "27 ต.ค. 2569"
+      "sha256": "a19dcc3a4dbc72a5a293e10ba9b929c0f51372d3f02512c223cf73c43ce3ad5a",
+      "date": "9 พ.ย. 2569"
     },
     "androidReady": {
       "name": "1.44a_Android_TH.apk",
