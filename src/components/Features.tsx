@@ -37,6 +37,26 @@ export default function Features() {
             <h3>ป้ายคีย์เวิร์ดสีตรงกับของจริง</h3>
             <p>คำสำคัญอย่างรัชหรือบล็อกเกอร์ ใช้โทนสีเดียวกับคีย์เวิร์ดในเกมต้นฉบับ จำง่าย ไม่ต้องท่องศัพท์ใหม่</p>
           </StaggerItem>
+          <StaggerItem className="card paper">
+            <WaxSeal size={58}>
+              <SlidersIcon />
+            </WaxSeal>
+            <h3>เกมอัปเดตก็ยังเป็นไทย</h3>
+            <p>
+              เปิดเกมผ่านช็อตคัต &quot;OPTCGSim Thai&quot; (Windows) ถ้าเกมอัปเดตจนกลับเป็นอังกฤษ จะใส่ภาษาไทยให้ใหม่
+              และดึงคำแปลการ์ดชุดใหม่ให้เองก่อนเปิดเกม
+            </p>
+          </StaggerItem>
+          <StaggerItem className="card paper">
+            <WaxSeal size={58}>
+              <ChatIcon />
+            </WaxSeal>
+            <h3>ดูพลังรวมบนสนาม (ไม่บังคับ)</h3>
+            <p>
+              ตัวเลือกเสริมบน Windows: ป้ายพลังแสดงพลังรวมตลอดเวลา พร้อมส่วนต่างจากบัฟและ DON เช่น 8000 (+3000)
+              เทียบพลังกับฝ่ายตรงข้ามได้ทันที
+            </p>
+          </StaggerItem>
         </Stagger>
       </div>
     </section>

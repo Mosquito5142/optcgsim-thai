@@ -245,6 +245,16 @@ function WindowsPanel() {
             ),
           },
           { title: "รอจนเสร็จ แล้วเปิดเกม", time: "~2–5 นาที", text: <>โปรแกรมสำรองรูปอังกฤษเดิมไว้ให้ เมื่อเสร็จเปิดเกม OPTCGSim ได้เลย</> },
+          {
+            title: "สร้างช็อตคัต \"OPTCGSim Thai\" (แนะนำ)",
+            time: "~5 วินาที",
+            text: (
+              <>
+                กดปุ่มสร้างช็อตคัตในโปรแกรมครั้งเดียว แล้วเปิดเกมจากช็อตคัตนี้ เมื่อเกมอัปเดตจนรูปหรือเมนูกลับเป็นอังกฤษ
+                มันจะใส่ภาษาไทยให้ใหม่และดึงคำแปลการ์ดชุดใหม่ให้เองก่อนเปิดเกม
+              </>
+            ),
+          },
         ]}
       />
       <Warn>
@@ -252,6 +262,21 @@ function WindowsPanel() {
         ตรวจค่า SHA-256 ให้ตรงกับด้านบนได้ถ้าต้องการความมั่นใจ
       </Warn>
     </>
+  );
+}
+
+/** Game version an APK/IPA was built from, taken from its file name ("1.44a_Android_TH.apk" -> "1.44a"). */
+function fileVersion(name?: string) {
+  return name?.match(/^\d+\.\d+[a-z]?/)?.[0] ?? siteData.version;
+}
+
+function MobileVersionNote({ file }: { file: FileKey }) {
+  const v = fileVersion(siteData.files[file]?.name);
+  if (v === siteData.version) return null;
+  return (
+    <Warn>
+      ไฟล์นี้ทำจากเกมเวอร์ชัน {v} (เกมล่าสุดคือ {siteData.version}) ถ้าเกมบังคับอัปเดตก่อนเล่นออนไลน์ ให้รอไฟล์รุ่นใหม่
+    </Warn>
   );
 }
 
@@ -273,7 +298,7 @@ function AndroidPanel() {
             ไฟล์ <span className="mono">{apk?.name ?? "1.44a_Android_TH.apk"}</span> ขนาด {apk?.size ?? "—"} ติดตั้งแทนที่เกมเดิมได้เลยโดยไม่ต้องแปลงเอง
           </p>
           <div className="meta">
-            <span>เวอร์ชัน {siteData.version}</span>
+            <span>เวอร์ชันเกม {fileVersion(apk?.name)}</span>
             <span>อัปเดต {apk?.date ?? "—"}</span>
           </div>
           <HashButton file="androidReady" prefix="SHA-256: " />
@@ -289,6 +314,7 @@ function AndroidPanel() {
           { title: "เปิดเกมและนำเด็คกลับเข้าไป", time: "~1 นาที", text: <>เปิดเกม OPTCGSim แล้วนำเข้าเด็คที่สำรองไว้กลับเข้าไปตามเดิม</> },
         ]}
       />
+      <MobileVersionNote file="androidReady" />
       <Warn>ต้องถอนแอป OPTCGSim เวอร์ชันเดิมออกก่อนติดตั้งเวอร์ชันแปลไทย และควรสำรองโฟลเดอร์ Decks ไว้ล่วงหน้าเสมอ</Warn>
     </>
   );
@@ -299,6 +325,7 @@ function IosPanel() {
   return (
     <>
       <FileInfo file="ios" />
+      <MobileVersionNote file="ios" />
       <DownloadButton id="ios" label="ดาวน์โหลดไฟล์ .ipa" />
       <Steps
         title="ขั้นตอนติดตั้ง (ต้องใช้คอมพิวเตอร์)"
@@ -341,7 +368,8 @@ export default function Download() {
           <Heading>เลือกแพลตฟอร์มของคุณ</Heading>
           <Reveal delay={0.1}>
             <p style={{ marginTop: 8, fontSize: 14, color: "#d9ccaf" }}>
-              รองรับเกมเวอร์ชัน {siteData.version} — ถ้าเกมอัปเดตเป็นเวอร์ชันใหม่ ให้ติดตั้งม็อดซ้ำอีกครั้ง
+              ตัวติดตั้ง Windows รองรับเกมเวอร์ชัน {siteData.version} — เปิดเกมผ่านช็อตคัต &quot;OPTCGSim Thai&quot; แล้ว
+              เมื่อเกมอัปเดต มันจะใส่ภาษาไทยให้ใหม่และดึงคำแปลการ์ดล่าสุดให้เอง
             </p>
           </Reveal>
         </div>

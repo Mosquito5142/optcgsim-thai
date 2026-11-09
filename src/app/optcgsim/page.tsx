@@ -11,12 +11,16 @@ import Shots from "@/components/Shots";
 import Support from "@/components/Support";
 import Videos from "@/components/Videos";
 import { OPTCGSIM_FAQS } from "@/data/faqs";
+import { siteData } from "@/lib/site";
+
+const CARDS = siteData.cards.toLocaleString("en-US");
+const UI_LINES = siteData.uiLines.toLocaleString("en-US");
 
 export const metadata: Metadata = {
   title: "ม็อดการ์ดภาษาไทย OPTCGSim — ดาวน์โหลดสำหรับ Windows, Android, iOS",
   description:
-    "ม็อดแฟนเมดแปลสกิลการ์ด OPTCGSim 2,640 ใบ และข้อความในเกม 1,425 บรรทัดเป็นภาษาไทย ติดตั้งง่ายบน Windows, Android และ iOS กลับเป็นภาษาอังกฤษได้ทุกเมื่อ",
-  openGraph: { title: "ม็อดการ์ดภาษาไทย OPTCGSim", description: "เล่น OPTCGSim ด้วยการ์ดและเมนูภาษาไทย แปลสกิลการ์ด 2,640 ใบ", type: "website", locale: "th_TH" },
+    `ม็อดแฟนเมดแปลสกิลการ์ด OPTCGSim ${CARDS} ใบ และข้อความในเกม ${UI_LINES} บรรทัดเป็นภาษาไทย ติดตั้งง่ายบน Windows, Android และ iOS กลับเป็นภาษาอังกฤษได้ทุกเมื่อ`,
+  openGraph: { title: "ม็อดการ์ดภาษาไทย OPTCGSim", description: `เล่น OPTCGSim ด้วยการ์ดและเมนูภาษาไทย แปลสกิลการ์ด ${CARDS} ใบ`, type: "website", locale: "th_TH" },
 };
 
 export default function Page() {

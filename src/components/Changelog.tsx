@@ -26,8 +26,10 @@ export default function Changelog() {
               <li>
                 แปลเมนู ปุ่ม และข้อความในเกมอีก <CountUp value={siteData.uiLines} /> บรรทัด
               </li>
-              <li>ตัวติดตั้ง Windows เลือกติดตั้งรูปการ์ดและข้อความในเกมแยกกันได้</li>
-              <li>รองรับเกม OPTCGSim เวอร์ชัน {siteData.version} บน Windows, Android และ iOS</li>
+              <li>ตัวติดตั้ง Windows รองรับเกมเวอร์ชัน {siteData.version} เลือกติดตั้งรูปการ์ดและข้อความในเกมแยกกันได้</li>
+              <li>ช็อตคัต &quot;OPTCGSim Thai&quot; ใส่ภาษาไทยให้เองหลังเกมอัปเดต และดึงคำแปลการ์ดชุดใหม่ให้อัตโนมัติ</li>
+              <li>ตัวเลือกเสริม: ป้ายพลังแสดงพลังรวม พร้อมส่วนต่างจากบัฟและ DON เช่น 8000 (+3000)</li>
+              <li>ไฟล์ Android และ iOS ยังเป็นเกมเวอร์ชัน 1.44a</li>
             </ul>
           </div>
         </Reveal>
