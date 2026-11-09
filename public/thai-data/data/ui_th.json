@@ -1,0 +1,5810 @@
+{
+ "Button.Single": {
+  "en": "Solo v Self",
+  "th": "เล่นคนเดียว"
+ },
+ "Button.Multi": {
+  "en": "Multiplayer",
+  "th": "เล่นหลายคน"
+ },
+ "Button.DeckEdit": {
+  "en": "Deck Editor",
+  "th": "แก้เด็ค"
+ },
+ "Button.Back": {
+  "en": "Back",
+  "th": "กลับ"
+ },
+ "Button.Main": {
+  "en": "Back to Main",
+  "th": "กลับหน้าหลัก"
+ },
+ "Button.Concede": {
+  "en": "Concede",
+  "th": "ยอมแพ้"
+ },
+ "Button.Start": {
+  "en": "Start",
+  "th": "เริ่ม"
+ },
+ "Button.Host": {
+  "en": "Host Game",
+  "th": "สร้างห้องเกม"
+ },
+ "Button.Join": {
+  "en": "Join Game with Code",
+  "th": "เข้าห้องด้วยรหัส"
+ },
+ "Button.Clipboard": {
+  "en": "Copy to Clipboard",
+  "th": "คัดลอกไปคลิปบอร์ด"
+ },
+ "Button.Rematch": {
+  "en": "Ready for Rematch",
+  "th": "พร้อมแข่งใหม่"
+ },
+ "Button.Lobby": {
+  "en": "Back to Lobby",
+  "th": "กลับล็อบบี้"
+ },
+ "Button.Load": {
+  "en": "Load",
+  "th": "โหลด"
+ },
+ "Button.Save": {
+  "en": "Save",
+  "th": "บันทึก"
+ },
+ "Button.Clear": {
+  "en": "Clear Deck",
+  "th": "ล้างเด็ค"
+ },
+ "Button.DeleteDeck": {
+  "en": "Delete Highlighted Deck File",
+  "th": "ลบไฟล์เด็คที่เลือกอยู่"
+ },
+ "ButtonChoiceType.StartingHand_Keep": {
+  "en": "Keep",
+  "th": "เก็บไว้"
+ },
+ "ButtonChoiceType.StartingHand_Mulligan": {
+  "en": "Mulligan",
+  "th": "มัลลิแกน"
+ },
+ "ButtonChoiceType.DrawCard": {
+  "en": "Draw Card",
+  "th": "จั่วการ์ด"
+ },
+ "ButtonChoiceType.DrawDon": {
+  "en": "Draw Don",
+  "th": "จั่ว DON!!"
+ },
+ "ButtonChoiceType.EndTurn": {
+  "en": "End Turn",
+  "th": "จบเทิร์น"
+ },
+ "ButtonChoiceType.Deploy": {
+  "en": "Deploy",
+  "th": "ลงสนาม"
+ },
+ "ButtonChoiceType.Cancel": {
+  "en": "Cancel",
+  "th": "ยกเลิก"
+ },
+ "ButtonChoiceType.Attack": {
+  "en": "Attack",
+  "th": "โจมตี"
+ },
+ "ButtonChoiceType.ResolveAttack": {
+  "en": "Resolve Attack",
+  "th": "ตัดสินการโจมตี"
+ },
+ "ButtonChoiceType.CardAction": {
+  "en": "Action: ",
+  "th": "ใช้ความสามารถ: "
+ },
+ "ButtonChoiceType.NoTrigger": {
+  "en": "No Trigger Effect",
+  "th": "ไม่ใช้เอฟเฟกต์ทริกเกอร์"
+ },
+ "ButtonChoiceType.Trigger": {
+  "en": "Use Trigger Effect",
+  "th": "ใช้เอฟเฟกต์ทริกเกอร์"
+ },
+ "ButtonChoiceType.NoBlocker": {
+  "en": "No Blocker",
+  "th": "ไม่บล็อก"
+ },
+ "ButtonChoiceType.DrawNone": {
+  "en": "Don't Draw Any",
+  "th": "ไม่จั่ว"
+ },
+ "ButtonChoiceType.TopDeckToTop": {
+  "en": "Start Placing on Top",
+  "th": "เริ่มวางไว้บนเด็ค"
+ },
+ "ButtonChoiceType.TopDeckToBottom": {
+  "en": "Start Placing on Bottom",
+  "th": "เริ่มวางไว้ใต้เด็ค"
+ },
+ "ButtonChoiceType.UseOnPlay": {
+  "en": "Use Card Action",
+  "th": "ใช้ความสามารถการ์ด"
+ },
+ "ButtonChoiceType.Attach1RestedDon": {
+  "en": "Attach 1 Rested Don",
+  "th": "ใส่ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "ButtonChoiceType.Attach2RestedDon": {
+  "en": "Attach 2 Rested Don",
+  "th": "ใส่ DON!! ที่เรสต์ 2 ใบ"
+ },
+ "ButtonChoiceType.PlayTopCard": {
+  "en": "Deploy Card",
+  "th": "ลงการ์ด"
+ },
+ "ButtonChoiceType.DrawCardCrocodile": {
+  "en": "Use Leader Ability",
+  "th": "ใช้ความสามารถลีดเดอร์"
+ },
+ "ButtonChoiceType.ConfirmRevealedCard": {
+  "en": "Confirm Revealed Card",
+  "th": "ยืนยันการ์ดที่เปิด"
+ },
+ "ButtonChoiceType.BackToMain": {
+  "en": "Back to Main Menu",
+  "th": "กลับเมนูหลัก"
+ },
+ "ButtonChoiceType.Rematch": {
+  "en": "Rematch",
+  "th": "แข่งใหม่"
+ },
+ "ButtonChoiceType.OpponentDisconnect": {
+  "en": "Back to Main Menu",
+  "th": "กลับเมนูหลัก"
+ },
+ "ButtonChoiceType.AttachAllActiveDon": {
+  "en": "Attach All Active Don",
+  "th": "ใส่ DON!! ที่แอคทีฟทั้งหมด"
+ },
+ "ButtonChoiceType.ConfirmAttachAllActiveDon": {
+  "en": "Really Attach All Active Don?",
+  "th": "ใส่ DON!! ที่แอคทีฟทั้งหมดจริงหรือ?"
+ },
+ "Title.P1Deck": {
+  "en": "P1 Deck",
+  "th": "เด็คผู้เล่น 1"
+ },
+ "Title.P2Deck": {
+  "en": "P2 Deck",
+  "th": "เด็คผู้เล่น 2"
+ },
+ "Title.DeckSelect": {
+  "en": "Select Deck",
+  "th": "เลือกเด็ค"
+ },
+ "Title.RoomID": {
+  "en": "Enter Host's Room ID",
+  "th": "ใส่รหัสห้องของเจ้าของห้อง"
+ },
+ "Title.DeckName": {
+  "en": "Deck Name",
+  "th": "ชื่อเด็ค"
+ },
+ "Option.Draw": {
+  "en": "Auto Draw",
+  "th": "จั่วอัตโนมัติ"
+ },
+ "Option.Block": {
+  "en": "Auto Skip Block",
+  "th": "ข้ามการบล็อกอัตโนมัติ"
+ },
+ "Option.Trigger": {
+  "en": "Auto Skip Trigger",
+  "th": "ข้ามทริกเกอร์อัตโนมัติ"
+ },
+ "Option.Red": {
+  "en": "Red",
+  "th": "แดง"
+ },
+ "Option.Green": {
+  "en": "Green",
+  "th": "เขียว"
+ },
+ "Option.Blue": {
+  "en": "Blue",
+  "th": "น้ำเงิน"
+ },
+ "Option.Purple": {
+  "en": "Purple",
+  "th": "ม่วง"
+ },
+ "Option.Black": {
+  "en": "Black",
+  "th": "ดำ"
+ },
+ "Option.Yellow": {
+  "en": "Yellow",
+  "th": "เหลือง"
+ },
+ "Msg.Loading": {
+  "en": "Loading...",
+  "th": "กำลังโหลด..."
+ },
+ "Msg.DeckEditLoad": {
+  "en": "Loading Deck Editor... This may take some time.",
+  "th": "กำลังโหลดตัวแก้เด็ค... อาจใช้เวลาสักครู่"
+ },
+ "Msg.RelaySetup": {
+  "en": "Setting up a Relay Room...",
+  "th": "กำลังตั้งค่าห้อง Relay..."
+ },
+ "Msg.RelayWait": {
+  "en": "Waiting for a Connection with Room ID:",
+  "th": "กำลังรอการเชื่อมต่อด้วยรหัสห้อง:"
+ },
+ "Msg.JoinWait": {
+  "en": "Attempting to connect to",
+  "th": "กำลังพยายามเชื่อมต่อกับ"
+ },
+ "Msg.DeckLoad": {
+  "en": "Deck Loaded!",
+  "th": "โหลดเด็คแล้ว!"
+ },
+ "Msg.NoDeck": {
+  "en": "No selected deck to delete!",
+  "th": "ยังไม่ได้เลือกเด็คที่จะลบ!"
+ },
+ "Msg.NoDeckName": {
+  "en": "Please enter a Deck Name!",
+  "th": "กรุณาใส่ชื่อเด็ค!"
+ },
+ "Msg.BadDeckName": {
+  "en": "Deck Name contains illegal characters: @%^*~|",
+  "th": "ชื่อเด็คมีอักขระที่ใช้ไม่ได้: @%^*~|"
+ },
+ "Msg.DeckSave": {
+  "en": "Deck Saved!",
+  "th": "บันทึกเด็คแล้ว!"
+ },
+ "Msg.IllegalDeck": {
+  "en": "*USING AN ILLEGAL DECK* (Colors don't match Leader)",
+  "th": "*ใช้เด็คที่ผิดกติกา* (สีไม่ตรงกับลีดเดอร์)"
+ },
+ "Log.VersionMismatch": {
+  "en": "VERSION MISMATCH: $1 vs $2",
+  "th": "เวอร์ชันไม่ตรงกัน: $1 กับ $2"
+ },
+ "Log.First": {
+  "en": "Will go first",
+  "th": "จะเล่นก่อน"
+ },
+ "Log.You": {
+  "en": "You",
+  "th": "คุณ"
+ },
+ "Log.Opponent": {
+  "en": "Opponent",
+  "th": "ฝ่ายตรงข้าม"
+ },
+ "Log.Mulligan": {
+  "en": "Mulligan",
+  "th": "มัลลิแกน"
+ },
+ "Log.EndTurn": {
+  "en": "End Turn",
+  "th": "จบเทิร์น"
+ },
+ "Log.AttachDon": {
+  "en": "Attach Don to $1 (#1 Total)",
+  "th": "ใส่ DON!! ให้ $1 (รวม #1)"
+ },
+ "Log.UnblockableAttack": {
+  "en": "$1 attacking (Unblockable) $2",
+  "th": "$1 โจมตี (บล็อกไม่ได้) $2"
+ },
+ "Log.RestOpponentDon": {
+  "en": "$1 Rest #1 Opponent Don",
+  "th": "$1 เรสต์ DON!! ของฝ่ายตรงข้าม #1 ใบ"
+ },
+ "Log.ActionDrawCard": {
+  "en": "$1: Draw #1 Card",
+  "th": "$1: จั่ว #1 ใบ"
+ },
+ "Log.DrawCard": {
+  "en": "Draw #1 Card",
+  "th": "จั่ว #1 ใบ"
+ },
+ "Log.ActionActivateDon": {
+  "en": "$1: Activate #1 Don",
+  "th": "$1: ทำให้ DON!! แอคทีฟ #1 ใบ"
+ },
+ "Log.SetActive": {
+  "en": "$1: Set to Active",
+  "th": "$1: ตั้งเป็นแอคทีฟ"
+ },
+ "Log.Attack": {
+  "en": "$1 attacking $2",
+  "th": "$1 โจมตี $2"
+ },
+ "Log.AttachRestedDon": {
+  "en": "$1: Attach #1 Rested Don to $2",
+  "th": "$1: ใส่ DON!! ที่เรสต์ #1 ใบให้ $2"
+ },
+ "Log.DrawDon": {
+  "en": "Draw #1 Don",
+  "th": "จั่ว DON!! #1 ใบ"
+ },
+ "Log.ActionDrawDon": {
+  "en": "$1: Draw #1 Don",
+  "th": "$1: จั่ว DON!! #1 ใบ"
+ },
+ "Log.Counter": {
+  "en": "Discard $1 for Counter #1",
+  "th": "ทิ้ง $1 เป็นเคาน์เตอร์ #1"
+ },
+ "Log.EventCounter": {
+  "en": "$1: Counter #1",
+  "th": "$1: เคาน์เตอร์ #1"
+ },
+ "Log.DrawRestedDon": {
+  "en": "$1: Draw #1 Rested Don",
+  "th": "$1: จั่ว DON!! แบบเรสต์ #1 ใบ"
+ },
+ "Log.UnionImmune": {
+  "en": "Buff $1 4000 during combat and can't be KO'd this turn",
+  "th": "เพิ่มพาวเวอร์ให้ $1 4000 ระหว่างการต่อสู้ และจะไม่ถูกเคโอในเทิร์นนี้"
+ },
+ "Log.UnionRegular": {
+  "en": "Buff $1 4000 during combat",
+  "th": "เพิ่มพาวเวอร์ให้ $1 4000 ระหว่างการต่อสู้"
+ },
+ "Log.SelfToHand": {
+  "en": "$1: Return $2 to Hand",
+  "th": "$1: คืน $2 ขึ้นมือ"
+ },
+ "Log.OpponentToHand": {
+  "en": "$1: Send $2 to Hand",
+  "th": "$1: ส่ง $2 ขึ้นมือ"
+ },
+ "Log.ActionDestroy": {
+  "en": "$1: Destroy $2",
+  "th": "$1: ทำลาย $2"
+ },
+ "Log.DebuffOpponent": {
+  "en": "$1: Give $2 #1",
+  "th": "$1: ให้ $2 #1"
+ },
+ "Log.SetOtherActive": {
+  "en": "$1: Set $2 to Active",
+  "th": "$1: ตั้ง $2 เป็นแอคทีฟ"
+ },
+ "Log.SetOtherRest": {
+  "en": "$1: Rest $2",
+  "th": "$1: เรสต์ $2"
+ },
+ "Log.ActionDeploy": {
+  "en": "$1: Deploy $2",
+  "th": "$1: ลง $2"
+ },
+ "Log.ActionReveal": {
+  "en": "$1 revealed: $2",
+  "th": "$1 เปิดให้ดู: $2"
+ },
+ "Log.ActionDestroyLife": {
+  "en": "$1: Send #1 Life to Hand",
+  "th": "$1: ส่งไลฟ์ #1 ใบขึ้นมือ"
+ },
+ "Log.DeploySwap": {
+  "en": "Swap $1 for $2",
+  "th": "สลับ $1 กับ $2"
+ },
+ "Log.TrashCard": {
+  "en": "Trash $1",
+  "th": "ทิ้ง $1 ลงแทรช"
+ },
+ "Log.ChangeCost": {
+  "en": "$1: $2 Cost #1",
+  "th": "$1: $2 คอสต์ #1"
+ },
+ "Log.DisableAttack": {
+  "en": "$1: $2 can't attack next turn",
+  "th": "$1: $2 โจมตีไม่ได้ในเทิร์นหน้า"
+ },
+ "Log.DisableAttackCostOrLess": {
+  "en": "$1: $2 can't attack cost #1 or less characters",
+  "th": "$1: $2 โจมตีตัวละครที่มีคอสต์ #1 หรือน้อยกว่าไม่ได้"
+ },
+ "Log.DisableRest": {
+  "en": "$1: $2 can't be rested until next turn ends",
+  "th": "$1: $2 ถูกเรสต์ไม่ได้จนกว่าเทิร์นหน้าจะจบ"
+ },
+ "Log.ActionBottomDeckAndBuff": {
+  "en": "$1 sent to Deck Bottom and Give $2 #1",
+  "th": "$1 ถูกส่งไปใต้เด็ค และให้ $2 #1"
+ },
+ "Log.SendCardToBottom": {
+  "en": "Sent a Card to Deck Bottom",
+  "th": "ส่งการ์ดไปใต้เด็ค"
+ },
+ "Log.SendCardToTop": {
+  "en": "Sent a Card to Deck Top",
+  "th": "ส่งการ์ดไปบนเด็ค"
+ },
+ "Log.ActionGrantUnblockable": {
+  "en": "$1: Grant Unblockable to $2",
+  "th": "$1: ให้ $2 บล็อกไม่ได้"
+ },
+ "Log.ActionBuff": {
+  "en": "$1: Buff $2 #1",
+  "th": "$1: เพิ่มพาวเวอร์ให้ $2 #1"
+ },
+ "Log.ActionDeckBottomSelf": {
+  "en": "$1: Return $2 to Deck Bottom",
+  "th": "$1: คืน $2 ไปใต้เด็ค"
+ },
+ "Log.ActionDeckBottomOpponentAnon": {
+  "en": "Send $1 to Deck Bottom",
+  "th": "ส่ง $1 ไปใต้เด็ค"
+ },
+ "Log.ActionDeckBottomOpponent": {
+  "en": "$1: Send $2 to Deck Bottom",
+  "th": "$1: ส่ง $2 ไปใต้เด็ค"
+ },
+ "Log.Blocker": {
+  "en": "$1 Blocks",
+  "th": "$1 บล็อก"
+ },
+ "Log.DeployFromDeck": {
+  "en": "Deploy $1 from Deck",
+  "th": "ลง $1 จากเด็ค"
+ },
+ "Log.ActionDeployFromDeck": {
+  "en": "$1: Deploy $2 from Deck",
+  "th": "$1: ลง $2 จากเด็ค"
+ },
+ "Log.DrawFromTrash": {
+  "en": "<b>Draw $1 from Trash</b>",
+  "th": "<b>จั่ว $1 จากแทรช</b>"
+ },
+ "Log.DrawFromDeck": {
+  "en": "<b>Draw $1 from Deck</b>",
+  "th": "<b>จั่ว $1 จากเด็ค</b>"
+ },
+ "Log.DrawFromTopDeck": {
+  "en": "$1: <b>Reveal and Draw $2</b>",
+  "th": "$1: <b>เปิดและจั่ว $2</b>"
+ },
+ "Log.ActionForceTrash": {
+  "en": "$1: Forcing opponent to Trash #1 Cards",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามทิ้งการ์ด #1 ใบ"
+ },
+ "Log.ActionTrashLife": {
+  "en": "$1: Trash #1 Life",
+  "th": "$1: ทิ้งไลฟ์ #1 ใบ"
+ },
+ "Log.GainRush": {
+  "en": "$1 Gains Rush",
+  "th": "$1 ได้รับรัช"
+ },
+ "Log.GainAttackActive": {
+  "en": "$1 Can Attack Active",
+  "th": "$1 โจมตีตัวละครที่แอคทีฟได้"
+ },
+ "Log.GainBanish": {
+  "en": "$1 Gains Banish",
+  "th": "$1 ได้รับแบนิช"
+ },
+ "Log.GainDoubleAttack": {
+  "en": "$1 Gains Double Attack",
+  "th": "$1 ได้รับดับเบิลแอทแทค"
+ },
+ "Log.GrantBlocker": {
+  "en": "$1: $2 Gains Blocker",
+  "th": "$1: $2 ได้รับบล็อกเกอร์"
+ },
+ "Log.LoseBlocker": {
+  "en": "$1: $2 Can't Block!",
+  "th": "$1: $2 บล็อกไม่ได้!"
+ },
+ "Log.RestoreCost": {
+  "en": "$1 cost restored",
+  "th": "คอสต์ของ $1 กลับเป็นปกติ"
+ },
+ "Log.RestoreImmune": {
+  "en": "$1 is no longer immune to KO",
+  "th": "$1 ไม่ได้รับการป้องกันการเคโออีกต่อไป"
+ },
+ "Log.RestoreAttack": {
+  "en": "$1 is no longer blocked from attacking",
+  "th": "$1 ไม่ถูกห้ามโจมตีอีกต่อไป"
+ },
+ "Log.Deploy": {
+  "en": "Deploy $1",
+  "th": "ลง $1"
+ },
+ "Log.BanishLife": {
+  "en": "Banished #1 Life",
+  "th": "ไลฟ์ถูกแบนิช #1 ใบ"
+ },
+ "Log.Concede": {
+  "en": "Concedes!",
+  "th": "ยอมแพ้!"
+ },
+ "Log.LoseLife": {
+  "en": "Loses #1 Life",
+  "th": "เสียไลฟ์ #1 ใบ"
+ },
+ "Log.Destroyed": {
+  "en": "$1 Destroyed",
+  "th": "$1 ถูกทำลาย"
+ },
+ "Log.RandomTrash": {
+  "en": "$1 randomly sent to Trash",
+  "th": "$1 ถูกสุ่มส่งลงแทรช"
+ },
+ "Log.IsImmune": {
+  "en": "$1 is Immune!",
+  "th": "$1 ได้รับการป้องกัน!"
+ },
+ "Log.NoRemoval": {
+  "en": "$1 Can't Be Removed!",
+  "th": "$1 ถูกนำออกไม่ได้!"
+ },
+ "Log.CombatResult": {
+  "en": "$1[#1] vs $2[#2]",
+  "th": "$1[#1] ปะทะ $2[#2]"
+ },
+ "Log.AttackFail": {
+  "en": "Attack Fails",
+  "th": "การโจมตีล้มเหลว"
+ },
+ "Log.RedrawHand": {
+  "en": "Shuffle Hand into Deck and Redraw",
+  "th": "สับการ์ดบนมือเข้าเด็คแล้วจั่วใหม่"
+ },
+ "Log.BuffSelf": {
+  "en": "$1: Buff Self #1",
+  "th": "$1: เพิ่มพาวเวอร์ให้ตัวเอง #1"
+ },
+ "Log.SetBasePower": {
+  "en": "$1: Set $2 Base Power to #1",
+  "th": "$1: ตั้งพาวเวอร์พื้นฐานของ $2 เป็น #1"
+ },
+ "Log.LifeToDeckBottom": {
+  "en": "$1: Send #1 Life to Deck Bottom",
+  "th": "$1: ส่งไลฟ์ #1 ใบไปใต้เด็ค"
+ },
+ "Log.TriggerDeploy": {
+  "en": "$1 Trigger: Deploy",
+  "th": "ทริกเกอร์ของ $1: ลงสนาม"
+ },
+ "Log.NoDraw": {
+  "en": "No Draw, Shuffles Deck",
+  "th": "ไม่ได้จั่ว สับเด็ค"
+ },
+ "Log.ActionRevealTop": {
+  "en": "$1: Reveal Top of Deck",
+  "th": "$1: เปิดการ์ดบนสุดของเด็ค"
+ },
+ "Log.CrocodileAction": {
+  "en": "Crocodile: Draw 1 Card",
+  "th": "ครอกโคไดล์: จั่วการ์ด 1 ใบ"
+ },
+ "Status.CantAttack": {
+  "en": " Can't Attack ",
+  "th": " โจมตีไม่ได้ "
+ },
+ "Status.Banish": {
+  "en": " Banish ",
+  "th": " แบนิช "
+ },
+ "Status.DoubleAttack": {
+  "en": " Double Attack ",
+  "th": " ดับเบิลแอทแทค "
+ },
+ "Status.Immune": {
+  "en": " Immune ",
+  "th": " ป้องกัน "
+ },
+ "Status.CostChange": {
+  "en": " Cost #1",
+  "th": " คอสต์ #1"
+ },
+ "Action.ST01-001": {
+  "en": "Attach Rested Don to Any",
+  "th": "ใส่ DON!! ที่เรสต์ให้ใครก็ได้"
+ },
+ "Action.ST01-007": {
+  "en": "Attach Rested Don to Any",
+  "th": "ใส่ DON!! ที่เรสต์ให้ใครก็ได้"
+ },
+ "Action.ST01-015": {
+  "en": "KO Character With 6000 Or Less Power",
+  "th": "เคโอตัวละครที่มีพาวเวอร์ 6000 หรือน้อยกว่า"
+ },
+ "Action.ST01-016": {
+  "en": "Give a [Straw Hat Crew] Unblockable",
+  "th": "ให้ [Straw Hat Crew] บล็อกไม่ได้"
+ },
+ "Action.ST01-017": {
+  "en": "Grant 1 [Straw Hat Crew] +1000 Power This Turn",
+  "th": "ให้ [Straw Hat Crew] 1 ใบ +1000 พาวเวอร์ในเทิร์นนี้"
+ },
+ "Action.ST02-001": {
+  "en": "(3) Trash 1 Card to set this Leader as active",
+  "th": "(3) ทิ้งการ์ด 1 ใบเพื่อตั้งลีดเดอร์นี้เป็นแอคทีฟ"
+ },
+ "Action.ST02-017": {
+  "en": "Rest 1 Opponent Character",
+  "th": "เรสต์ตัวละครฝ่ายตรงข้าม 1 ใบ"
+ },
+ "Action.ST03-001": {
+  "en": "Don-4: Return 1 Character Cost 5 or Less to Owner's Hand",
+  "th": "DON!! -4: คืนตัวละครคอสต์ 5 หรือน้อยกว่า 1 ใบขึ้นมือเจ้าของ"
+ },
+ "Action.ST03-007": {
+  "en": "(2) Play 1 [Pacifista] cost 4 or less from deck",
+  "th": "(2) ลง [Pacifista] คอสต์ 4 หรือน้อยกว่า 1 ใบจากเด็ค"
+ },
+ "Action.ST04-001": {
+  "en": "Don-7 to Trash 1 Opponent Life Card",
+  "th": "DON!! -7 เพื่อทิ้งไลฟ์ของฝ่ายตรงข้าม 1 ใบ"
+ },
+ "Action.ST04-014": {
+  "en": "Draw 1 and Gain 1 Active Don",
+  "th": "จั่ว 1 ใบ และรับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.ST04-015": {
+  "en": "KO a Cost 6 or Less and Gain 1 Active Don",
+  "th": "เคโอตัวละครคอสต์ 6 หรือน้อยกว่า และรับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.ST04-017": {
+  "en": "Gain 1 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.ST05-001": {
+  "en": "Don-3: Your FILM characters gain +2000 this turn",
+  "th": "DON!! -3: ตัวละคร FILM ของคุณ +2000 ในเทิร์นนี้"
+ },
+ "Action.ST05-005": {
+  "en": "(Rest) Trash 1 [FILM] card: Gain 2 Rested Don if your Don Count is lower than Opponent's",
+  "th": "(เรสต์) ทิ้งการ์ด [FILM] 1 ใบ: รับ DON!! แบบเรสต์ 2 ใบ ถ้าจำนวน DON!! ของคุณน้อยกว่าฝ่ายตรงข้าม"
+ },
+ "Action.ST05-010": {
+  "en": "Don-1: Gain 2000 Power this Turn",
+  "th": "DON!! -1: ได้รับพาวเวอร์ 2000 ในเทิร์นนี้"
+ },
+ "Action.ST05-011": {
+  "en": "Don-4: Rest up to 2 opponent Characters cost 6 or less, Gain Double Attack",
+  "th": "DON!! -4: เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 6 หรือน้อยกว่าไม่เกิน 2 ใบ และได้รับดับเบิลแอทแทค"
+ },
+ "Action.ST05-016": {
+  "en": "Don-2: KO Opponent's Cost 5 Or Less",
+  "th": "DON!! -2: เคโอตัวละครฝ่ายตรงข้ามคอสต์ 5 หรือน้อยกว่า"
+ },
+ "Action.ST06-001": {
+  "en": "(3) Trash 1 Card: KO a Cost 0 Character",
+  "th": "(3) ทิ้งการ์ด 1 ใบ: เคโอตัวละครคอสต์ 0"
+ },
+ "Action.ST06-015": {
+  "en": "Draw 1 Card and give Opponent Character -2 Cost",
+  "th": "จั่ว 1 ใบ และให้ตัวละครฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Action.P-004": {
+  "en": "Don-2: Gain Banish",
+  "th": "DON!! -2: ได้รับแบนิช"
+ },
+ "Action.P-005": {
+  "en": "Shuffle Hand into Deck and Redraw",
+  "th": "สับการ์ดบนมือเข้าเด็คแล้วจั่วใหม่"
+ },
+ "Action.P-008": {
+  "en": "(Rest) Rest 1 opponent character Cost 2 or Less",
+  "th": "(เรสต์) เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า 1 ใบ"
+ },
+ "Action.P-011": {
+  "en": "(1) Give a character that has no card effects +2000",
+  "th": "(1) ให้ตัวละครที่ไม่มีเอฟเฟกต์การ์ด +2000"
+ },
+ "Action.P-013": {
+  "en": "(Send to Bottom of Deck) Grant Opponent Character -3000",
+  "th": "(ส่งไปใต้เด็ค) ให้ตัวละครฝ่ายตรงข้าม -3000"
+ },
+ "Action.P-024": {
+  "en": "Your Leader gains +1000 for each of your characters",
+  "th": "ลีดเดอร์ของคุณได้รับ +1000 ต่อตัวละครของคุณแต่ละใบ"
+ },
+ "Action.OP01-002": {
+  "en": "(2) If you have 5 Characters, Return 1 to Hand and Play 1 Character Cost 5 or Less of a Different Color",
+  "th": "(2) ถ้าคุณมีตัวละคร 5 ใบ คืน 1 ใบขึ้นมือ และลงตัวละครคอสต์ 5 หรือน้อยกว่าที่สีต่างกัน 1 ใบ"
+ },
+ "Action.OP01-003": {
+  "en": "(4) Set 1 [Supernovas] or [Straw Hat Crew] Character Cost 5 or Less to Active and give it +1000",
+  "th": "(4) ตั้ง [Supernovas] หรือ [Straw Hat Crew] คอสต์ 5 หรือน้อยกว่า 1 ใบเป็นแอคทีฟและให้ +1000"
+ },
+ "Action.OP01-013": {
+  "en": "Take 1 Life: Gain +2000 and Attach Up to 2 Rested Don",
+  "th": "เสียไลฟ์ 1 ใบ: ได้รับ +2000 และใส่ DON!! ที่เรสต์ไม่เกิน 2 ใบ"
+ },
+ "Action.OP01-020": {
+  "en": "(Rest) Give Leader or another Character +2000",
+  "th": "(เรสต์) ให้ลีดเดอร์หรือตัวละครอื่น +2000"
+ },
+ "Action.OP01-024": {
+  "en": "Give this up to 2 Rested Don",
+  "th": "ให้ DON!! ที่เรสต์แก่ใบนี้ไม่เกิน 2 ใบ"
+ },
+ "Action.OP01-027": {
+  "en": "Give an Opponent Character -10000",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -10000"
+ },
+ "Action.OP01-030": {
+  "en": "Peek 5, Draw 1 [Straw Hat Crew] Character and place the rest on Deck Bottom",
+  "th": "ดู 5 ใบ จั่วตัวละคร [Straw Hat Crew] 1 ใบ และวางที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.OP01-031": {
+  "en": "Trash 1 [Wano Country] card from hand: Set up to 2 Don to Active",
+  "th": "ทิ้งการ์ด [Wano Country] 1 ใบจากมือ: ตั้ง DON!! ไม่เกิน 2 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP01-041": {
+  "en": "(1)(Rest) Peek 5 and add a [Wano Country] card to hand",
+  "th": "(1)(เรสต์) ดู 5 ใบและนำการ์ด [Wano Country] ขึ้นมือ"
+ },
+ "Action.OP01-051": {
+  "en": "(Rest) Play a Cost 3 or less Character",
+  "th": "(เรสต์) ลงตัวละครคอสต์ 3 หรือน้อยกว่า"
+ },
+ "Action.OP01-055": {
+  "en": "Rest 2 Characters: Draw 2 Cards",
+  "th": "เรสต์ตัวละคร 2 ใบ: จั่ว 2 ใบ"
+ },
+ "Action.OP01-056": {
+  "en": "KO 2 of Opponent's Rested Cost 5 or Less Characters",
+  "th": "เคโอตัวละครที่เรสต์อยู่ของฝ่ายตรงข้ามคอสต์ 5 หรือน้อยกว่า 2 ใบ"
+ },
+ "Action.OP01-059": {
+  "en": "Trash 1 [Wano Country] card: Set 1 [Wano Country] Character Cost 3 or Less to Active",
+  "th": "ทิ้งการ์ด [Wano Country] 1 ใบ: ตั้งตัวละคร [Wano Country] คอสต์ 3 หรือน้อยกว่า 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP01-063": {
+  "en": "(Rest) Reveal opponent hand card, if it's an Event, they trash 1 Life",
+  "th": "(เรสต์) เปิดการ์ดบนมือฝ่ายตรงข้าม ถ้าเป็นอีเวนต์ เขาทิ้งไลฟ์ 1 ใบ"
+ },
+ "Action.OP01-090": {
+  "en": "Peek 5 and Draw a [Baroque Works] card other than 'Baroque Works'",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Baroque Works] ที่ไม่ใช่ 'Baroque Works'"
+ },
+ "Action.OP01-112": {
+  "en": "Don-1: This Character can attack Active Characters this turn",
+  "th": "DON!! -1: ตัวละครนี้โจมตีตัวละครที่แอคทีฟได้ในเทิร์นนี้"
+ },
+ "Action.OP01-115": {
+  "en": "KO Cost 2 or Less then Gain 1 Active Don",
+  "th": "เคโอคอสต์ 2 หรือน้อยกว่า แล้วรับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP01-116": {
+  "en": "Peek 5 and Play a [Smile] Cost 3 or Less Character",
+  "th": "ดู 5 ใบ และลงตัวละคร [Smile] คอสต์ 3 หรือน้อยกว่า"
+ },
+ "Action.OP01-117": {
+  "en": "Don-1: Rest Opponent Character Cost 6 or Less",
+  "th": "DON!! -1: เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 6 หรือน้อยกว่า"
+ },
+ "Monkey D. Luffy": {
+  "en": "Monkey D. Luffy",
+  "th": "Monkey D. Luffy"
+ },
+ "Msg.EnterChat": {
+  "en": "Enter Chat Message...",
+  "th": "พิมพ์ข้อความแชท..."
+ },
+ "Button.Send": {
+  "en": "Send",
+  "th": "ส่ง"
+ },
+ "Guide.Disconnect": {
+  "en": "Opponent Has Disconnected!",
+  "th": "ฝ่ายตรงข้ามหลุดการเชื่อมต่อ!"
+ },
+ "Guide.RematchWait": {
+  "en": "Waiting on Opponent...",
+  "th": "กำลังรอฝ่ายตรงข้าม..."
+ },
+ "Guide.OpponentTurn": {
+  "en": "Waiting For Opponent",
+  "th": "รอฝ่ายตรงข้าม"
+ },
+ "Guide.AbilityTarget": {
+  "en": "Select Ability Target",
+  "th": "เลือกเป้าหมายความสามารถ"
+ },
+ "Guide.Target": {
+  "en": "Select Target",
+  "th": "เลือกเป้าหมาย"
+ },
+ "Guide.Blocker": {
+  "en": "Blocker Step",
+  "th": "ขั้นบล็อกเกอร์"
+ },
+ "Guide.Counter": {
+  "en": "Counter Step",
+  "th": "ขั้นเคาน์เตอร์"
+ },
+ "Guide.Discard": {
+  "en": "Select Card to Discard",
+  "th": "เลือกการ์ดที่จะทิ้ง"
+ },
+ "Guide.TopDeck": {
+  "en": "Select Card",
+  "th": "เลือกการ์ด"
+ },
+ "Guide.TopDeckTop": {
+  "en": "Drag to Choose Top of Deck Order",
+  "th": "ลากเพื่อเลือกลำดับการ์ดบนเด็ค"
+ },
+ "Guide.TopDeckBottom": {
+  "en": "Drag to Choose Bottom of Deck Order",
+  "th": "ลากเพื่อเลือกลำดับการ์ดใต้เด็ค"
+ },
+ "Guide.DeploySwap": {
+  "en": "Select Character to Replace",
+  "th": "เลือกตัวละครที่จะแทนที่"
+ },
+ "Guide.DonReturn": {
+  "en": "Select #1 Don To Return",
+  "th": "เลือก DON!! #1 ใบที่จะคืน"
+ },
+ "Guide.DrawTrash": {
+  "en": "Select Card to Draw From Trash",
+  "th": "เลือกการ์ดที่จะจั่วจากแทรช"
+ },
+ "Guide.EventDrawTrash": {
+  "en": "Select #1 Events to Draw From Trash",
+  "th": "เลือกอีเวนต์ #1 ใบที่จะจั่วจากแทรช"
+ },
+ "Guide.DrawDeck": {
+  "en": "Select Card to Draw From Deck",
+  "th": "เลือกการ์ดที่จะจั่วจากเด็ค"
+ },
+ "Guide.PlayDeck": {
+  "en": "Select Card to Play From Deck",
+  "th": "เลือกการ์ดที่จะลงจากเด็ค"
+ },
+ "Guide.Trash": {
+  "en": "Select #1 Cards to Trash",
+  "th": "เลือกการ์ด #1 ใบที่จะทิ้งลงแทรช"
+ },
+ "Guide.SendBottom": {
+  "en": "Select #1 Cards to Send to Deck Bottom",
+  "th": "เลือกการ์ด #1 ใบที่จะส่งไปใต้เด็ค"
+ },
+ "Guide.Recall": {
+  "en": "Select #1 Characters to Return to Hand",
+  "th": "เลือกตัวละคร #1 ใบที่จะคืนขึ้นมือ"
+ },
+ "Guide.Rest": {
+  "en": "Select #1 Cards to Rest",
+  "th": "เลือกการ์ด #1 ใบที่จะเรสต์"
+ },
+ "Log.TopDeckToTop": {
+  "en": "Placing Cards on Top of Deck",
+  "th": "กำลังวางการ์ดไว้บนเด็ค"
+ },
+ "Log.TopDeckToBottom": {
+  "en": "Placing Cards on Bottom of Deck",
+  "th": "กำลังวางการ์ดไว้ใต้เด็ค"
+ },
+ "Action.ST06-012": {
+  "en": "(Rest) Trash 1: KO a Cost 4 or Less",
+  "th": "(เรสต์) ทิ้งการ์ด 1 ใบ: เคโอคอสต์ 4 หรือน้อยกว่า"
+ },
+ "Option.ConfirmEnd": {
+  "en": "Confirm End Turn",
+  "th": "ยืนยันจบเทิร์น"
+ },
+ "ButtonChoiceType.ConfirmEndTurn": {
+  "en": "Really End Turn?",
+  "th": "จบเทิร์นจริงหรือ?"
+ },
+ "Msg.DeleteDeckConfirm": {
+  "en": "Click Again to Really Delete This Deck File",
+  "th": "กดอีกครั้งเพื่อลบไฟล์เด็คนี้จริงๆ"
+ },
+ "Netlog.Connected": {
+  "en": "$1 Has Connected",
+  "th": "$1 เชื่อมต่อแล้ว"
+ },
+ "Netlog.ReadyForRematch": {
+  "en": "Opponent is Ready for Rematch",
+  "th": "ฝ่ายตรงข้ามพร้อมแข่งใหม่"
+ },
+ "Netlog.RelayServerLocation": {
+  "en": "Connected to Server: $1",
+  "th": "เชื่อมต่อเซิร์ฟเวอร์แล้ว: $1"
+ },
+ "Netlog.RoomFull": {
+  "en": "Can't Enter Room, Likely Full or you are on a Different Version",
+  "th": "เข้าห้องไม่ได้ อาจเต็มแล้วหรือคุณใช้เวอร์ชันต่างกัน"
+ },
+ "Netlog.CreateRoomCodeFail": {
+  "en": "Create Join Code failed, check your Room Code",
+  "th": "สร้างรหัสเข้าร่วมไม่สำเร็จ ตรวจสอบรหัสห้องของคุณ"
+ },
+ "Button.StartMatch": {
+  "en": "Start Match",
+  "th": "เริ่มแมตช์"
+ },
+ "Msg.Observer": {
+  "en": "Spectating Match",
+  "th": "กำลังรับชมแมตช์"
+ },
+ "Msg.EnoughPlayers": {
+  "en": "Ready to Start!",
+  "th": "พร้อมเริ่มแล้ว!"
+ },
+ "Msg.WaitOnHost": {
+  "en": "Connected! Waiting on Host to Start",
+  "th": "เชื่อมต่อแล้ว! รอเจ้าของห้องเริ่ม"
+ },
+ "Option.AllowSpectate": {
+  "en": "Allow Spectators",
+  "th": "อนุญาตให้ผู้ชม"
+ },
+ "Msg.DeployPacifista": {
+  "en": "Select #1 Pacifista to Deploy",
+  "th": "เลือก Pacifista #1 ใบที่จะลง"
+ },
+ "ButtonChoiceType.ShowFullDeck": {
+  "en": "Show Full Deck",
+  "th": "แสดงเด็คทั้งหมด"
+ },
+ "ButtonChoiceType.ShowOnlyValid": {
+  "en": "Show Only Valid Cards",
+  "th": "แสดงเฉพาะการ์ดที่ใช้ได้"
+ },
+ "Button.HostPrivateWestern": {
+  "en": "Host Private Standard Game",
+  "th": "สร้างห้องส่วนตัว กติกามาตรฐาน"
+ },
+ "Button.HostPrivateEastern": {
+  "en": "Host Private Extra Game",
+  "th": "สร้างห้องส่วนตัว กติกา Extra"
+ },
+ "Button.HostPrivateUnlimited": {
+  "en": "Host Private Unlimited Game",
+  "th": "สร้างห้องส่วนตัว ไม่จำกัด"
+ },
+ "Button.HostPrivateNone": {
+  "en": "Host Private Game<br>(No Rules)",
+  "th": "สร้างห้องส่วนตัว<br>(ไม่มีกติกา)"
+ },
+ "Button.HostPrivateAllblue": {
+  "en": "Host Private Game<br>(only U, UC, R and P Cards are allowed)",
+  "th": "สร้างห้องส่วนตัว<br>(ใช้ได้เฉพาะการ์ด U, UC, R และ P)"
+ },
+ "Button.HostPrivateNationals": {
+  "en": "Host Private OP17 Game",
+  "th": "สร้างห้องส่วนตัว OP17"
+ },
+ "Button.HostPrivateKorean": {
+  "en": "Host Private Korean Game",
+  "th": "สร้างห้องส่วนตัว กติกาเกาหลี"
+ },
+ "Button.HostPrivateWesternAllblue": {
+  "en": "Host Private AllBlue Game",
+  "th": "สร้างห้องส่วนตัว AllBlue"
+ },
+ "Button.HostPrivateEasternAllblue": {
+  "en": "Host Private AllBlue Game",
+  "th": "สร้างห้องส่วนตัว AllBlue"
+ },
+ "Button.HostPublic": {
+  "en": "Host Public Game",
+  "th": "สร้างห้องสาธารณะ"
+ },
+ "Button.RefreshLobby": {
+  "en": "Refresh Lobbies",
+  "th": "รีเฟรชล็อบบี้"
+ },
+ "Button.QuickJoin": {
+  "en": "Quick Join",
+  "th": "เข้าร่วมด่วน"
+ },
+ "Msg.LobbyHeader": {
+  "en": "Public Lobbies",
+  "th": "ล็อบบี้สาธารณะ"
+ },
+ "Msg.NoLobbies": {
+  "en": "No Lobbies Found!",
+  "th": "ไม่พบล็อบบี้!"
+ },
+ "Button.DownloadLog": {
+  "en": "Download Combat Log",
+  "th": "ดาวน์โหลดบันทึกการต่อสู้"
+ },
+ "Action.ST06-006": {
+  "en": "(Rest) Grant an Opponent -2 Cost",
+  "th": "(เรสต์) ให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Msg.LobbyDescription": {
+  "en": "Enter a Lobby Description (Optional)",
+  "th": "ใส่คำอธิบายล็อบบี้ (ไม่บังคับ)"
+ },
+ "Button.CopyToClipboard": {
+  "en": "Copy Deck list to Clipboard",
+  "th": "คัดลอกรายการเด็คไปคลิปบอร์ด"
+ },
+ "Button.PasteFromClipboard": {
+  "en": "Import Deck from Clipboard",
+  "th": "นำเข้าเด็คจากคลิปบอร์ด"
+ },
+ "Status.Unblockable": {
+  "en": " Unblockable ",
+  "th": " บล็อกไม่ได้ "
+ },
+ "Log.FieldImmune": {
+  "en": "$1: All Characters Are Immune This Turn!",
+  "th": "$1: ตัวละครทุกใบได้รับการป้องกันในเทิร์นนี้!"
+ },
+ "Status.WhiteOut": {
+  "en": " White Out ",
+  "th": " ขาวโพลน "
+ },
+ "Action.ST06-017": {
+  "en": "(Rest) Grant an Opponent -1 Cost",
+  "th": "(เรสต์) ให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "Option.DynamicPlaysheet": {
+  "en": "Dynamic Playsheets",
+  "th": "แผ่นเล่นแบบไดนามิก"
+ },
+ "Log.AttachDonMulti": {
+  "en": "Attach #1 Don to $1 (#2 Total)",
+  "th": "ใส่ DON!! #1 ใบให้ $1 (รวม #2)"
+ },
+ "Option.ConfirmDon": {
+  "en": "Confirm Don Attach",
+  "th": "ยืนยันการใส่ DON!!"
+ },
+ "ButtonChoiceType.ConfirmDon": {
+  "en": "Really Attach #1 Don?",
+  "th": "ใส่ DON!! #1 ใบจริงหรือ?"
+ },
+ "Status.NoDrawLife": {
+  "en": "No Draw From Life",
+  "th": "ไม่จั่วจากไลฟ์"
+ },
+ "Log.BuffAndNoDrawLife": {
+  "en": "$1: Leader gains #1 and can't draw from Life",
+  "th": "$1: ลีดเดอร์ได้รับ #1 และจั่วจากไลฟ์ไม่ได้"
+ },
+ "Log.BuffCharacters": {
+  "en": "$1: Buff characters by #1",
+  "th": "$1: เพิ่มพาวเวอร์ตัวละครทั้งหมด #1"
+ },
+ "Button.MuteChat": {
+  "en": "Mute Chat",
+  "th": "ปิดเสียงแชท"
+ },
+ "Button.UnmuteChat": {
+  "en": "Unmute Chat",
+  "th": "เปิดเสียงแชท"
+ },
+ "ButtonChoiceType.PlayWithNoEffect": {
+  "en": "Choose No Targets",
+  "th": "ไม่เลือกเป้าหมาย"
+ },
+ "Action.OP02-093": {
+  "en": "Grant an Opponent -1 Cost, then if a 0 cost exists gain +1000",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -1 แล้วถ้ามีคอสต์ 0 ได้รับ +1000"
+ },
+ "Action.OP02-025": {
+  "en": "Next Cost 3 or higher Wano Country character costs 1 less",
+  "th": "ตัวละคร Wano Country คอสต์ 3 ขึ้นไปใบถัดไปใช้คอสต์น้อยลง 1"
+ },
+ "Status.KinemonLeader": {
+  "en": "Wano Effect",
+  "th": "เอฟเฟกต์ Wano"
+ },
+ "Status.RosinanteLeader": {
+  "en": "Law Effect",
+  "th": "เอฟเฟกต์ Law"
+ },
+ "Log.KinemonLeader": {
+  "en": "$1: Next Wano Country Cost 3 or Higher is Cheaper",
+  "th": "$1: ตัวละคร Wano Country คอสต์ 3 ขึ้นไปใบถัดไปถูกลง"
+ },
+ "Log.RosinanteLeader": {
+  "en": "$1: Next Trafalgar Law Cost 4 or Higher is 2 Cheaper",
+  "th": "$1: Trafalgar Law คอสต์ 4 ขึ้นไปใบถัดไปถูกลง 2"
+ },
+ "Option.SpectateSeeHands": {
+  "en": "Spectators See All Hand Cards",
+  "th": "ผู้ชมเห็นการ์ดบนมือทั้งหมด"
+ },
+ "Log.SpectateSeeHands": {
+  "en": "SPECTATORS CAN SEE ALL HAND CARDS",
+  "th": "ผู้ชมเห็นการ์ดบนมือทั้งหมด"
+ },
+ "Log.CombatLogSaved": {
+  "en": "Combat Log Saved to $1",
+  "th": "บันทึกการต่อสู้ไว้ที่ $1"
+ },
+ "Action.OP02-065": {
+  "en": "Trash 1: Set Active",
+  "th": "ทิ้งการ์ด 1 ใบ: ตั้งเป็นแอคทีฟ"
+ },
+ "Action.OP02-067": {
+  "en": "Return 1 Character Cost 4 or Less to Owner's Hand",
+  "th": "คืนตัวละครคอสต์ 4 หรือน้อยกว่า 1 ใบขึ้นมือเจ้าของ"
+ },
+ "Log.TurnSelection": {
+  "en": "Will select turn order",
+  "th": "จะเลือกลำดับเทิร์น"
+ },
+ "Msg.TurnSelection": {
+  "en": "Waiting on Opponent to choose Turn Order",
+  "th": "รอฝ่ายตรงข้ามเลือกลำดับเทิร์น"
+ },
+ "ButtonChoiceType.GoFirst": {
+  "en": "Go First",
+  "th": "เล่นก่อน"
+ },
+ "ButtonChoiceType.GoSecond": {
+  "en": "Go Second",
+  "th": "เล่นทีหลัง"
+ },
+ "Msg.ChoseFirst": {
+  "en": "Chose to go First",
+  "th": "เลือกเล่นก่อน"
+ },
+ "Msg.ChoseSecond": {
+  "en": "Chose to go Second",
+  "th": "เลือกเล่นทีหลัง"
+ },
+ "Action.OP02-082": {
+  "en": "Don-8: Gain 792000 Power this Turn",
+  "th": "DON!! -8: ได้รับพาวเวอร์ 792000 ในเทิร์นนี้"
+ },
+ "Log.PlayFromTrash": {
+  "en": "$1: Deployed from Trash",
+  "th": "$1: ลงจากแทรช"
+ },
+ "Action.OP02-030": {
+  "en": "(3) Set this character as Active",
+  "th": "(3) ตั้งตัวละครนี้เป็นแอคทีฟ"
+ },
+ "Action.OP02-010": {
+  "en": "(Rest) Play 1 Red Cost 1 Character other than Dogura from Hand",
+  "th": "(เรสต์) ลงตัวละครสีแดงคอสต์ 1 ที่ไม่ใช่ Dogura จากมือ 1 ใบ"
+ },
+ "Action.OP02-015": {
+  "en": "(Rest) Grant a 1 Cost Red Character +3000",
+  "th": "(เรสต์) ให้ตัวละครสีแดงคอสต์ 1 ใบ +3000"
+ },
+ "Action.OP02-021": {
+  "en": "If your Leader has Whitebeard Pirates type, KO a 3000 Power or Less",
+  "th": "ถ้าลีดเดอร์ของคุณมีประเภท Whitebeard Pirates เคโอตัวละครพาวเวอร์ 3000 หรือน้อยกว่า"
+ },
+ "Action.OP02-022": {
+  "en": "Peek 5, Draw and Reveal a Whitebeard Pirates Character, then return the rest to Deck Bottom",
+  "th": "ดู 5 ใบ จั่วและเปิดตัวละคร Whitebeard Pirates แล้วคืนที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.ST02-007": {
+  "en": "(1)(Rest) Peek 5, Draw and Reveal a Supernova, then return the rest to Deck Bottom",
+  "th": "(1)(เรสต์) ดู 5 ใบ จั่วและเปิด Supernova หนึ่งใบ แล้วคืนที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.ST03-015": {
+  "en": "Return a Cost 7 or Less Character to Hand",
+  "th": "คืนตัวละครคอสต์ 7 หรือน้อยกว่าขึ้นมือ"
+ },
+ "Action.OP02-023": {
+  "en": "If you have 3 or less Life, you can't add Life to your hand with effects this turn",
+  "th": "ถ้าคุณมีไลฟ์ 3 หรือน้อยกว่า คุณเพิ่มไลฟ์ขึ้นมือด้วยเอฟเฟกต์ไม่ได้ในเทิร์นนี้"
+ },
+ "Log.NoDrawLife": {
+  "en": "$1: Can't draw from Life",
+  "th": "$1: จั่วจากไลฟ์ไม่ได้"
+ },
+ "Action.OP02-035": {
+  "en": "(1) Return this Character to Hand: Play a Character with a cost of 3 from Hand",
+  "th": "(1) คืนตัวละครนี้ขึ้นมือ: ลงตัวละครที่มีคอสต์ 3 จากมือ"
+ },
+ "Action.OP02-046": {
+  "en": "KO a Rested Character Cost 4 or Less",
+  "th": "เคโอตัวละครที่เรสต์อยู่คอสต์ 4 หรือน้อยกว่า"
+ },
+ "Action.OP02-047": {
+  "en": "Rest an Opponent Character Cost 4 or Less",
+  "th": "เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 4 หรือน้อยกว่า"
+ },
+ "Action.OP02-048": {
+  "en": "Trash 1 Wano Country Card: Set 1 Don as Active",
+  "th": "ทิ้งการ์ด Wano Country 1 ใบ: ตั้ง DON!! 1 ใบเป็นแอคทีฟ"
+ },
+ "Guide.OptionalTrash": {
+  "en": "You can Select #1 Cards to Trash",
+  "th": "คุณเลือกการ์ด #1 ใบเพื่อทิ้งได้"
+ },
+ "Action.OP02-066": {
+  "en": "Trash 2: If your Leader has Impel Down type, draw up to 2 cards",
+  "th": "ทิ้ง 2 ใบ: ถ้าลีดเดอร์ของคุณมีประเภท Impel Down จั่วไม่เกิน 2 ใบ"
+ },
+ "ButtonChoiceType.Draw1Card": {
+  "en": "Draw 1 Card",
+  "th": "จั่ว 1 ใบ"
+ },
+ "ButtonChoiceType.Draw2Cards": {
+  "en": "Draw 2 Cards",
+  "th": "จั่ว 2 ใบ"
+ },
+ "ButtonChoiceType.OppDraw2Cards": {
+  "en": "Opponent Draws 2 Cards",
+  "th": "ฝ่ายตรงข้ามจั่ว 2 ใบ"
+ },
+ "Action.OP02-070": {
+  "en": "(Rest) If Leader is Emporio Ivankov, Draw 1, Trash 1, then Trash up to 3",
+  "th": "(เรสต์) ถ้าลีดเดอร์คือ Emporio Ivankov จั่ว 1 ทิ้ง 1 แล้วทิ้งไม่เกิน 3"
+ },
+ "Log.ActionForceReturnDon": {
+  "en": "$1: Forcing opponent to Return #1 Don",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามคืน DON!! #1 ใบ"
+ },
+ "Guide.ForcedDonReturn": {
+  "en": "Forced to Return #1 Don",
+  "th": "ถูกบังคับให้คืน DON!! #1 ใบ"
+ },
+ "Action.OP02-090": {
+  "en": "Don-1: Give an Opponent Character -3000",
+  "th": "DON!! -1: ให้ตัวละครฝ่ายตรงข้าม -3000"
+ },
+ "Action.OP02-091": {
+  "en": "Gain 1 Active Don",
+  "th": "รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP02-092": {
+  "en": "Trash 1: Peek 3 and Draw an Impel Down card, then return the rest to Deck Bottom",
+  "th": "ทิ้ง 1 ใบ: ดู 3 ใบ จั่วการ์ด Impel Down แล้วคืนที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.OP02-112": {
+  "en": "(Rest) Give 1 Opponent Character -1 Cost, then Give your Leader or 1 Character +1000",
+  "th": "(เรสต์) ให้ตัวละครฝ่ายตรงข้าม 1 ใบคอสต์ -1 แล้วให้ลีดเดอร์หรือตัวละคร 1 ใบ +1000"
+ },
+ "Guide.Target2": {
+  "en": "Select Buff Target",
+  "th": "เลือกเป้าหมายที่จะเพิ่มพาวเวอร์"
+ },
+ "Action.OP02-117": {
+  "en": "Give 1 Opponent Character -5 Cost",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม 1 ใบคอสต์ -5"
+ },
+ "Log.DestroyOpponentStage": {
+  "en": "$1: Destroy opponent's Stage",
+  "th": "$1: ทำลายสเตจของฝ่ายตรงข้าม"
+ },
+ "Log.GainCombatImmune": {
+  "en": "$1: $2 is Immune this Combat!",
+  "th": "$1: $2 ได้รับการป้องกันในการต่อสู้นี้!"
+ },
+ "Action.OP02-119": {
+  "en": "KO a Cost 1 or Less",
+  "th": "เคโอคอสต์ 1 หรือน้อยกว่า"
+ },
+ "Log.BuffFieldToTurnStart": {
+  "en": "$1: Grant field #1 until next Turn Start",
+  "th": "$1: ให้ตัวละครในสนาม #1 จนถึงเริ่มเทิร์นหน้า"
+ },
+ "Action.P-033": {
+  "en": "(Send to Bottom of Deck) Draw 1 Card",
+  "th": "(ส่งไปใต้เด็ค) จั่ว 1 ใบ"
+ },
+ "Guide.ActionChoice": {
+  "en": "Choose card effect to activate next",
+  "th": "เลือกเอฟเฟกต์การ์ดที่จะใช้ต่อไป"
+ },
+ "Title.AllowedSets": {
+  "en": "Allowed Sets:",
+  "th": "ชุดที่อนุญาต:"
+ },
+ "Msg.FailedSelfSets": {
+  "en": "Your deck must meet your own Set Requirements!",
+  "th": "เด็คของคุณต้องตรงตามเงื่อนไขชุดของตัวเอง!"
+ },
+ "Log.TrashLife": {
+  "en": "Trash $1 from Life",
+  "th": "ทิ้ง $1 จากไลฟ์"
+ },
+ "ButtonChoiceType.TakeTopLife": {
+  "en": "Take Top Life",
+  "th": "รับไลฟ์บนสุด"
+ },
+ "ButtonChoiceType.TakeBottomLife": {
+  "en": "Take Bottom Life",
+  "th": "รับไลฟ์ล่างสุด"
+ },
+ "ButtonChoiceType.TakeNoLife": {
+  "en": "Don't Take Life",
+  "th": "ไม่รับไลฟ์"
+ },
+ "Log.TakeTopLife": {
+  "en": "$1: Takes Top Life",
+  "th": "$1: รับไลฟ์บนสุด"
+ },
+ "Log.TakeBottomLife": {
+  "en": "$1: Takes Bottom Life",
+  "th": "$1: รับไลฟ์ล่างสุด"
+ },
+ "Guide.AddLife": {
+  "en": "Select Card to Add to Life",
+  "th": "เลือกการ์ดที่จะเพิ่มเข้าไลฟ์"
+ },
+ "Log.AddToLife": {
+  "en": "$1: Added card to top of Life from Hand",
+  "th": "$1: เพิ่มการ์ดจากมือไว้บนสุดของไลฟ์"
+ },
+ "ButtonChoiceType.PeekMyLife": {
+  "en": "View Your Top Life",
+  "th": "ดูไลฟ์บนสุดของคุณ"
+ },
+ "ButtonChoiceType.PeekOppLife": {
+  "en": "View Opponent Top Life",
+  "th": "ดูไลฟ์บนสุดของฝ่ายตรงข้าม"
+ },
+ "ButtonChoiceType.MoveToTop": {
+  "en": "Place On Top",
+  "th": "วางไว้บนสุด"
+ },
+ "ButtonChoiceType.MoveToBottom": {
+  "en": "Place On Bottom",
+  "th": "วางไว้ล่างสุด"
+ },
+ "Log.PeekSelfLife": {
+  "en": "$1: <b>Looked at their own top Life</b>",
+  "th": "$1: <b>ดูไลฟ์บนสุดของตัวเอง</b>"
+ },
+ "Log.PeekOppLife": {
+  "en": "$1: <b>Looked at opponent's top Life</b>",
+  "th": "$1: <b>ดูไลฟ์บนสุดของฝ่ายตรงข้าม</b>"
+ },
+ "Log.LeaveLifeTop": {
+  "en": "$1: <b>Left at the Top</b>",
+  "th": "$1: <b>วางไว้บนสุดเหมือนเดิม</b>"
+ },
+ "Log.MoveLifeBottom": {
+  "en": "$1: <b>Moved to the Bottom</b>",
+  "th": "$1: <b>ย้ายไปล่างสุด</b>"
+ },
+ "Log.TempBuffSelf": {
+  "en": "$1: Buff Self #1 for this Combat",
+  "th": "$1: เพิ่มพาวเวอร์ให้ตัวเอง #1 ในการต่อสู้นี้"
+ },
+ "Log.TempGainBanish": {
+  "en": "$1 Gains Banish for this Combat",
+  "th": "$1 ได้รับแบนิชในการต่อสู้นี้"
+ },
+ "Log.AddDeckToLife": {
+  "en": "$1: Add card to top of Life from Deck",
+  "th": "$1: เพิ่มการ์ดจากเด็คไว้บนสุดของไลฟ์"
+ },
+ "Action.ST07-009": {
+  "en": "(Rest) Take your Top or Bottom Life: KO a Cost 3 or Less",
+  "th": "(เรสต์) รับไลฟ์บนสุดหรือล่างสุดของคุณ: เคโอคอสต์ 3 หรือน้อยกว่า"
+ },
+ "Log.LifeOrDeath": {
+  "en": "$1: Forcing Opponent to Trash or Grant Life",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามเลือกทิ้งหรือให้ไลฟ์"
+ },
+ "ButtonChoiceType.ForcedTrashLife": {
+  "en": "Trash 1 Top Life",
+  "th": "ทิ้งไลฟ์บนสุด 1 ใบ"
+ },
+ "ButtonChoiceType.ForcedGrantLife": {
+  "en": "Grant Opponent 1 Life",
+  "th": "ให้ไลฟ์แก่ฝ่ายตรงข้าม 1 ใบ"
+ },
+ "Log.ForcedTrashLife": {
+  "en": "Chose to Trash 1 Life",
+  "th": "เลือกทิ้งไลฟ์ 1 ใบ"
+ },
+ "Log.ForcedGrantLife": {
+  "en": "Chose to Grant 1 Life",
+  "th": "เลือกให้ไลฟ์ 1 ใบ"
+ },
+ "Action.ST07-011": {
+  "en": "(Rest) Grant 1 Charlotte Linlin Banish",
+  "th": "(เรสต์) ให้ Charlotte Linlin 1 ใบได้รับแบนิช"
+ },
+ "Action.ST07-013": {
+  "en": "(Rest) Grant 1 Charlotte Linlin Double Attack",
+  "th": "(เรสต์) ให้ Charlotte Linlin 1 ใบได้รับดับเบิลแอทแทค"
+ },
+ "Log.GrantBanish": {
+  "en": "$1: Give $2 Banish",
+  "th": "$1: ให้ $2 แบนิช"
+ },
+ "Log.GrantDoubleAttack": {
+  "en": "$1: Give $2 Double Attack",
+  "th": "$1: ให้ $2 ดับเบิลแอทแทค"
+ },
+ "Log.AddCharacterToLife": {
+  "en": "$1: Add $2 to top of Life",
+  "th": "$1: เพิ่ม $2 ไว้บนสุดของไลฟ์"
+ },
+ "Msg.NoCardsToDisplay": {
+  "en": "No Cards To Display<br>Please Select a Color or Remove Filters",
+  "th": "ไม่มีการ์ดให้แสดง<br>กรุณาเลือกสีหรือล้างตัวกรอง"
+ },
+ "Guide.AceLeader": {
+  "en": "Choose Any Event or Stage Cards to Trash",
+  "th": "เลือกอีเวนต์หรือสเตจที่จะทิ้ง"
+ },
+ "Log.AceLeader": {
+  "en": "$1: Trash $2 for +1000 this Battle",
+  "th": "$1: ทิ้ง $2 เพื่อ +1000 ในการต่อสู้นี้"
+ },
+ "ButtonChoiceType.UseAceLeader": {
+  "en": "Discard for Ace Effect",
+  "th": "ทิ้งเพื่อใช้เอฟเฟกต์ Ace"
+ },
+ "ButtonChoiceType.NormalCounter": {
+  "en": "Use Regular Counter Effect",
+  "th": "ใช้เคาน์เตอร์ปกติ"
+ },
+ "Log.TrashAtEndOfTurn": {
+  "en": "$1: Trashed at End of Turn",
+  "th": "$1: ถูกทิ้งตอนจบเทิร์น"
+ },
+ "Action.OP03-005": {
+  "en": "Gain +2000 then Trash this at End of Turn",
+  "th": "ได้รับ +2000 แล้วทิ้งใบนี้ตอนจบเทิร์น"
+ },
+ "Action.OP03-009": {
+  "en": "Give a Rested Don to 1 Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์แก่ลีดเดอร์หรือตัวละคร 1 ใบ"
+ },
+ "Action.OP03-016": {
+  "en": "KO an Opponent 8000 Power or Less, then grant Leader Double Attack and +3000",
+  "th": "เคโอตัวละครฝ่ายตรงข้ามพาวเวอร์ 8000 หรือน้อยกว่า แล้วให้ลีดเดอร์ได้รับดับเบิลแอทแทคและ +3000"
+ },
+ "Action.OP03-017": {
+  "en": "Grant an Opponent Character -4000",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -4000"
+ },
+ "Action.OP03-019": {
+  "en": "Grant your Leader +4000",
+  "th": "ให้ลีดเดอร์ของคุณ +4000"
+ },
+ "Action.OP03-020": {
+  "en": "(2)(Rest) Peek 5 and Draw and Reveal 1 Event Card, then return the rest to Deck Bottom",
+  "th": "(2)(เรสต์) ดู 5 ใบ จั่วและเปิดอีเวนต์ 1 ใบ แล้วคืนที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.OP03-021": {
+  "en": "(3) Rest 2 [East Blue] Characters: Set this Leader Active, Rest 1 Opponent Character Cost 5 or Less",
+  "th": "(3) เรสต์ตัวละคร [East Blue] 2 ใบ: ตั้งลีดเดอร์นี้เป็นแอคทีฟ เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 5 หรือน้อยกว่า 1 ใบ"
+ },
+ "Guide.RestOwnCharacters": {
+  "en": "Choose $1 Characters to Rest",
+  "th": "เลือกตัวละคร $1 ใบที่จะเรสต์"
+ },
+ "Guide.DeployCharacter": {
+  "en": "Choose Character to Play",
+  "th": "เลือกตัวละครที่จะลง"
+ },
+ "Action.OP03-036": {
+  "en": "Rest 1 [East Blue] Character: Set 1 [Kuro] Active",
+  "th": "เรสต์ตัวละคร [East Blue] 1 ใบ: ตั้ง [Kuro] 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP03-037": {
+  "en": "Rest 1 [East Blue] Character: KO 1 Rested Character Cost 3 or Less",
+  "th": "เรสต์ตัวละคร [East Blue] 1 ใบ: เคโอตัวละครที่เรสต์อยู่คอสต์ 3 หรือน้อยกว่า 1 ใบ"
+ },
+ "Action.OP03-038": {
+  "en": "Rest 2 Opponent Characters Cost 2 Or Less",
+  "th": "เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า 2 ใบ"
+ },
+ "Action.OP03-039": {
+  "en": "Rest 1 Opponent Character Cost 1 Or Less, Then Grant a Character +1000 Power",
+  "th": "เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 1 หรือน้อยกว่า 1 ใบ แล้วให้ตัวละครหนึ่งใบ +1000 พาวเวอร์"
+ },
+ "Log.NamiWin": {
+  "en": "Player Wins by running out of Deck Cards!",
+  "th": "ผู้เล่นชนะเพราะการ์ดในเด็คหมด!"
+ },
+ "Log.DeckOutWin": {
+  "en": "Opponent Is Out of Cards, Wins the Game!",
+  "th": "ฝ่ายตรงข้ามการ์ดหมดเด็ค ชนะเกม!"
+ },
+ "Log.DeckOutLoss": {
+  "en": "Is Out of Cards, Loses the Game!",
+  "th": "การ์ดหมดเด็ค แพ้เกม!"
+ },
+ "Log.MillCards": {
+  "en": "$1: Trash #1 Cards from Deck",
+  "th": "$1: ทิ้งการ์ด #1 ใบจากเด็ค"
+ },
+ "ButtonChoiceType.Mill": {
+  "en": "Trash Cards from Deck",
+  "th": "ทิ้งการ์ดจากเด็ค"
+ },
+ "ButtonChoiceType.EndWithMill": {
+  "en": "Trash Cards from Deck and End Action",
+  "th": "ทิ้งการ์ดจากเด็คและจบความสามารถ"
+ },
+ "ButtonChoiceType.NoMill": {
+  "en": "Do Action without Trashing Cards from Deck",
+  "th": "ใช้ความสามารถโดยไม่ทิ้งการ์ดจากเด็ค"
+ },
+ "Action.OP03-056": {
+  "en": "Draw 2 Cards",
+  "th": "จั่ว 2 ใบ"
+ },
+ "Action.OP03-057": {
+  "en": "Place any Character Cost 5 or Less on Deck Bottom",
+  "th": "วางตัวละครคอสต์ 5 หรือน้อยกว่าไว้ใต้เด็ค"
+ },
+ "Action.OP03-058": {
+  "en": "(Rest) Don-1: Play a Galley-La Company character Cost 5 or Less from your Hand",
+  "th": "(เรสต์) DON!! -1: ลงตัวละคร Galley-La Company คอสต์ 5 หรือน้อยกว่าจากมือ"
+ },
+ "Action.OP03-073": {
+  "en": "Don -1: KO a Character Cost 2 or Less",
+  "th": "DON!! -1: เคโอตัวละครคอสต์ 2 หรือน้อยกว่า"
+ },
+ "Action.OP03-074": {
+  "en": "Don -2: Send an Opponent Character Cost 4 or Less to Deck Bottom",
+  "th": "DON!! -2: ส่งตัวละครฝ่ายตรงข้ามคอสต์ 4 หรือน้อยกว่าไปใต้เด็ค"
+ },
+ "Action.OP03-075": {
+  "en": "(Rest) Gain 1 Rested Don",
+  "th": "(เรสต์) รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Log.ForceRandomTrash": {
+  "en": "$1: Randomly send $2 to Trash from Hand",
+  "th": "$1: สุ่มส่ง $2 จากมือลงแทรช"
+ },
+ "Guide.ReturnFromTrash": {
+  "en": "Select #1 Cards to Send to Deck Bottom",
+  "th": "เลือกการ์ด #1 ใบที่จะส่งไปใต้เด็ค"
+ },
+ "Guide.TopDeckTrash": {
+  "en": "Select #1 Cards to Trash",
+  "th": "เลือกการ์ด #1 ใบที่จะทิ้งลงแทรช"
+ },
+ "Log.SendTrashToDeckBottom": {
+  "en": "$1: Sent $2 to Deck Bottom from Trash",
+  "th": "$1: ส่ง $2 จากแทรชไปใต้เด็ค"
+ },
+ "Log.TrashRemaining": {
+  "en": "$1: Trash #1 Remaining Cards",
+  "th": "$1: ทิ้งการ์ดที่เหลือ #1 ใบลงแทรช"
+ },
+ "Log.PlayOtherFromTrash": {
+  "en": "$1: Deployed $2 from Trash",
+  "th": "$1: ลง $2 จากแทรช"
+ },
+ "Guide.DeployFromTrash": {
+  "en": "Select Card to Play from Trash",
+  "th": "เลือกการ์ดที่จะลงจากแทรช"
+ },
+ "Action.OP03-094": {
+  "en": "Peek 5 and Play a Character Cost 5 or Less with [CP] in its types, then trash the rest",
+  "th": "ดู 5 ใบ และลงตัวละครคอสต์ 5 หรือน้อยกว่าที่มี [CP] ในประเภท แล้วทิ้งที่เหลือ"
+ },
+ "Action.OP03-095": {
+  "en": "Grant 2 Opponent Characters -2 Cost",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม 2 ใบคอสต์ -2"
+ },
+ "Action.OP03-096": {
+  "en": "KO a 0 Cost Character or 3 or Less Cost Stage",
+  "th": "เคโอตัวละครคอสต์ 0 หรือสเตจคอสต์ 3 หรือน้อยกว่า"
+ },
+ "Action.OP03-098": {
+  "en": "(Rest) Give 1 Opponent Character -2 Cost",
+  "th": "(เรสต์) ให้ตัวละครฝ่ายตรงข้าม 1 ใบคอสต์ -2"
+ },
+ "ButtonChoiceType.TrashTopLife": {
+  "en": "Trash Top Life",
+  "th": "ทิ้งไลฟ์บนสุด"
+ },
+ "ButtonChoiceType.TrashBottomLife": {
+  "en": "Trash Bottom Life",
+  "th": "ทิ้งไลฟ์ล่างสุด"
+ },
+ "Log.TrashTopLife": {
+  "en": "$1: Trashes Top Life",
+  "th": "$1: ทิ้งไลฟ์บนสุด"
+ },
+ "Log.TrashBottomLife": {
+  "en": "$1: Trashes Bottom Life",
+  "th": "$1: ทิ้งไลฟ์ล่างสุด"
+ },
+ "ButtonChoiceType.AddTopLife": {
+  "en": "Add to Top of Life",
+  "th": "เพิ่มไว้บนสุดของไลฟ์"
+ },
+ "ButtonChoiceType.AddBottomLife": {
+  "en": "Add to Bottom of Life",
+  "th": "เพิ่มไว้ล่างสุดของไลฟ์"
+ },
+ "Log.AddTopLife": {
+  "en": "$1: Adds a Card from Deck to Top of Life",
+  "th": "$1: เพิ่มการ์ดจากเด็คไว้บนสุดของไลฟ์"
+ },
+ "Log.AddBottomLife": {
+  "en": "$1: Adds a Card from Deck to Bottom of Life",
+  "th": "$1: เพิ่มการ์ดจากเด็คไว้ล่างสุดของไลฟ์"
+ },
+ "Log.BuffToTurnStart": {
+  "en": "$1: Grant $2 #1 until next turn",
+  "th": "$1: ให้ $2 #1 จนถึงเทิร์นหน้า"
+ },
+ "Action.OP03-119": {
+  "en": "If you have Less Life, KO an Opponent Character Cost 4 or Less",
+  "th": "ถ้าคุณมีไลฟ์น้อยกว่า เคโอตัวละครฝ่ายตรงข้ามคอสต์ 4 หรือน้อยกว่า"
+ },
+ "Action.OP03-120": {
+  "en": "If your opponent has 4 or more Life, Trash their Top Life",
+  "th": "ถ้าฝ่ายตรงข้ามมีไลฟ์ 4 ขึ้นไป ทิ้งไลฟ์บนสุดของเขา"
+ },
+ "Action.OP03-121": {
+  "en": "Trash the Top of your Life: KO an Opponent Character Cost 5 or Less",
+  "th": "ทิ้งไลฟ์บนสุดของคุณ: เคโอตัวละครฝ่ายตรงข้ามคอสต์ 5 หรือน้อยกว่า"
+ },
+ "Log.AddCharacterToBottomLife": {
+  "en": "$1: Add $2 to bottom of Life",
+  "th": "$1: เพิ่ม $2 ไว้ล่างสุดของไลฟ์"
+ },
+ "Msg.UpgradeFound": {
+  "en": "Lobbies Found with a higher Version Number! Please Download the Latest Version!",
+  "th": "พบล็อบบี้ที่ใช้เวอร์ชันสูงกว่า! กรุณาดาวน์โหลดเวอร์ชันล่าสุด!"
+ },
+ "Lobby.CardDataRequired": {
+  "en": "Using Card Data Version $1, Please Upgrade!",
+  "th": "ใช้ข้อมูลการ์ดเวอร์ชัน $1 กรุณาอัปเกรด!"
+ },
+ "Msg.SearchHelp": {
+  "en": "Type card Names, Cost Number, Strike Types, or Category Names without spaces into the Search bar to narrow down results.<br><br>Putting [ ] brackets around a search term will search for that exact word.<br><br>Other search options are currently: OnKO, Trigger, Activate, EndOfTurn, Blocker, Rush, Counter, OnBlock, OnAttack<br><br>Searching P7000 will return cards with 7000 Power, and searching C2000 will return cards with 2000 Counter<br><br>Adding \"#1\" will show cards from block 1. Adding \"#>1\" will show cards from block 2 onwards, etc.",
+  "th": "พิมพ์ชื่อการ์ด ตัวเลขคอสต์ ประเภทสไตรก์ หรือชื่อหมวดโดยไม่เว้นวรรคในช่องค้นหาเพื่อกรองผล<br><br>ใส่วงเล็บ [ ] ครอบคำค้นหาเพื่อค้นหาคำนั้นแบบตรงตัว<br><br>ตัวเลือกค้นหาอื่นตอนนี้คือ: OnKO, Trigger, Activate, EndOfTurn, Blocker, Rush, Counter, OnBlock, OnAttack<br><br>ค้นหา P7000 จะได้การ์ดพาวเวอร์ 7000 และค้นหา C2000 จะได้การ์ดเคาน์เตอร์ 2000<br><br>เติม \"#1\" เพื่อแสดงการ์ดจากบล็อก 1 เติม \"#>1\" เพื่อแสดงการ์ดจากบล็อก 2 เป็นต้นไป และต่อๆ ไป"
+ },
+ "Action.ST08-002": {
+  "en": "(Rest) Grant an opponent Character -2 Cost",
+  "th": "(เรสต์) ให้ตัวละครฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Action.ST08-015": {
+  "en": "KO an opponent's Cost 2 or Less Character",
+  "th": "เคโอตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า"
+ },
+ "Action.ST08-004": {
+  "en": "(Rest) KO a Cost 2 or Less",
+  "th": "(เรสต์) เคโอคอสต์ 2 หรือน้อยกว่า"
+ },
+ "Action.ST08-014": {
+  "en": "Take your top Life: Grant an opponent Character -7 Cost",
+  "th": "รับไลฟ์บนสุดของคุณ: ให้ตัวละครฝ่ายตรงข้ามคอสต์ -7"
+ },
+ "Action.OP04-001": {
+  "en": "(2) Draw 1 Card, and Grant up to 1 Character Rush",
+  "th": "(2) จั่ว 1 ใบ และให้ตัวละครไม่เกิน 1 ใบได้รับรัช"
+ },
+ "Log.GrantRush": {
+  "en": "$1: Give $2 Rush",
+  "th": "$1: ให้ $2 รัช"
+ },
+ "Log.GrantRushCharacters": {
+  "en": "$1: Give $2 Character Rush",
+  "th": "$1: ให้ $2 รัชตัวละคร"
+ },
+ "Status.SkipNextActive": {
+  "en": " Freeze ",
+  "th": " แช่แข็ง "
+ },
+ "Log.GrantFreeze": {
+  "en": "$1: $2 will not Activate during next Refresh",
+  "th": "$1: $2 จะไม่แอคทีฟในรีเฟรชหน้า"
+ },
+ "Action.OP04-039": {
+  "en": "(1) If you have 6 or Less cards in Hand, Peek 2, Draw 1 [Dressrosa] card, and trash the rest",
+  "th": "(1) ถ้าคุณมีการ์ดบนมือ 6 ใบหรือน้อยกว่า ดู 2 ใบ จั่วการ์ด [Dressrosa] 1 ใบ แล้วทิ้งที่เหลือ"
+ },
+ "Action.OP04-052": {
+  "en": "(2)(Rest) Draw 1 Card",
+  "th": "(2)(เรสต์) จั่ว 1 ใบ"
+ },
+ "Title.Turn": {
+  "en": "Turn ",
+  "th": "เทิร์นที่ "
+ },
+ "Action.OP04-090": {
+  "en": "Return 7 cards from your trash to the deck bottom: Set to Active, then don't Refresh next turn",
+  "th": "คืนการ์ด 7 ใบจากแทรชไปใต้เด็ค: ตั้งเป็นแอคทีฟ แล้วไม่รีเฟรชในเทิร์นหน้า"
+ },
+ "Log.SelfFreeze": {
+  "en": "$1: Will not Activate during next Refresh",
+  "th": "$1: จะไม่แอคทีฟในรีเฟรชหน้า"
+ },
+ "Button.CustomImages": {
+  "en": "Customize Images",
+  "th": "ปรับแต่งรูปภาพ"
+ },
+ "Button.UploadNew": {
+  "en": "Upload New Image",
+  "th": "อัปโหลดรูปใหม่"
+ },
+ "Button.RestoreDefault": {
+  "en": "Restore Default Image",
+  "th": "คืนรูปเริ่มต้น"
+ },
+ "Button.Settings": {
+  "en": "Settings",
+  "th": "ตั้งค่า"
+ },
+ "Button.Patchnotes": {
+  "en": "Patch Notes",
+  "th": "บันทึกอัปเดต"
+ },
+ "Setting.PlayerName": {
+  "en": "Player Name:",
+  "th": "ชื่อผู้เล่น:"
+ },
+ "Setting.AutoDraw": {
+  "en": "Automatically Draw at the start of each turn without clicking the Draw Button",
+  "th": "จั่วอัตโนมัติตอนเริ่มทุกเทิร์นโดยไม่ต้องกดปุ่มจั่ว"
+ },
+ "Setting.SkipBlock": {
+  "en": "Automatically skip the Block step during attacks if you have no Blockers",
+  "th": "ข้ามขั้นบล็อกอัตโนมัติระหว่างการโจมตีถ้าคุณไม่มีบล็อกเกอร์"
+ },
+ "Setting.SkipTrigger": {
+  "en": "Automatically skip the Trigger step if your Life card had no Trigger (Caution: may give opponent information!)",
+  "th": "ข้ามขั้นทริกเกอร์อัตโนมัติถ้าการ์ดไลฟ์ของคุณไม่มีทริกเกอร์ (ระวัง: อาจให้ข้อมูลแก่ฝ่ายตรงข้าม!)"
+ },
+ "Setting.ConfirmEnd": {
+  "en": "The 'End Turn' button must be clicked twice before the turn is ended",
+  "th": "ต้องกดปุ่ม 'จบเทิร์น' สองครั้งจึงจะจบเทิร์น"
+ },
+ "Setting.ConfirmDon": {
+  "en": "After attaching Don, must click a button to confirm the Don attach or Cancel",
+  "th": "หลังใส่ DON!! ต้องกดปุ่มยืนยันการใส่ DON!! หรือยกเลิก"
+ },
+ "Setting.DynamicPlaysheet": {
+  "en": "Use a different playsheet based on each Leader's color, instead of one set playsheet",
+  "th": "ใช้แผ่นเล่นต่างกันตามสีของแต่ละลีดเดอร์ แทนที่จะใช้แผ่นเล่นเดียว"
+ },
+ "Option.OffsetEndTurn": {
+  "en": "Offset EndTurn Button",
+  "th": "เลื่อนปุ่มจบเทิร์น"
+ },
+ "Setting.OffsetEndTurn": {
+  "en": "The 'End Turn' Button will be in a different location than the default Action buttons",
+  "th": "ปุ่ม 'จบเทิร์น' จะอยู่คนละตำแหน่งกับปุ่มคำสั่งปกติ"
+ },
+ "Log.GrantAttackActive": {
+  "en": "$1: $2 Can Attack Active",
+  "th": "$1: $2 โจมตีตัวละครที่แอคทีฟได้"
+ },
+ "Status.AttackActive": {
+  "en": " Attack Active ",
+  "th": " โจมตีตัวละครแอคทีฟ "
+ },
+ "ButtonChoiceType.Gain1Life": {
+  "en": "Gain 1 Life",
+  "th": "รับไลฟ์ 1 ใบ"
+ },
+ "ButtonChoiceType.Gain2Life": {
+  "en": "Gain 2 Life",
+  "th": "รับไลฟ์ 2 ใบ"
+ },
+ "Status.CharsEffectImmune": {
+  "en": " KO-Immune ",
+  "th": " ป้องกันการเคโอ "
+ },
+ "Log.FieldEffectImmune": {
+  "en": "$1: Current Field Characters Are Immune To Effects Until Next Turn!",
+  "th": "$1: ตัวละครในสนามตอนนี้ไม่ได้รับผลจากเอฟเฟกต์จนถึงเทิร์นหน้า!"
+ },
+ "Log.Leader": {
+  "en": "Leader is $1",
+  "th": "ลีดเดอร์คือ $1"
+ },
+ "Log.Quit": {
+  "en": "Quits!",
+  "th": "ออกจากเกม!"
+ },
+ "Log.Win": {
+  "en": "Wins!",
+  "th": "ชนะ!"
+ },
+ "Log.Lose": {
+  "en": "Loses",
+  "th": "แพ้"
+ },
+ "Log.LeaderHit": {
+  "en": "$1 hit for #1 damage",
+  "th": "$1 โดนโจมตี #1 ความเสียหาย"
+ },
+ "Button.ReportBug": {
+  "en": "Report A Bug<br>(External)",
+  "th": "รายงานบั๊ก<br>(เว็บภายนอก)"
+ },
+ "Action.OP04-056": {
+  "en": "Place any Character on the bottom of its owner's deck",
+  "th": "วางตัวละครไว้ใต้เด็คของเจ้าของ"
+ },
+ "Button.Credits": {
+  "en": "Credits",
+  "th": "เครดิต"
+ },
+ "Button.ReportPlayer": {
+  "en": "Report Player",
+  "th": "รายงานผู้เล่น"
+ },
+ "Button.Yes": {
+  "en": "Yes",
+  "th": "ใช่"
+ },
+ "Button.No": {
+  "en": "No",
+  "th": "ไม่"
+ },
+ "Msg.ConfirmReport": {
+  "en": "Really<br>Report?",
+  "th": "รายงาน<br>จริงหรือ?"
+ },
+ "Msg.PlayerWasReported": {
+  "en": "Player<br>Reported!",
+  "th": "รายงาน<br>ผู้เล่นแล้ว!"
+ },
+ "Button.Western": {
+  "en": "Standard",
+  "th": "มาตรฐาน"
+ },
+ "Button.Eastern": {
+  "en": "Extra Regulation",
+  "th": "กติกา Extra"
+ },
+ "Button.Unlimited": {
+  "en": "Unlimited",
+  "th": "ไม่จำกัด"
+ },
+ "Button.Nationals": {
+  "en": "OP17",
+  "th": "OP17"
+ },
+ "Button.Korean": {
+  "en": "Korean",
+  "th": "เกาหลี"
+ },
+ "Button.Private": {
+  "en": "Private",
+  "th": "ส่วนตัว"
+ },
+ "Button.WesternAllBlue": {
+  "en": "AllBlue",
+  "th": "AllBlue"
+ },
+ "Button.EasternAllBlue": {
+  "en": "AllBlue",
+  "th": "AllBlue"
+ },
+ "Button.AllBlue": {
+  "en": "AllBlue",
+  "th": "AllBlue"
+ },
+ "Msg.WesternDescription": {
+  "en": "Cards up to OP17<br>Block 1 Restricted",
+  "th": "การ์ดถึง OP17<br>แบนบล็อก 1"
+ },
+ "Msg.NationalsDescription": {
+  "en": "Cards up to OP17<br>Block 1 Restricted",
+  "th": "การ์ดถึง OP17<br>แบนบล็อก 1"
+ },
+ "Msg.KoreanDescription": {
+  "en": "Cards up to OP14",
+  "th": "การ์ดถึง OP14"
+ },
+ "Msg.EasternDescription": {
+  "en": "Cards up to OP17",
+  "th": "การ์ดถึง OP17"
+ },
+ "Msg.UnlimitedDescription": {
+  "en": "No Card Restrictions<br>Standard Deckbuilding Restrictions",
+  "th": "ไม่จำกัดการ์ด<br>จำกัดการสร้างเด็คแบบมาตรฐาน"
+ },
+ "Msg.PrivateDescription": {
+  "en": "Host or Join a Private Lobby<br>Allows Standard Rules or No Restrictions",
+  "th": "สร้างหรือเข้าล็อบบี้ส่วนตัว<br>ใช้กติกามาตรฐานหรือไม่จำกัดก็ได้"
+ },
+ "Msg.WesternAllBlueDescription": {
+  "en": "No SR or Sec allowed",
+  "th": "ห้ามใช้ SR และ Sec"
+ },
+ "Msg.EasternAllBlueDescription": {
+  "en": "No SR or Sec allowed",
+  "th": "ห้ามใช้ SR และ Sec"
+ },
+ "Action.OP04-093": {
+  "en": "Give a Dressrosa Character +6000, and then grant Double Attack if there are 15 or more Cards in your Trash",
+  "th": "ให้ตัวละคร Dressrosa +6000 แล้วให้ดับเบิลแอทแทคถ้าแทรชของคุณมีการ์ด 15 ใบขึ้นไป"
+ },
+ "Action.OP04-002": {
+  "en": "(Rest) Give your Active Leader -5000: Peek 5 and Draw an Alabasta Kingdom card, send the rest to Deck Bottom",
+  "th": "(เรสต์) ให้ลีดเดอร์แอคทีฟของคุณ -5000: ดู 5 ใบ จั่วการ์ด Alabasta Kingdom แล้วส่งที่เหลือไปใต้เด็ค"
+ },
+ "Action.OP04-004": {
+  "en": "(Rest): Grant 1 Rested Don to each of your [Alabasta Kingdom] characters",
+  "th": "(เรสต์): ให้ DON!! ที่เรสต์ 1 ใบแก่ตัวละคร [Alabasta Kingdom] ของคุณทุกใบ"
+ },
+ "Log.ReturnAtEndOfTurn": {
+  "en": "$1: Returned to Hand at End of Turn",
+  "th": "$1: ถูกคืนขึ้นมือตอนจบเทิร์น"
+ },
+ "Action.OP04-018": {
+  "en": "Grant 2 Opponent Characters -2000",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม 2 ใบ -2000"
+ },
+ "Action.OP04-022": {
+  "en": "(Rest): Rest 1 of your Opponent's Characters with a Cost of 1 or Less",
+  "th": "(เรสต์): เรสต์ตัวละครของฝ่ายตรงข้ามที่มีคอสต์ 1 หรือน้อยกว่า 1 ใบ"
+ },
+ "Log.WillActivateDon": {
+  "en": "Will activate #1 Don at the end of the turn",
+  "th": "จะทำให้ DON!! แอคทีฟ #1 ใบตอนจบเทิร์น"
+ },
+ "Log.WillGainActiveDon": {
+  "en": "Will Gain #1 Active Don at the end of the turn",
+  "th": "จะได้รับ DON!! แอคทีฟ #1 ใบตอนจบเทิร์น"
+ },
+ "Log.EndOfTurnActivateDon": {
+  "en": "Active #1 Don",
+  "th": "DON!! แอคทีฟ #1 ใบ"
+ },
+ "Log.EndOfTurnGainActiveDon": {
+  "en": "Gain #1 Active Don",
+  "th": "ได้รับ DON!! แอคทีฟ #1 ใบ"
+ },
+ "Action.OP04-038": {
+  "en": "Rest any opponent, then KO a rested character Cost 6 or Less",
+  "th": "เรสต์ฝ่ายตรงข้ามคนใดก็ได้ แล้วเคโอตัวละครที่เรสต์อยู่คอสต์ 6 หรือน้อยกว่า"
+ },
+ "ButtonChoiceType.ReturnToHandInstead": {
+  "en": "Send Target to Hand Instead of Deck Bottom",
+  "th": "ส่งเป้าหมายขึ้นมือแทนการไปใต้เด็ค"
+ },
+ "Action.OP04-050": {
+  "en": "(Rest) Trash 1 Card: Draw 1 Card",
+  "th": "(เรสต์) ทิ้งการ์ด 1 ใบ: จั่ว 1 ใบ"
+ },
+ "Action.OP04-061": {
+  "en": "Trash this character: Gain 1 Rested Don",
+  "th": "ทิ้งตัวละครนี้: รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP04-055": {
+  "en": "Trash an \"Ice Oni\" and send a 4 cost or lower to Deck Bottom: Play an \"Ice Oni\" from your trash",
+  "th": "ทิ้ง \"Ice Oni\" และส่งคอสต์ 4 หรือต่ำกว่าไปใต้เด็ค: ลง \"Ice Oni\" จากแทรชของคุณ"
+ },
+ "Action.OP04-073": {
+  "en": "Trash self and an ally with \"Baroque Works\": Gain 1 Active Don",
+  "th": "ทิ้งตัวเองและพวกที่มี \"Baroque Works\": รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP04-102": {
+  "en": "(1) Add Top or Bottom Life to Hand: Activate Self",
+  "th": "(1) นำไลฟ์บนสุดหรือล่างสุดขึ้นมือ: ใช้ความสามารถตัวเอง"
+ },
+ "Action.OP04-105": {
+  "en": "Trash 1 Trigger Card: Rest 1 Opponent Character Cost 2 or Less",
+  "th": "ทิ้งการ์ดทริกเกอร์ 1 ใบ: เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า 1 ใบ"
+ },
+ "Action.OP04-109": {
+  "en": "Trash Self: Grant a {Wano Country} Leader or Character +3000 this Turn",
+  "th": "ทิ้งตัวเอง: ให้ลีดเดอร์หรือตัวละคร {Wano Country} +3000 ในเทิร์นนี้"
+ },
+ "Action.OP04-111": {
+  "en": "(Rest) Trash 1 Homies character: Set up to 1 \"Charlotte Linlin\" character as Active",
+  "th": "(เรสต์) ทิ้งตัวละคร Homies 1 ใบ: ตั้งตัวละคร \"Charlotte Linlin\" ไม่เกิน 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP04-115": {
+  "en": "Add Top or Bottom Life to Hand: Grant a {Wano Country} Character Double Attack",
+  "th": "นำไลฟ์บนสุดหรือล่างสุดขึ้นมือ: ให้ตัวละคร {Wano Country} ได้รับดับเบิลแอทแทค"
+ },
+ "ButtonChoiceType.TapLeader": {
+  "en": "Tap Leader",
+  "th": "แตะลีดเดอร์"
+ },
+ "ButtonChoiceType.TapStage": {
+  "en": "Tap Stage",
+  "th": "แตะสเตจ"
+ },
+ "Action.OP04-117": {
+  "en": "Add an opponent's Cost 3 Or Less Character to the top or bottom of their Life",
+  "th": "เพิ่มตัวละครฝ่ายตรงข้ามคอสต์ 3 หรือน้อยกว่าไว้บนสุดหรือล่างสุดของไลฟ์เขา"
+ },
+ "Action.OP04-088": {
+  "en": "Rest your Leader: Grant an Opponent Character -4 Cost",
+  "th": "เรสต์ลีดเดอร์ของคุณ: ให้ตัวละครฝ่ายตรงข้ามคอสต์ -4"
+ },
+ "Action.OP04-094": {
+  "en": "KO a Cost 4 or Lower, or a Cost 6 or Lower if Trash has 15 or more Cards",
+  "th": "เคโอคอสต์ 4 หรือต่ำกว่า หรือคอสต์ 6 หรือต่ำกว่าถ้าแทรชมีการ์ด 15 ใบขึ้นไป"
+ },
+ "Action.OP04-079": {
+  "en": "Give an Opponent Character -4 Cost, Mill 2, then KO 1 of your Dressrosa Characters",
+  "th": "ให้ตัวละครฝ่ายตรงข้ามคอสต์ -4 ทิ้งการ์ดจากเด็ค 2 ใบ แล้วเคโอตัวละคร Dressrosa ของคุณ 1 ใบ"
+ },
+ "Guide.KOSelfCharacter": {
+  "en": "Select a Character to KO",
+  "th": "เลือกตัวละครที่จะเคโอ"
+ },
+ "Action.ST10-001": {
+  "en": "Don -3: Return an Opponent Character with 3000 or Less Power to their Deck Bottom, then play a Cost 4 or Less Character from your Hand",
+  "th": "DON!! -3: คืนตัวละครฝ่ายตรงข้ามพาวเวอร์ 3000 หรือน้อยกว่าไปใต้เด็ค แล้วลงตัวละครคอสต์ 4 หรือน้อยกว่าจากมือ"
+ },
+ "Log.VersionNumber": {
+  "en": "Version is $1",
+  "th": "เวอร์ชันคือ $1"
+ },
+ "Action.OP05-041": {
+  "en": "Trash 1 Card: Draw 1 Card",
+  "th": "ทิ้งการ์ด 1 ใบ: จั่ว 1 ใบ"
+ },
+ "Action.OP05-060": {
+  "en": "Take 1 Life: Gain 1 Active Don",
+  "th": "รับไลฟ์ 1 ใบ: รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP05-002": {
+  "en": "Trash 1 Revolutionary Army Card: Grant up to 3 Revolutionary Army or Trigger Characters +3000",
+  "th": "ทิ้งการ์ด Revolutionary Army 1 ใบ: ให้ตัวละคร Revolutionary Army หรือทริกเกอร์ไม่เกิน 3 ใบ +3000"
+ },
+ "Action.OP05-034": {
+  "en": "(1)(Rest): Peek 5, Draw and Reveal a {Donquixote Pirates} card, then place the rest at the bottom of your deck",
+  "th": "(1)(เรสต์): ดู 5 ใบ จั่วและเปิดการ์ด {Donquixote Pirates} แล้ววางที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.ST10-016": {
+  "en": "KO Character With 7000 Or Less Power",
+  "th": "เคโอตัวละครที่มีพาวเวอร์ 7000 หรือน้อยกว่า"
+ },
+ "Log.BuffToOwnersEnd": {
+  "en": "$1: Grant $2 #1 until next turn end",
+  "th": "$1: ให้ $2 #1 จนถึงจบเทิร์นหน้า"
+ },
+ "Action.ST10-017": {
+  "en": "Rest an Opponent's Cost 2 or Less Character, and gain 1 Rested Don",
+  "th": "เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า และรับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Button.Help": {
+  "en": "Help",
+  "th": "ช่วยเหลือ"
+ },
+ "Log.DrawNone": {
+  "en": "<b>Picked no cards to Draw</b>",
+  "th": "<b>เลือกไม่จั่วการ์ด</b>"
+ },
+ "Msg.Help": {
+  "en": "<b>Can't Connect / Network Issues</b><br>If you're unable to connect to the Unity Relay servers, you'll want to try the following: Turn off any VPN or Antivirus to check if they are blocking connections. Run the app in Admin mode for desktop users, and try switching between wifi or mobile data for mobile users. Windows users should turn on 'time sync' for their system clocks. iOS users are currently unable to crossplay with non-iOS users.<br><br><b>Events in Play, or Cards are Wrong/Desynced from other Users</b><br>This is actually a network issue, so you should attempt the troubleshooting steps listed above.<br><br><b>Updating the Sim</b><br>The sim does not automatically update, so you'll need to do a full reinstall when a new version comes out. Mobile versions should automatically transfer saved deck lists, and copying the 'Decks' folder on a desktop version will allow you to keep the same decks. You can find out about new versions by following twitter/discord/patreon, or when you see a message at the bottom of the multiplayer lobby screen that states there are lobbies above your current version.",
+  "th": "<b>เชื่อมต่อไม่ได้ / ปัญหาเครือข่าย</b><br>ถ้าคุณเชื่อมต่อกับเซิร์ฟเวอร์ Unity Relay ไม่ได้ ให้ลองทำตามนี้: ปิด VPN หรือโปรแกรมแอนตี้ไวรัสเพื่อดูว่าบล็อกการเชื่อมต่ออยู่หรือไม่ ผู้ใช้คอมพิวเตอร์ให้เปิดโปรแกรมแบบผู้ดูแลระบบ และผู้ใช้มือถือให้ลองสลับระหว่างไวไฟกับเน็ตมือถือ ผู้ใช้วินโดวส์ควรเปิด 'ซิงค์เวลา' ของนาฬิกาในระบบ ผู้ใช้ iOS ตอนนี้ยังเล่นข้ามแพลตฟอร์มกับผู้ใช้ที่ไม่ใช่ iOS ไม่ได้<br><br><b>อีเวนต์ที่กำลังเล่น หรือการ์ดผิด/ไม่ตรงกับผู้เล่นอื่น</b><br>จริงๆ แล้วเป็นปัญหาเครือข่าย ดังนั้นให้ลองแก้ไขตามขั้นตอนข้างต้น<br><br><b>การอัปเดตโปรแกรม</b><br>โปรแกรมไม่อัปเดตเอง คุณต้องติดตั้งใหม่ทั้งหมดเมื่อมีเวอร์ชันใหม่ เวอร์ชันมือถือจะย้ายรายการเด็คที่บันทึกไว้ให้อัตโนมัติ และการคัดลอกโฟลเดอร์ 'Decks' บนเวอร์ชันคอมพิวเตอร์จะทำให้คุณเก็บเด็คเดิมไว้ได้ คุณติดตามเวอร์ชันใหม่ได้จาก twitter/discord/patreon หรือเมื่อเห็นข้อความที่ด้านล่างของหน้าล็อบบี้มัลติเพลเยอร์ว่ามีล็อบบี้ที่เวอร์ชันสูงกว่าของคุณ"
+ },
+ "Option.Limit4": {
+  "en": "Limit to 4",
+  "th": "จำกัด 4 ใบ"
+ },
+ "Option.sortByCost": {
+  "en": "Sort By Cost",
+  "th": "เรียงตามคอสต์"
+ },
+ "Option.HideRotated": {
+  "en": "Hide Rotated",
+  "th": "ซ่อนชุดที่หมุนเวียนออก"
+ },
+ "Option.HideNumbers": {
+  "en": "Hide Counts",
+  "th": "ซ่อนจำนวน"
+ },
+ "Option.Effect": {
+  "en": "Effect Type",
+  "th": "ประเภทเอฟเฟกต์"
+ },
+ "EffectOption.NotSet": {
+  "en": "Not Set",
+  "th": "ไม่ระบุ"
+ },
+ "EffectOption.Searchers": {
+  "en": "Searchers",
+  "th": "ค้นหาการ์ด"
+ },
+ "EffectOption.SummonFromHand": {
+  "en": "Summon from Hand",
+  "th": "ลงจากมือ"
+ },
+ "EffectOption.SummonFromTrash": {
+  "en": "Summon from Trash",
+  "th": "ลงจากแทรช"
+ },
+ "EffectOption.SummonFromDeck": {
+  "en": "Summon from Deck",
+  "th": "ลงจากเด็ค"
+ },
+ "EffectOption.KOInPlay": {
+  "en": "KO In Play",
+  "th": "เคโอในสนาม"
+ },
+ "EffectOption.TrashInPlay": {
+  "en": "Trash In Play",
+  "th": "ทิ้งในสนาม"
+ },
+ "EffectOption.BounceToHand": {
+  "en": "Bounce In Play",
+  "th": "คืนขึ้นมือจากสนาม"
+ },
+ "EffectOption.BottomDeckInPlay": {
+  "en": "Bottom Deck In Play",
+  "th": "ส่งใต้เด็คจากสนาม"
+ },
+ "EffectOption.BottomDeckFromHand": {
+  "en": "Bottom Deck In Hand",
+  "th": "ส่งใต้เด็คจากมือ"
+ },
+ "EffectOption.RestCharacters": {
+  "en": "Rest In Play",
+  "th": "เรสต์ในสนาม"
+ },
+ "EffectOption.FreezeRestedCharacters": {
+  "en": "Freeze Rested Character(s)",
+  "th": "แช่แข็งตัวละครที่เรสต์"
+ },
+ "EffectOption.PreventAttack": {
+  "en": "Prevent Attack",
+  "th": "ห้ามโจมตี"
+ },
+ "EffectOption.BoostPower": {
+  "en": "Boost Power",
+  "th": "เพิ่มพาวเวอร์"
+ },
+ "EffectOption.ReducePower": {
+  "en": "Reduce Power",
+  "th": "ลดพาวเวอร์"
+ },
+ "EffectOption.BoostCost": {
+  "en": "Increase Cost",
+  "th": "เพิ่มคอสต์"
+ },
+ "EffectOption.ReduceCost": {
+  "en": "Reduce Cost",
+  "th": "ลดคอสต์"
+ },
+ "EffectOption.HealLife": {
+  "en": "Heal Life",
+  "th": "ฟื้นไลฟ์"
+ },
+ "EffectOption.TrashLife": {
+  "en": "Trash Life",
+  "th": "ทิ้งไลฟ์"
+ },
+ "EffectOption.DealLifeDamage": {
+  "en": "Deal Damage to Life",
+  "th": "สร้างความเสียหายต่อไลฟ์"
+ },
+ "EffectOption.RearrangeTopDeckCards": {
+  "en": "Rearrange top deck",
+  "th": "จัดเรียงการ์ดบนเด็ค"
+ },
+ "EffectOption.DrawCardsFromDeck": {
+  "en": "Draw from Deck",
+  "th": "จั่วจากเด็ค"
+ },
+ "EffectOption.DrawCardsFromTrash": {
+  "en": "Draw from Trash",
+  "th": "จั่วจากแทรช"
+ },
+ "EffectOption.TrashCardsFromHand": {
+  "en": "Trash from Hand",
+  "th": "ทิ้งจากมือ"
+ },
+ "EffectOption.AttachActiveDon": {
+  "en": "Attach Active Don",
+  "th": "ใส่ DON!! แอคทีฟ"
+ },
+ "EffectOption.AttachRestedDon": {
+  "en": "Attach Rested Don",
+  "th": "ใส่ DON!! เรสต์"
+ },
+ "EffectOption.RestActiveDon": {
+  "en": "Rest Active Don",
+  "th": "เรสต์ DON!! แอคทีฟ"
+ },
+ "EffectOption.RampActiveDon": {
+  "en": "Ramp Active Don",
+  "th": "เร่ง DON!! แอคทีฟ"
+ },
+ "EffectOption.RampRestedDon": {
+  "en": "Ramp Rested Don",
+  "th": "เร่ง DON!! เรสต์"
+ },
+ "EffectOption.DonMinusSelf": {
+  "en": "Minus Own Don",
+  "th": "DON!! ลบของตัวเอง"
+ },
+ "EffectOption.DonMinusOpp": {
+  "en": "Minus Opponents Don",
+  "th": "DON!! ลบของฝ่ายตรงข้าม"
+ },
+ "Option.ConfirmCounter": {
+  "en": "Confirm Before Countering",
+  "th": "ยืนยันก่อนใช้เคาน์เตอร์"
+ },
+ "Setting.ConfirmCounter": {
+  "en": "Don't Automatically Trash Character Cards during Counter Step",
+  "th": "ไม่ทิ้งการ์ดตัวละครอัตโนมัติในขั้นเคาน์เตอร์"
+ },
+ "Option.HideNames": {
+  "en": "Hide Player Names",
+  "th": "ซ่อนชื่อผู้เล่น"
+ },
+ "Setting.HideNames": {
+  "en": "Keep both player's names hidden during multiplayer matches",
+  "th": "ซ่อนชื่อผู้เล่นทั้งสองฝ่ายในแมตช์มัลติเพลเยอร์"
+ },
+ "Option.AttachAll": {
+  "en": "Enable Attach All Don",
+  "th": "เปิดใช้ใส่ DON!! ทั้งหมด"
+ },
+ "Setting.AttachAll": {
+  "en": "Show the option to Attach All Don above regular card actions",
+  "th": "แสดงตัวเลือกใส่ DON!! ทั้งหมดเหนือคำสั่งการ์ดปกติ"
+ },
+ "Option.DontShare": {
+  "en": "Don't Share Private Match Analytics",
+  "th": "ไม่แชร์ข้อมูลวิเคราะห์แมตช์ส่วนตัว"
+ },
+ "Setting.DontShare": {
+  "en": "Private matches won by this player won't by shared to public match data (will not prevent Ranked match data from being stored)",
+  "th": "แมตช์ส่วนตัวที่ผู้เล่นนี้ชนะจะไม่ถูกแชร์เป็นข้อมูลแมตช์สาธารณะ (ไม่ได้ป้องกันการเก็บข้อมูลแมตช์แรงก์)"
+ },
+ "ButtonChoiceType.ConfirmCounter": {
+  "en": "Trash for Counter",
+  "th": "ทิ้งเพื่อเคาน์เตอร์"
+ },
+ "ButtonChoiceType.FinalizeTopDeck": {
+  "en": "Return Cards to Deck",
+  "th": "คืนการ์ดเข้าเด็ค"
+ },
+ "Action.OP05-076": {
+  "en": "Peek 3 and Draw 1 [Straw Hat], [Kid Pirates], or [Heart Pirates] card",
+  "th": "ดู 3 ใบ และจั่วการ์ด [Straw Hat], [Kid Pirates] หรือ [Heart Pirates] 1 ใบ"
+ },
+ "Log.TakeAnotherTurn": {
+  "en": "Taking another Turn after this one!",
+  "th": "จะเล่นอีกเทิร์นหลังเทิร์นนี้!"
+ },
+ "Log.AnotherTurn": {
+  "en": "Taking another Turn!",
+  "th": "เล่นอีกเทิร์น!"
+ },
+ "Action.OP05-119": {
+  "en": "(1): Gain 1 Active Don",
+  "th": "(1): รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP05-004": {
+  "en": "If Power 7000 or More, Deploy a 5000 or Less Power [Revolutionary Army] Character",
+  "th": "ถ้าพาวเวอร์ 7000 ขึ้นไป ลงตัวละคร [Revolutionary Army] พาวเวอร์ 5000 หรือน้อยกว่า"
+ },
+ "Log.ActionForceReturnTrash": {
+  "en": "$1: Forcing opponent to return #1 Trash Cards to Deck",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามคืนการ์ดจากแทรช #1 ใบเข้าเด็ค"
+ },
+ "Action.OP05-088": {
+  "en": "(1)(Rest) Return 2 Trash Cards: Draw a cost 3 to 5 Black Character from your Trash",
+  "th": "(1)(เรสต์) คืนการ์ดจากแทรช 2 ใบ: จั่วตัวละครสีดำคอสต์ 3 ถึง 5 จากแทรชของคุณ"
+ },
+ "Log.DrawHiddenTopDeck": {
+  "en": "Picked a Card to Draw",
+  "th": "เลือกการ์ดที่จะจั่ว"
+ },
+ "Option.PatronPlaymat": {
+  "en": "Override Playmat with Patron",
+  "th": "ใช้แผ่นรองเล่นของ Patron แทน"
+ },
+ "Option.PatronSleeves": {
+  "en": "Override Sleeves with Patron",
+  "th": "ใช้สลีฟของ Patron แทน"
+ },
+ "Setting.PatronPlaymat": {
+  "en": "Always display your custom Patron playmat instead of the asset folder playmats",
+  "th": "แสดงแผ่นรองเล่น Patron ที่คุณปรับแต่งเสมอ แทนแผ่นรองเล่นในโฟลเดอร์ไฟล์"
+ },
+ "Setting.PatronSleeves": {
+  "en": "Always display your custom Patron sleeves instead of the asset folder sleeves",
+  "th": "แสดงสลีฟ Patron ที่คุณปรับแต่งเสมอ แทนสลีฟในโฟลเดอร์ไฟล์"
+ },
+ "Option.PatronIncognito": {
+  "en": "Show Opponents My Playmat",
+  "th": "แสดงแผ่นรองเล่นของฉันให้ฝ่ายตรงข้าม"
+ },
+ "Setting.PatronIncognito": {
+  "en": "Your opponents will see your Patron playmat",
+  "th": "ฝ่ายตรงข้ามจะเห็นแผ่นรองเล่น Patron ของคุณ"
+ },
+ "Action.OP05-008": {
+  "en": "Grant A Character or Leader 2 Rested Don",
+  "th": "ให้ตัวละครหรือลีดเดอร์รับ DON!! ที่เรสต์ 2 ใบ"
+ },
+ "Action.OP05-019": {
+  "en": "Give an Opponent Character -4000 Power, then if Life is 2 or Less, KO a 0 Power Opponent",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -4000 แล้วถ้าไลฟ์เหลือ 2 หรือน้อยกว่า เคโอตัวละครพาวเวอร์ 0 ของฝ่ายตรงข้าม"
+ },
+ "Action.OP05-020": {
+  "en": "Grant any Character or Leader +2000 Power this turn, then KO an opponent character with 2000 Power or Less",
+  "th": "ให้ตัวละครหรือลีดเดอร์ +2000 พาวเวอร์ในเทิร์นนี้ แล้วเคโอตัวละครฝ่ายตรงข้ามพาวเวอร์ 2000 หรือน้อยกว่า"
+ },
+ "Action.OP05-025": {
+  "en": "(Rest): Rest an opponent's character Cost 3 or Less",
+  "th": "(เรสต์): เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 3 หรือน้อยกว่า"
+ },
+ "Action.OP05-027": {
+  "en": "(Trash): Rest an opponent's character Cost 3 or Less",
+  "th": "(ทิ้ง): เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 3 หรือน้อยกว่า"
+ },
+ "Action.OP05-028": {
+  "en": "(Trash): KO a Rested opponent's characters Cost 2 or Less",
+  "th": "(ทิ้ง): เคโอตัวละครที่เรสต์อยู่ของฝ่ายตรงข้ามคอสต์ 2 หรือน้อยกว่า"
+ },
+ "Action.OP05-033": {
+  "en": "(1)(Rest): Play a [Donquixote Pirates] character Cost 2 or Less from your Hand",
+  "th": "(1)(เรสต์): ลงตัวละคร [Donquixote Pirates] คอสต์ 2 หรือน้อยกว่าจากมือ"
+ },
+ "Action.OP05-045": {
+  "en": "(Rest) Trash 1: Return a Cost 2 or Lower character to the bottom of its owner's deck",
+  "th": "(เรสต์) ทิ้งการ์ด 1 ใบ: คืนตัวละครคอสต์ 2 หรือต่ำกว่าไปใต้เด็คของเจ้าของ"
+ },
+ "Action.OP05-057": {
+  "en": "Give a Leader or Character +3000, then place a Cost 2 Or Less Character on the bottom of its owner's deck",
+  "th": "ให้ลีดเดอร์หรือตัวละคร +3000 แล้ววางตัวละครคอสต์ 2 หรือน้อยกว่าไว้ใต้เด็คของเจ้าของ"
+ },
+ "Action.OP05-058": {
+  "en": "Send all Cost 3 or Less characters to Deck Bottom, then both Players trash cards down to 5 in Hand",
+  "th": "ส่งตัวละครคอสต์ 3 หรือน้อยกว่าทั้งหมดไปใต้เด็ค แล้วผู้เล่นทั้งสองทิ้งการ์ดจนเหลือบนมือ 5 ใบ"
+ },
+ "Action.OP05-077": {
+  "en": "Don -1: Give an opponent Character -5000",
+  "th": "DON!! -1: ให้ตัวละครฝ่ายตรงข้าม -5000"
+ },
+ "Action.OP05-078": {
+  "en": "Don -1: Give a Leader or Character with [Kid Pirates] +5000",
+  "th": "DON!! -1: ให้ลีดเดอร์หรือตัวละครที่มี [Kid Pirates] +5000"
+ },
+ "Log.TempGainDoubleAttack": {
+  "en": "$1 Gains Double Attack for this Combat",
+  "th": "$1 ได้รับดับเบิลแอทแทคในการต่อสู้นี้"
+ },
+ "Action.OP05-081": {
+  "en": "Trash this Character: Give an Opponent Character -3 Cost",
+  "th": "ทิ้งตัวละครนี้: ให้ตัวละครฝ่ายตรงข้ามคอสต์ -3"
+ },
+ "Action.OP05-082": {
+  "en": "(Rest) Return 2 Cards from Trash: If your opponent has 6 or more Cards in Hand, they must Trash 1",
+  "th": "(เรสต์) คืนการ์ดจากแทรช 2 ใบ: ถ้าฝ่ายตรงข้ามมีการ์ดบนมือ 6 ใบขึ้นไป เขาต้องทิ้ง 1 ใบ"
+ },
+ "Action.OP05-089": {
+  "en": "(1)(Rest) Rest 1 Other Ally: Add 1 Black Character Cost 1 or Less from your Trash to your Hand",
+  "th": "(1)(เรสต์) เรสต์พวกอื่น 1 ใบ: นำตัวละครสีดำคอสต์ 1 หรือน้อยกว่าจากแทรชของคุณ 1 ใบขึ้นมือ"
+ },
+ "Action.OP05-094": {
+  "en": "Give an Opponent -3 Cost, then prevent a 0 Cost Opponent from setting to Active during next Refresh Phase",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -3 แล้วป้องกันฝ่ายตรงข้ามคอสต์ 0 ไม่ให้ตั้งเป็นแอคทีฟในรีเฟรชเฟสหน้า"
+ },
+ "ButtonChoiceType.ReturnToHandInsteadOfKO": {
+  "en": "Send Target to Hand Instead of KO",
+  "th": "ส่งเป้าหมายขึ้นมือแทนการเคโอ"
+ },
+ "ButtonChoiceType.TopLifeInsteadOfKO": {
+  "en": "Send Target to Top Life Instead of KO",
+  "th": "ส่งเป้าหมายไปบนสุดของไลฟ์แทนการเคโอ"
+ },
+ "ButtonChoiceType.BottomLifeInsteadOfKO": {
+  "en": "Send Target to Bottom Life Instead of KO",
+  "th": "ส่งเป้าหมายไปล่างสุดของไลฟ์แทนการเคโอ"
+ },
+ "Log.LifeOrNerf": {
+  "en": "$1: Forcing Opponent to Trash Life or allow Debuff",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามเลือกทิ้งไลฟ์หรือยอมให้ลดพาวเวอร์"
+ },
+ "ButtonChoiceType.ForcedAllowNerf": {
+  "en": "Allow Opponent to Debuff a Leader or Character",
+  "th": "ยอมให้ฝ่ายตรงข้ามลดพาวเวอร์ลีดเดอร์หรือตัวละคร"
+ },
+ "Log.ForcedAllowNerf": {
+  "en": "Allowing Opponent to Debuff",
+  "th": "ยอมให้ฝ่ายตรงข้ามลดพาวเวอร์"
+ },
+ "Log.BottomDeckStage": {
+  "en": "Sent Stage to Bottom of Deck",
+  "th": "ส่งสเตจไปใต้เด็ค"
+ },
+ "Action.OP05-116": {
+  "en": "KO an Opponent's Character with Cost Equal or Less than their Life Total",
+  "th": "เคโอตัวละครฝ่ายตรงข้ามที่มีคอสต์เท่ากับหรือน้อยกว่าไลฟ์ทั้งหมดของเขา"
+ },
+ "Action.OP05-115": {
+  "en": "Give a Leader or Character +3000, then if your Life is 1 or Less, Rest an Opponent Character Cost 4 or Less",
+  "th": "ให้ลีดเดอร์หรือตัวละคร +3000 แล้วถ้าไลฟ์ของคุณเหลือ 1 หรือน้อยกว่า เรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 4 หรือน้อยกว่า"
+ },
+ "Action.ST11-004": {
+  "en": "Peek 3 and Draw 1 [FILM] Card other than [New Genesis]",
+  "th": "ดู 3 ใบ และจั่วการ์ด [FILM] 1 ใบที่ไม่ใช่ [New Genesis]"
+ },
+ "Action.ST11-005": {
+  "en": "Activate your Leader [Uta]",
+  "th": "ใช้งานลีดเดอร์ [Uta] ของคุณ"
+ },
+ "Action.ST12-016": {
+  "en": "Rest an Opponent's Leader or Cost 4 or Lower Character",
+  "th": "เรสต์ลีดเดอร์ของฝ่ายตรงข้ามหรือตัวละครคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP06-022": {
+  "en": "Grant a Character up to 2 Rested Don",
+  "th": "ให้ตัวละครรับ DON!! ที่เรสต์ไม่เกิน 2 ใบ"
+ },
+ "ButtonChoiceType.DrawTopCard": {
+  "en": "Draw Card",
+  "th": "จั่วการ์ด"
+ },
+ "Action.ST11-003": {
+  "en": "Rest or KO a Rested Cost 5 or Lower Character",
+  "th": "เรสต์หรือเคโอตัวละครที่เรสต์อยู่คอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.ST12-002": {
+  "en": "(Rest): Rest a Cost 4 or Lower Character",
+  "th": "(เรสต์): เรสต์ตัวละครคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.ST12-012": {
+  "en": "Bounce Self to Hand",
+  "th": "คืนตัวเองขึ้นมือ"
+ },
+ "Log.ActionForceBottomDeck": {
+  "en": "$1: Forcing opponent to Bottomdeck #1 Cards",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามส่งการ์ด #1 ใบไปใต้เด็ค"
+ },
+ "Log.TrashForCombat": {
+  "en": "$1: Trash $2 for +#1 this Battle",
+  "th": "$1: ทิ้ง $2 เพื่อ +#1 ในการต่อสู้นี้"
+ },
+ "Guide.TrashForCombat": {
+  "en": "Choose Any Cards to Trash",
+  "th": "เลือกการ์ดที่จะทิ้ง"
+ },
+ "Log.ActionForceBottomDeckChars": {
+  "en": "$1: Forcing opponent to Bottomdeck #1 Characters",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามส่งตัวละคร #1 ใบไปใต้เด็ค"
+ },
+ "Action.P-057": {
+  "en": "Up to 2 Opponent's Rest Cost 4 or Lower Characters do not Activate during next Refresh",
+  "th": "ตัวละครฝ่ายตรงข้ามที่เรสต์คอสต์ 4 หรือต่ำกว่าไม่เกิน 2 ใบ จะไม่แอคทีฟในรีเฟรชหน้า"
+ },
+ "Log.WillActivateFilmChars": {
+  "en": "All Film Characters will set Active at End of Turn!",
+  "th": "ตัวละคร FILM ทั้งหมดจะตั้งเป็นแอคทีฟตอนจบเทิร์น!"
+ },
+ "Action.ST07-015": {
+  "en": "Opponent Trashes a Life or Grants you a Life",
+  "th": "ฝ่ายตรงข้ามทิ้งไลฟ์หรือให้ไลฟ์แก่คุณหนึ่งใบ"
+ },
+ "Action.ST07-017": {
+  "en": "(Rest) Take your Top or Bottom Life: Place a 3 Cost Character on Life Face-Up",
+  "th": "(เรสต์) รับไลฟ์บนสุดหรือล่างสุดของคุณ: วางตัวละครคอสต์ 3 ไว้ในไลฟ์แบบหงายหน้า"
+ },
+ "Action.OP03-018": {
+  "en": "Discard 1 Event: KO a 5000 or Less Character and a 4000 or Less Character",
+  "th": "ทิ้งอีเวนต์ 1 ใบ: เคโอตัวละครพาวเวอร์ 5000 หรือน้อยกว่าและตัวละครพาวเวอร์ 4000 หรือน้อยกว่า"
+ },
+ "Action.OP03-117": {
+  "en": "(Rest) Grant a Charlotte Linlin +1000 until start of your next turn",
+  "th": "(เรสต์) ให้ Charlotte Linlin +1000 จนถึงเริ่มเทิร์นหน้าของคุณ"
+ },
+ "Action.ST10-002": {
+  "en": "If you have 0 Don or 8+ Don, Gain an Active Don",
+  "th": "ถ้าคุณมี DON!! 0 ใบหรือ 8 ใบขึ้นไป รับ DON!! แอคทีฟหนึ่งใบ"
+ },
+ "Action.OP05-059": {
+  "en": "Draw a Card and Return any Cost 5 or Less Character to Owner's Hand",
+  "th": "จั่วการ์ดหนึ่งใบ และคืนตัวละครคอสต์ 5 หรือน้อยกว่าขึ้นมือเจ้าของ"
+ },
+ "Action.OP05-096": {
+  "en": "KO a 1 Cost or Less Opponent Character, or Choose to Send it to Hand, Top Life, or Bottom Life. Draw a Card if you have a Celestial Dragon",
+  "th": "เคโอตัวละครฝ่ายตรงข้ามคอสต์ 1 หรือน้อยกว่า หรือเลือกส่งขึ้นมือ บนสุดไลฟ์ หรือล่างสุดไลฟ์ จั่วการ์ดหนึ่งใบถ้าคุณมี Celestial Dragon"
+ },
+ "Action.P-058": {
+  "en": "All FILM characters Activate at End of Turn",
+  "th": "ตัวละคร FILM ทั้งหมดแอคทีฟตอนจบเทิร์น"
+ },
+ "Log.BounceForCombat": {
+  "en": "$1: Return $2 for +#1 this Battle",
+  "th": "$1: คืน $2 ขึ้นมือเพื่อ +#1 ในการต่อสู้นี้"
+ },
+ "Action.P-060": {
+  "en": "(Rest an Uta): Rest 2 of your Opponent's Don",
+  "th": "(เรสต์ Uta): เรสต์ DON!! ของฝ่ายตรงข้าม 2 ใบ"
+ },
+ "Action.OP06-016": {
+  "en": "(Bottomdeck): Give an Opponent's Character -3000",
+  "th": "(ส่งไปใต้เด็ค): ให้ตัวละครฝ่ายตรงข้าม -3000"
+ },
+ "Action.OP06-020": {
+  "en": "(Rest): Rest a Cost 3 or Lower or 1 Don, then prevent taking Life this turn",
+  "th": "(เรสต์): เรสต์คอสต์ 3 หรือต่ำกว่า หรือ DON!! 1 ใบ แล้วป้องกันการรับไลฟ์ในเทิร์นนี้"
+ },
+ "Log.WillTrashFilm": {
+  "en": "Will trash #1 FILM Characters at the end of the turn",
+  "th": "จะทิ้งตัวละคร FILM #1 ใบตอนจบเทิร์น"
+ },
+ "Guide.ForcedTrashCharacter": {
+  "en": "Select #1 Characters to Trash",
+  "th": "เลือกตัวละคร #1 ใบที่จะทิ้ง"
+ },
+ "Action.OP06-011": {
+  "en": "(Rest any Uta): Gain +5000",
+  "th": "(เรสต์ Uta ใบใดก็ได้): ได้รับ +5000"
+ },
+ "Action.OP06-019": {
+  "en": "KO an Opponent Character Power 5000 or Less",
+  "th": "เคโอตัวละครฝ่ายตรงข้ามพาวเวอร์ 5000 หรือน้อยกว่า"
+ },
+ "Action.OP06-015": {
+  "en": "(Trash a Character 6000 or More): Play 1 FILM Character with power between 2000 and 5000 from Trash Rested",
+  "th": "(ทิ้งตัวละครพาวเวอร์ 6000 ขึ้นไป): ลงตัวละคร FILM 1 ใบที่มีพาวเวอร์ระหว่าง 2000 ถึง 5000 จากแทรชในสถานะเรสต์"
+ },
+ "Action.OP06-017": {
+  "en": "Take 1 Life: Grant an Ally +3000",
+  "th": "รับไลฟ์ 1 ใบ: ให้พวกเดียวกัน +3000"
+ },
+ "Action.OP06-018": {
+  "en": "Grant an Ally +3000, and if opponent has a 7000 Power or more, Grant an Ally +1000",
+  "th": "ให้พวกเดียวกัน +3000 และถ้าฝ่ายตรงข้ามมีพาวเวอร์ 7000 ขึ้นไป ให้พวกเดียวกัน +1000"
+ },
+ "Action.OP06-021": {
+  "en": "Rest a Cost 4 or Less, or Give Opponent -1 Cost",
+  "th": "เรสต์คอสต์ 4 หรือต่ำกว่า หรือให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "ButtonChoiceType.RestCharacter": {
+  "en": "(Reducing Cost)<br>Change to Rest a Character",
+  "th": "(กำลังลดคอสต์)<br>เปลี่ยนเป็นเรสต์ตัวละคร"
+ },
+ "ButtonChoiceType.DropCost": {
+  "en": "(Resting a Character)<br>Change to Reduce a Character's Cost",
+  "th": "(กำลังเรสต์ตัวละคร)<br>เปลี่ยนเป็นลดคอสต์ตัวละคร"
+ },
+ "Log.FieldCantAttackLeader": {
+  "en": "Can't attack Opponent's Leader until next turn!",
+  "th": "โจมตีลีดเดอร์ของฝ่ายตรงข้ามไม่ได้จนถึงเทิร์นหน้า!"
+ },
+ "Log.GainCombatImmuneToStart": {
+  "en": "$1 is Immune from Combat KOs until next turn!",
+  "th": "$1 ไม่ถูกเคโอจากการต่อสู้จนถึงเทิร์นหน้า!"
+ },
+ "Action.OP06-034": {
+  "en": "Rest a Cost 4 or Less, Gain +1000, and then Take 1 Life",
+  "th": "เรสต์คอสต์ 4 หรือต่ำกว่า ได้รับ +1000 แล้วรับไลฟ์ 1 ใบ"
+ },
+ "Action.OP06-039": {
+  "en": "Rest a 6 Cost or Less, or KO if it is Rested",
+  "th": "เรสต์คอสต์ 6 หรือต่ำกว่า หรือเคโอถ้าเรสต์อยู่"
+ },
+ "Action.OP06-040": {
+  "en": "KO up to 2 Cost 3 or Less Rested Characters",
+  "th": "เคโอตัวละครที่เรสต์อยู่คอสต์ 3 หรือต่ำกว่าไม่เกิน 2 ใบ"
+ },
+ "Action.OP06-043": {
+  "en": "(Trash 1 Card and Send a Cost 2 or Lower Character to Deck Bottom): Gain +3000",
+  "th": "(ทิ้งการ์ด 1 ใบและส่งตัวละครคอสต์ 2 หรือต่ำกว่าไปใต้เด็ค): ได้รับ +3000"
+ },
+ "Log.ForceRedrawHand": {
+  "en": "Force Opponent to Shuffle Hand into Deck and Draw #1",
+  "th": "บังคับให้ฝ่ายตรงข้ามสับการ์ดบนมือเข้าเด็คแล้วจั่ว #1"
+ },
+ "Log.ActionForceBounceChars": {
+  "en": "$1: Forcing opponent to Recall #1 Characters",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามคืนตัวละคร #1 ใบขึ้นมือ"
+ },
+ "Action.OP06-056": {
+  "en": "Send a Cost 2 or Less and a Cost 1 or Less Opponent Character to Deck Bottom",
+  "th": "ส่งตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือต่ำกว่าและคอสต์ 1 หรือต่ำกว่าไปใต้เด็ค"
+ },
+ "Action.OP06-057": {
+  "en": "Gain +1000, then play a Cost 2 Character from the Top of your Deck",
+  "th": "ได้รับ +1000 แล้วลงตัวละครคอสต์ 2 จากบนสุดของเด็คของคุณ"
+ },
+ "Action.OP06-058": {
+  "en": "Send 2 Cost 6 or Less Characters to Deck Bottom",
+  "th": "ส่งตัวละครคอสต์ 6 หรือต่ำกว่า 2 ใบไปใต้เด็ค"
+ },
+ "Action.OP06-060": {
+  "en": "(Don -1)(Trash Self): Play a Cost 7 Vinsmoke Ichiji from Hand or Trash",
+  "th": "(DON!! -1)(ทิ้งตัวเอง): ลง Vinsmoke Ichiji คอสต์ 7 จากมือหรือแทรช"
+ },
+ "Action.OP06-062": {
+  "en": "(Don -1): Rest 1 Opponent's Don",
+  "th": "(DON!! -1): เรสต์ DON!! ของฝ่ายตรงข้าม 1 ใบ"
+ },
+ "Action.OP06-064": {
+  "en": "(Don -1)(Trash Self): Play a Cost 5 Vinsmoke Niji from Hand or Trash",
+  "th": "(DON!! -1)(ทิ้งตัวเอง): ลง Vinsmoke Niji คอสต์ 5 จากมือหรือแทรช"
+ },
+ "Action.OP06-066": {
+  "en": "(Don -1)(Trash Self): Play a Cost 4 Vinsmoke Yonji from Hand or Trash",
+  "th": "(DON!! -1)(ทิ้งตัวเอง): ลง Vinsmoke Yonji คอสต์ 4 จากมือหรือแทรช"
+ },
+ "Action.OP06-068": {
+  "en": "(Don -1)(Trash Self): Play a Cost 4 Vinsmoke Reiju from Hand or Trash",
+  "th": "(DON!! -1)(ทิ้งตัวเอง): ลง Vinsmoke Reiju คอสต์ 4 จากมือหรือแทรช"
+ },
+ "Action1.OP06-118": {
+  "en": "(1) Set character Active",
+  "th": "(1) ตั้งตัวละครเป็นแอคทีฟ"
+ },
+ "Action2.OP06-118": {
+  "en": "(2) Set character Active",
+  "th": "(2) ตั้งตัวละครเป็นแอคทีฟ"
+ },
+ "ButtonChoiceType.BottomDeckSelfStage": {
+  "en": "Send own stage to bottom of deck",
+  "th": "ส่งสเตจของตัวเองไปใต้เด็ค"
+ },
+ "ButtonChoiceType.BottomDeckOppStage": {
+  "en": "Send opponent's stage to bottom of deck",
+  "th": "ส่งสเตจของฝ่ายตรงข้ามไปใต้เด็ค"
+ },
+ "Action.OP06-102": {
+  "en": "(Send a Cost 1 Stage to Deck Bottom): KO a Cost 2 or Less Character",
+  "th": "(ส่งสเตจคอสต์ 1 ไปใต้เด็ค): เคโอตัวละครคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Log.BottomDeckStageTarget": {
+  "en": "$1: Sent $2 Stage to Bottom of Deck",
+  "th": "$1: ส่งสเตจ $2 ไปใต้เด็ค"
+ },
+ "Action.OP06-117": {
+  "en": "(Rest Self and an Enel): KO All Opponent Cost 2 or Less Characters",
+  "th": "(เรสต์ตัวเองและ Enel): เคโอตัวละครฝ่ายตรงข้ามคอสต์ 2 หรือต่ำกว่าทั้งหมด"
+ },
+ "Action.OP06-111": {
+  "en": "(Send a Cost 1 Stage to Deck Bottom): Rest a Cost 4 or Less Character",
+  "th": "(ส่งสเตจคอสต์ 1 ไปใต้เด็ค): เรสต์ตัวละครคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP06-116": {
+  "en": "KO a Cost 5 or Lower Character, or Deal 1 Damage and Draw 1 Life",
+  "th": "เคโอตัวละครคอสต์ 5 หรือต่ำกว่า หรือสร้างความเสียหาย 1 และจั่วไลฟ์ 1 ใบ"
+ },
+ "ButtonChoiceType.RejectKO": {
+  "en": "KO a Cost 5 or Less",
+  "th": "เคโอคอสต์ 5 หรือต่ำกว่า"
+ },
+ "ButtonChoiceType.RejectDamage": {
+  "en": "Deal 1 Damage and Draw 1 Life",
+  "th": "สร้างความเสียหาย 1 และจั่วไลฟ์ 1 ใบ"
+ },
+ "Action.OP06-080": {
+  "en": "(2) Play 4 cost {Thriller Bark Pirates} Character from trash",
+  "th": "(2) ลงตัวละคร {Thriller Bark Pirates} คอสต์ 4 จากแทรช"
+ },
+ "Log.LeaderHitAction": {
+  "en": "$1: Deals #1 damage",
+  "th": "$1: สร้างความเสียหาย #1"
+ },
+ "Log.TakeDamage": {
+  "en": "$1: Forced to take #1 damage",
+  "th": "$1: ถูกบังคับให้รับความเสียหาย #1"
+ },
+ "Log.RestoreSilence": {
+  "en": "$1 no longer nullified",
+  "th": "$1 ไม่ถูกลบล้างอีกต่อไป"
+ },
+ "Log.SilenceCard": {
+  "en": "$1: Nullify effects of $2",
+  "th": "$1: ลบล้างเอฟเฟกต์ของ $2"
+ },
+ "Log.SilenceCardToEnd": {
+  "en": "$1: Nullify effects of $2 until next turn end!",
+  "th": "$1: ลบล้างเอฟเฟกต์ของ $2 จนถึงจบเทิร์นหน้า!"
+ },
+ "Action.OP06-083": {
+  "en": "(KO a {Thriller Bark Pirates} Character): This character loses all abilities",
+  "th": "(เคโอตัวละคร {Thriller Bark Pirates}): ตัวละครนี้เสียความสามารถทั้งหมด"
+ },
+ "Status.Silenced": {
+  "en": " Nullify ",
+  "th": " ลบล้าง "
+ },
+ "Log.GrantCombatImmune": {
+  "en": "$1: $2 is immune to combat this turn!",
+  "th": "$1: $2 ป้องกันการต่อสู้ในเทิร์นนี้!"
+ },
+ "Guide.KOForCombat": {
+  "en": "Choose Allies to KO",
+  "th": "เลือกพวกเดียวกันที่จะเคโอ"
+ },
+ "Action.OP06-095": {
+  "en": "Buff Leader +1000, then +1000 for each {Thriller Bark Pirates} Cost 2 or Less Character KO'd",
+  "th": "ให้ลีดเดอร์ +1000 แล้ว +1000 ต่อตัวละคร {Thriller Bark Pirates} คอสต์ 2 หรือต่ำกว่าที่ถูกเคโอแต่ละใบ"
+ },
+ "ButtonChoiceType.BrookTrash": {
+  "en": "Send a Cost 4 or Less Character to the Trash",
+  "th": "ส่งตัวละครคอสต์ 4 หรือต่ำกว่าลงแทรช"
+ },
+ "ButtonChoiceType.BrookReturn": {
+  "en": "Have Opponent Send 3 Trash Cards to Deck Bottom",
+  "th": "ให้ฝ่ายตรงข้ามส่งการ์ดจากแทรช 3 ใบไปใต้เด็ค"
+ },
+ "Log.SendDeployToTrash": {
+  "en": "$1: Send $2 to Trash",
+  "th": "$1: ส่ง $2 ลงแทรช"
+ },
+ "ButtonChoiceType.PeronaTrash": {
+  "en": "Opponent Trashes 1 Card",
+  "th": "ฝ่ายตรงข้ามทิ้งการ์ด 1 ใบ"
+ },
+ "ButtonChoiceType.PeronaCost": {
+  "en": "Give Opponent -3 Cost",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -3"
+ },
+ "Action.OP06-077": {
+  "en": "Place an Opponent Character 5 Cost or Less on Deck Bottom",
+  "th": "วางตัวละครฝ่ายตรงข้ามคอสต์ 5 หรือต่ำกว่าไว้ใต้เด็ค"
+ },
+ "Action.OP06-078": {
+  "en": "Peek 5 and draw a card containing \"Germa\" other than GERMA 66",
+  "th": "ดู 5 ใบ และจั่วการ์ดที่มีคำว่า \"Germa\" ที่ไม่ใช่ GERMA 66"
+ },
+ "Action.OP06-079": {
+  "en": "(Trash 1, Rest): Peek 3 and draw a card containing \"Germa\"",
+  "th": "(ทิ้ง 1 ใบ เรสต์): ดู 3 ใบ และจั่วการ์ดที่มีคำว่า \"Germa\""
+ },
+ "Guide.DeployFromTrashActive": {
+  "en": "Select Card to Play Active from Trash",
+  "th": "เลือกการ์ดที่จะลงแบบแอคทีฟจากแทรช"
+ },
+ "Guide.DeployFromTrashRested": {
+  "en": "Select Card to Play Rested from Trash",
+  "th": "เลือกการ์ดที่จะลงแบบเรสต์จากแทรช"
+ },
+ "Action.OP06-097": {
+  "en": "Trash 1 Random Card from Opponent's Hand",
+  "th": "ทิ้งการ์ดสุ่ม 1 ใบจากมือฝ่ายตรงข้าม"
+ },
+ "Action.ST13-001": {
+  "en": "Add a Cost 3 or Higher Character with 7000+ Power to your Life Face Up: Give 1 Character +2000 until next turn",
+  "th": "เพิ่มตัวละครคอสต์ 3 ขึ้นไปที่มีพาวเวอร์ 7000+ เข้าไลฟ์ของคุณแบบหงายหน้า: ให้ตัวละคร 1 ใบ +2000 จนถึงเทิร์นหน้า"
+ },
+ "Guide.SendToLifeCost": {
+  "en": "Select Character to Send to Life",
+  "th": "เลือกตัวละครที่จะส่งเข้าไลฟ์"
+ },
+ "Log.ActionTrashSpecificLife": {
+  "en": "$1: Trash $2 from Life",
+  "th": "$1: ทิ้ง $2 จากไลฟ์"
+ },
+ "Action.ST13-002": {
+  "en": "Peek 5 and add a Cost 5 Character to top of your Life Face Up",
+  "th": "ดู 5 ใบ และเพิ่มตัวละครคอสต์ 5 ไว้บนสุดของไลฟ์แบบหงายหน้า"
+ },
+ "Log.AddLifeFromTopDeck": {
+  "en": "<b>Add $1 to Life from Deck</b>",
+  "th": "<b>เพิ่ม $1 เข้าไลฟ์จากเด็ค</b>"
+ },
+ "Log.ST13Luffy": {
+  "en": "Face-Up Life was sent to Deck Bottom instead of Hand",
+  "th": "ไลฟ์ที่หงายหน้าถูกส่งไปใต้เด็คแทนที่จะขึ้นมือ"
+ },
+ "Action.ST13-003": {
+  "en": "Trash 1 Card from Hand: If your life is at 0, add two 5 cost characters from Hand or Trash to your Life Face Up",
+  "th": "ทิ้งการ์ดจากมือ 1 ใบ: ถ้าไลฟ์ของคุณเป็น 0 เพิ่มตัวละครคอสต์ 5 สองใบจากมือหรือแทรชเข้าไลฟ์แบบหงายหน้า"
+ },
+ "Log.AddToLifeFromTrash": {
+  "en": "$1: Added card to top of Life from Trash",
+  "th": "$1: เพิ่มการ์ดจากแทรชไว้บนสุดของไลฟ์"
+ },
+ "Guide.AddToDeckFromLife": {
+  "en": "Select #1 cards to add to the Deck",
+  "th": "เลือกการ์ด #1 ใบที่จะเพิ่มเข้าเด็ค"
+ },
+ "Log.AddToDeckFromLife": {
+  "en": "$1: Added card to top of Deck from Life",
+  "th": "$1: เพิ่มการ์ดจากไลฟ์ไว้บนสุดของเด็ค"
+ },
+ "ButtonChoiceType.FinalizeLifeOrder": {
+  "en": "Finish Sorting Life",
+  "th": "เสร็จสิ้นการเรียงไลฟ์"
+ },
+ "Guide.TopDeckLife": {
+  "en": "Choose Order of Life Cards (Highlighted Cards are Face-Up)",
+  "th": "เลือกลำดับการ์ดไลฟ์ (การ์ดที่ไฮไลต์คือหงายหน้า)"
+ },
+ "Log.OrganizedLife": {
+  "en": "<b>Re-ordered Life</b>",
+  "th": "<b>จัดลำดับไลฟ์ใหม่</b>"
+ },
+ "Action.ST13-005": {
+  "en": "Trash Top or Bottom Life: Place a 5 cost Character on the Top of your Life",
+  "th": "ทิ้งไลฟ์บนสุดหรือล่างสุด: วางตัวละครคอสต์ 5 ไว้บนสุดของไลฟ์ของคุณ"
+ },
+ "Log.DeployFromLife": {
+  "en": "Deploy $1 from Life",
+  "th": "ลง $1 จากไลฟ์"
+ },
+ "Action.ST13-007": {
+  "en": "Trash Self: Reveal Top Life Card, if it is a 5 Cost Sabo, you may play it and grant Leader +2000 until next Turn",
+  "th": "ทิ้งตัวเอง: เปิดการ์ดไลฟ์บนสุด ถ้าเป็น Sabo คอสต์ 5 คุณลงได้และให้ลีดเดอร์ +2000 จนถึงเทิร์นหน้า"
+ },
+ "Log.FlipLife": {
+  "en": "$1: Flip Life $2 Face Down",
+  "th": "$1: คว่ำไลฟ์ $2"
+ },
+ "Log.FlipBotLife": {
+  "en": "$1: Flip Bottom Life $2 Face Down",
+  "th": "$1: คว่ำไลฟ์ล่างสุด $2"
+ },
+ "Action.ST13-010": {
+  "en": "Trash Self: Reveal Top Life Card, if it is a 5 Cost Ace, you may play it and grant Leader +2000 until next Turn",
+  "th": "ทิ้งตัวเอง: เปิดการ์ดไลฟ์บนสุด ถ้าเป็น Ace คอสต์ 5 คุณลงได้และให้ลีดเดอร์ +2000 จนถึงเทิร์นหน้า"
+ },
+ "Action.ST13-014": {
+  "en": "Trash Self: Reveal Top Life Card, if it is a 5 Cost Luffy, you may play it and grant Leader +2000 until next Turn",
+  "th": "ทิ้งตัวเอง: เปิดการ์ดไลฟ์บนสุด ถ้าเป็น Luffy คอสต์ 5 คุณลงได้และให้ลีดเดอร์ +2000 จนถึงเทิร์นหน้า"
+ },
+ "Action.ST13-015": {
+  "en": "Gain +2000 until next turn. If you're at 1 or more Life, Draw 1 and Trash Top Life",
+  "th": "ได้รับ +2000 จนถึงเทิร์นหน้า ถ้าคุณมีไลฟ์ 1 ขึ้นไป จั่ว 1 และทิ้งไลฟ์บนสุด"
+ },
+ "Action.ST13-019": {
+  "en": "Peek 5 and draw a Cost 5 or Less [Sabo], [Portgas D. Ace], or [Monkey D. Luffy]",
+  "th": "ดู 5 ใบ และจั่ว [Sabo], [Portgas D. Ace] หรือ [Monkey D. Luffy] คอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.P-062": {
+  "en": "Rest a 4 Cost or Lower Character, then gain +1000 Power and Take your Top Life",
+  "th": "เรสต์ตัวละครคอสต์ 4 หรือต่ำกว่า แล้วได้รับพาวเวอร์ +1000 และรับไลฟ์บนสุดของคุณ"
+ },
+ "Action.EB01-007": {
+  "en": "Attach 1 Rested Don to any Leader or Character",
+  "th": "ใส่ DON!! ที่เรสต์ 1 ใบให้ลีดเดอร์หรือตัวละครใบใดก็ได้"
+ },
+ "Action.EB01-011": {
+  "en": "(Rest) Place a character with original power 1000 or less on your Deck Bottom: Draw 1 Card",
+  "th": "(เรสต์) วางตัวละครที่มีพาวเวอร์ดั้งเดิม 1000 หรือน้อยกว่าไว้ใต้เด็คของคุณ: จั่ว 1 ใบ"
+ },
+ "Action.EB01-013": {
+  "en": "(Trash): Play a Cost 5 or Less {Land of Wano} character other than Kozuki Hiyori into play and Draw 1 Card",
+  "th": "(ทิ้ง): ลงตัวละคร {Land of Wano} คอสต์ 5 หรือต่ำกว่าที่ไม่ใช่ Kozuki Hiyori เข้าสนาม และจั่ว 1 ใบ"
+ },
+ "Action.EB01-016": {
+  "en": "(Rest): KO a Cost 1 or Lower Character",
+  "th": "(เรสต์): เคโอตัวละครคอสต์ 1 หรือต่ำกว่า"
+ },
+ "Action.EB01-020": {
+  "en": "Recall a Character: Play a 2 Cost or Less Character of a different Color",
+  "th": "คืนตัวละครขึ้นมือ: ลงตัวละครคอสต์ 2 หรือต่ำกว่าที่สีต่างกัน"
+ },
+ "Action.EB01-030": {
+  "en": "Place this and 1 other Hand Card on Deck Bottom: Draw 2 Cards",
+  "th": "วางใบนี้และการ์ดบนมืออีก 1 ใบไว้ใต้เด็ค: จั่ว 2 ใบ"
+ },
+ "Log.ChangeDefender": {
+  "en": "$1: Target of Attack changed to $2",
+  "th": "$1: เป้าหมายของการโจมตีเปลี่ยนเป็น $2"
+ },
+ "Action.EB01-039": {
+  "en": "(Don -1): KO a Cost 8 or Less Character",
+  "th": "(DON!! -1): เคโอตัวละครคอสต์ 8 หรือต่ำกว่า"
+ },
+ "Action.EB01-040": {
+  "en": "Reveal your Top Life: KO a 0 Cost Character",
+  "th": "เปิดไลฟ์บนสุดของคุณ: เคโอตัวละครคอสต์ 0"
+ },
+ "Action.EB01-042": {
+  "en": "(Trash): Play a Cost 3 or Less Dressrosa Character other than Scarlet Rested, then give an Opponent -2 Cost",
+  "th": "(ทิ้ง): ลงตัวละคร Dressrosa คอสต์ 3 หรือต่ำกว่าที่ไม่ใช่ Scarlet ในสถานะเรสต์ แล้วให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Action.EB01-044": {
+  "en": "(Rest): Grant a [Spandam] Character +3000",
+  "th": "(เรสต์): ให้ตัวละคร [Spandam] +3000"
+ },
+ "Action.EB01-048": {
+  "en": "(Rest): Give an opponent -4 Cost",
+  "th": "(เรสต์): ให้ฝ่ายตรงข้ามคอสต์ -4"
+ },
+ "Action.EB01-051": {
+  "en": "Trash 2 Cards from Deck: KO a Cost 5 or Less",
+  "th": "ทิ้งการ์ดจากเด็ค 2 ใบ: เคโอคอสต์ 5 หรือต่ำกว่า"
+ },
+ "ButtonChoiceType.ArrangeOpponentLife": {
+  "en": "Sort Opponent Life",
+  "th": "เรียงไลฟ์ของฝ่ายตรงข้าม"
+ },
+ "ButtonChoiceType.FlipAllLifeDown": {
+  "en": "Flip All Life Down",
+  "th": "คว่ำไลฟ์ทั้งหมด"
+ },
+ "Log.HideAllLife": {
+  "en": "$1: Flips all Life Down",
+  "th": "$1: คว่ำไลฟ์ทั้งหมด"
+ },
+ "Action.EB01-059": {
+  "en": "KO an Opponent's Character, then trash Life until your Life is 1",
+  "th": "เคโอตัวละครของฝ่ายตรงข้าม แล้วทิ้งไลฟ์จนไลฟ์ของคุณเหลือ 1"
+ },
+ "Log.TrashLifeTo": {
+  "en": "$1: Trash Life down to #1",
+  "th": "$1: ทิ้งไลฟ์จนเหลือ #1"
+ },
+ "Action.EB01-060": {
+  "en": "Play a 7 Cost or Less Enel from Hand or Trash, then Trash Life down to 1",
+  "th": "ลง Enel คอสต์ 7 หรือต่ำกว่าจากมือหรือแทรช แล้วทิ้งไลฟ์จนเหลือ 1"
+ },
+ "Msg.OPBountyDescription": {
+  "en": "Opens OPBounty external ranked application",
+  "th": "เปิดแอปจัดอันดับภายนอก OPBounty"
+ },
+ "Guide.PendingTriggers": {
+  "en": "Trigger effects must be resolved first!",
+  "th": "ต้องจัดการเอฟเฟกต์ทริกเกอร์ก่อน!"
+ },
+ "Log.SaveStateMade": {
+  "en": "<b>Created a save state of the game!</b>",
+  "th": "<b>สร้างจุดบันทึกของเกมแล้ว!</b>"
+ },
+ "Log.CombatLog": {
+  "en": "<b>Downloaded the Combat Log!</b>",
+  "th": "<b>ดาวน์โหลดบันทึกการต่อสู้แล้ว!</b>"
+ },
+ "Msg.RulesetNone": {
+  "en": "Using Ruleset:<br>None",
+  "th": "ใช้กติกา:<br>ไม่มี"
+ },
+ "Msg.RulesetWestern": {
+  "en": "Using Ruleset:<br>Standard",
+  "th": "ใช้กติกา:<br>มาตรฐาน"
+ },
+ "Msg.RulesetEastern": {
+  "en": "Using Ruleset:<br>Extra",
+  "th": "ใช้กติกา:<br>Extra"
+ },
+ "Msg.RulesetUnlimited": {
+  "en": "Using Ruleset:<br>Unlimited",
+  "th": "ใช้กติกา:<br>ไม่จำกัด"
+ },
+ "Msg.RulesetNationals": {
+  "en": "Using Ruleset:<br>OP17",
+  "th": "ใช้กติกา:<br>OP17"
+ },
+ "Msg.RulesetKorean": {
+  "en": "Using Ruleset:<br>Korean",
+  "th": "ใช้กติกา:<br>เกาหลี"
+ },
+ "Msg.RulesetAllBlue": {
+  "en": "Using Ruleset:<br>AllBlue",
+  "th": "ใช้กติกา:<br>AllBlue"
+ },
+ "Action.P-076": {
+  "en": "Trash 1 Navy Card: Give an opponent -1 Cost",
+  "th": "ทิ้งการ์ด Navy 1 ใบ: ให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "Action.OP07-001": {
+  "en": "Attach Up to 2 Attached Don to a Character",
+  "th": "ย้าย DON!! ที่ใส่อยู่ไม่เกิน 2 ใบไปให้ตัวละคร"
+ },
+ "Guide.SelectAttachedDon": {
+  "en": "Select Up To #1 Attached Don",
+  "th": "เลือก DON!! ที่ใส่อยู่ไม่เกิน #1 ใบ"
+ },
+ "ButtonChoiceType.SelectAttachedDon": {
+  "en": "Choose #1 Attached Don",
+  "th": "เลือก DON!! ที่ใส่อยู่ #1 ใบ"
+ },
+ "ButtonChoiceType.SelectOptionalReturnDon": {
+  "en": "Return #1 Optional Don",
+  "th": "คืน DON!! #1 ใบ (ไม่บังคับ)"
+ },
+ "ButtonChoiceType.SelectTargets": {
+  "en": "Choose #1 Targets",
+  "th": "เลือกเป้าหมาย #1 ใบ"
+ },
+ "ButtonChoiceType.SelectFriendlyTargets": {
+  "en": "Choose #1 Friendly Targets",
+  "th": "เลือกเป้าหมายฝ่ายเรา #1 ใบ"
+ },
+ "ButtonChoiceType.SelectEnemyCharacters": {
+  "en": "Choose #1 Enemy Characters",
+  "th": "เลือกตัวละครฝ่ายตรงข้าม #1 ใบ"
+ },
+ "ButtonChoiceType.SelectEnemyLeaders": {
+  "en": "Choose #1 Enemy Leaders",
+  "th": "เลือกลีดเดอร์ฝ่ายตรงข้าม #1 ใบ"
+ },
+ "ButtonChoiceType.SelectEnemyStage": {
+  "en": "Choose #1 Enemy Stage",
+  "th": "เลือกสเตจฝ่ายตรงข้าม #1 ใบ"
+ },
+ "ButtonChoiceType.SelectEnemyTargets": {
+  "en": "Choose #1 Enemy Targets",
+  "th": "เลือกเป้าหมายฝ่ายตรงข้าม #1 ใบ"
+ },
+ "Log.XferAttachedDon": {
+  "en": "$1: Transfer #1 Attached Don to $2",
+  "th": "$1: ย้าย DON!! ที่ใส่อยู่ #1 ใบไปให้ $2"
+ },
+ "Action.OP07-003": {
+  "en": "(Trash Self): Grant 2 Opponent Characters -2000 Power",
+  "th": "(ทิ้งตัวเอง): ให้ตัวละครฝ่ายตรงข้าม 2 ใบ -2000 พาวเวอร์"
+ },
+ "ButtonChoiceType.SelectTrashTargets": {
+  "en": "Choose #1 Cards to Trash",
+  "th": "เลือกการ์ด #1 ใบที่จะทิ้ง"
+ },
+ "Guide.SelectTargets": {
+  "en": "Select #1 More Targets",
+  "th": "เลือกเป้าหมายเพิ่มอีก #1 ใบ"
+ },
+ "Guide.SelectFriendlyTargets": {
+  "en": "Select #1 More Friendly Targets",
+  "th": "เลือกเป้าหมายฝ่ายเราเพิ่มอีก #1 ใบ"
+ },
+ "Guide.SelectEnemyTargets": {
+  "en": "Select #1 More Enemy Targets",
+  "th": "เลือกเป้าหมายฝ่ายตรงข้ามเพิ่มอีก #1 ใบ"
+ },
+ "Guide.SelectTrashTargets": {
+  "en": "Select #1 Cards to Trash",
+  "th": "เลือกการ์ด #1 ใบที่จะทิ้ง"
+ },
+ "Log.CombatBuff": {
+  "en": "$1: Buff $2 #1 for the Combat",
+  "th": "$1: เพิ่มพาวเวอร์ให้ $2 #1 ในการต่อสู้"
+ },
+ "Log.ActionTrashCard": {
+  "en": "$1: Trash $2",
+  "th": "$1: ทิ้ง $2"
+ },
+ "Action.OP07-016": {
+  "en": "Give a [Revolutionary Army] character +2000, then give an opponent -1000",
+  "th": "ให้ตัวละคร [Revolutionary Army] +2000 แล้วให้ฝ่ายตรงข้าม -1000"
+ },
+ "Action.OP07-017": {
+  "en": "KO a Power 3000 or Less Characters, and a Cost 1 or Less Stage",
+  "th": "เคโอตัวละครพาวเวอร์ 3000 หรือน้อยกว่า และสเตจคอสต์ 1 หรือต่ำกว่า"
+ },
+ "Status.Blocker": {
+  "en": " Blocker ",
+  "th": " บล็อกเกอร์ "
+ },
+ "Status.LoseBlocker": {
+  "en": " NoBlock ",
+  "th": " บล็อกไม่ได้ "
+ },
+ "Action.OP07-036": {
+  "en": "Grant an Ally +3000, then you may Rest a Cost 3 or Greater Character to Rest an Opponent Cost 5 or Less",
+  "th": "ให้พวกเดียวกัน +3000 แล้วคุณเรสต์ตัวละครคอสต์ 3 ขึ้นไปเพื่อเรสต์ตัวละครฝ่ายตรงข้ามคอสต์ 5 หรือต่ำกว่าได้"
+ },
+ "Action.OP07-037": {
+  "en": "Peek 5 and draw a [Supernova] card besides \"More Pizza!!!\"",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Supernova] ที่ไม่ใช่ \"More Pizza!!!\""
+ },
+ "Action.OP07-047": {
+  "en": "(Bounce): Your opponent sends 1 Hand card to their Deck Bottom if their Hand is 6 or More",
+  "th": "(คืนขึ้นมือ): ฝ่ายตรงข้ามส่งการ์ดบนมือ 1 ใบไปใต้เด็คถ้ามือของเขามี 6 ใบขึ้นไป"
+ },
+ "Log.ActionForce": {
+  "en": "Forcing opponent to resolve Card Action!",
+  "th": "บังคับให้ฝ่ายตรงข้ามจัดการความสามารถของการ์ด!"
+ },
+ "Action.OP07-048": {
+  "en": "(2): Check Top Deck, and Deploy it Rested if it is a Seven Warlords Cost 4 or Less Character",
+  "th": "(2): ดูการ์ดบนสุดของเด็ค และลงแบบเรสต์ถ้าเป็นตัวละคร Seven Warlords คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP07-57": {
+  "en": "Grant a [Seven Warlords] Leader or Character +2000 Power and Unblockable",
+  "th": "ให้ลีดเดอร์หรือตัวละคร [Seven Warlords] +2000 พาวเวอร์ และบล็อกไม่ได้"
+ },
+ "Action.OP07-058": {
+  "en": "(Trash 1): Return up to 1 [Kuja Pirates] or [Amazon Lily] Character to Your Hand",
+  "th": "(ทิ้ง 1 ใบ): คืนตัวละคร [Kuja Pirates] หรือ [Amazon Lily] ขึ้นมือไม่เกิน 1 ใบ"
+ },
+ "Action.OP07-060": {
+  "en": "Gain 1 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP07-071": {
+  "en": "Gain 1 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP07-073": {
+  "en": "(Don -3): If opponent has 3 or More Characters, Set This Active",
+  "th": "(DON!! -3): ถ้าฝ่ายตรงข้ามมีตัวละคร 3 ใบขึ้นไป ตั้งใบนี้เป็นแอคทีฟ"
+ },
+ "Action.OP07-074": {
+  "en": "(Trash): Add 1 Rested Don",
+  "th": "(ทิ้ง): เพิ่ม DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Choice.0RestedDon": {
+  "en": "Gain 0 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 0 ใบ"
+ },
+ "Choice.1RestedDon": {
+  "en": "Gain 1 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Choice.2RestedDon": {
+  "en": "Gain 2 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 2 ใบ"
+ },
+ "Choice.3RestedDon": {
+  "en": "Gain 3 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 3 ใบ"
+ },
+ "Choice.MinusDon": {
+  "en": "Start Returning Don",
+  "th": "เริ่มคืน DON!!"
+ },
+ "Action.OP07-077": {
+  "en": "Peek 5 and Draw an [Animal Kingdom Pirates] or [Big Mom Pirates] card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Animal Kingdom Pirates] หรือ [Big Mom Pirates]"
+ },
+ "Choice.0ActiveDon": {
+  "en": "Gain 0 Active Don",
+  "th": "รับ DON!! แอคทีฟ 0 ใบ"
+ },
+ "Choice.1ActiveDon": {
+  "en": "Gain 1 Active Don",
+  "th": "รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Choice.2ActiveDon": {
+  "en": "Gain 2 Active Don",
+  "th": "รับ DON!! แอคทีฟ 2 ใบ"
+ },
+ "Choice.MaxDon": {
+  "en": "Gain Max Don",
+  "th": "รับ DON!! สูงสุด"
+ },
+ "Action.OP07-078": {
+  "en": "Activate one \"Foxy\"",
+  "th": "ใช้งาน \"Foxy\" หนึ่งใบ"
+ },
+ "Action.OP07-083": {
+  "en": "Return 4 [Thriller Back Pirates] from Trash to Deck Bottom for Banish and +1000 Power",
+  "th": "คืน [Thriller Back Pirates] 4 ใบจากแทรชไปใต้เด็คเพื่อรับแบนิชและ +1000 พาวเวอร์"
+ },
+ "Log.RevealedOppHand": {
+  "en": "<b>Revealed Opponent's Hand!</b>",
+  "th": "<b>เปิดมือฝ่ายตรงข้ามให้ดู!</b>"
+ },
+ "ButtonChoiceType.ConfirmInfiniteTargets": {
+  "en": "Confirm #1 Targets",
+  "th": "ยืนยันเป้าหมาย #1 ใบ"
+ },
+ "Action.OP07-096": {
+  "en": "Draw a Card, then give an Opponent -3 Cost if you have 10 or more in Trash",
+  "th": "จั่วหนึ่งใบ แล้วให้ฝ่ายตรงข้ามคอสต์ -3 ถ้าแทรชของคุณมี 10 ใบขึ้นไป"
+ },
+ "Action.OP07-097": {
+  "en": "(1): Place a Cost 5 or Less Egghead card into Play or into Life",
+  "th": "(1): วางการ์ด Egghead คอสต์ 5 หรือต่ำกว่าลงสนามหรือเข้าไลฟ์"
+ },
+ "Choice.Deploy": {
+  "en": "Deploy a Card",
+  "th": "ลงการ์ดหนึ่งใบ"
+ },
+ "Action.OP07-109": {
+  "en": "(Trash): If your Life is 2 or Less, KO a Cost 4 or Less and Draw 1 Card",
+  "th": "(ทิ้ง): ถ้าไลฟ์ของคุณเหลือ 2 หรือน้อยกว่า เคโอคอสต์ 4 หรือต่ำกว่าและจั่ว 1 ใบ"
+ },
+ "Action.OP07-114": {
+  "en": "Peek 5 and Draw an [Egghead] Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Egghead]"
+ },
+ "Action.OP07-116": {
+  "en": "Grant an Ally +1000, then if Opponent Life is 2 or Less, Rest a Cost 4 or Less",
+  "th": "ให้พวกเดียวกัน +1000 แล้วถ้าไลฟ์ฝ่ายตรงข้ามเหลือ 2 หรือน้อยกว่า เรสต์คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Choice.Gain0Life": {
+  "en": "Gain 0 Life",
+  "th": "รับไลฟ์ 0 ใบ"
+ },
+ "Action.P-068": {
+  "en": "(Trash): Peek 5 and place on Top or Bottom of Deck",
+  "th": "(ทิ้ง): ดู 5 ใบและวางไว้บนสุดหรือใต้เด็ค"
+ },
+ "Action.P-069": {
+  "en": "Grant a Leader or Character 1 Rested Don",
+  "th": "ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.P-073": {
+  "en": "Take Top or Bottom Life: This gets +1000",
+  "th": "รับไลฟ์บนสุดหรือล่างสุด: ใบนี้ได้ +1000"
+ },
+ "Action.P-074": {
+  "en": "(Bounce): Peek 5 and place on Top or Bottom of Deck",
+  "th": "(คืนขึ้นมือ): ดู 5 ใบและวางไว้บนสุดหรือใต้เด็ค"
+ },
+ "Status.PlusCostChange": {
+  "en": " Cost +#1 ",
+  "th": " คอสต์ +#1 "
+ },
+ "Action.ST14-008": {
+  "en": "(Rest): Grant a Black [Straw Hat Pirates] +2 Cost, then Draw 1 and Trash 1 if you have a Cost 8 or Higher",
+  "th": "(เรสต์): ให้ [Straw Hat Pirates] สีดำ +2 คอสต์ แล้วจั่ว 1 ทิ้ง 1 ถ้าคุณมีคอสต์ 8 ขึ้นไป"
+ },
+ "Log.ChangeCostOppEnd": {
+  "en": "$1: $2 Cost #1 until Opponent's Turn End",
+  "th": "$1: $2 คอสต์ #1 จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.OP08-001": {
+  "en": "Give a Rested Don to 3 [Animal] or [Drum Kingdom] Characters",
+  "th": "ให้ DON!! ที่เรสต์แก่ตัวละคร [Animal] หรือ [Drum Kingdom] 3 ใบ"
+ },
+ "Action.OP08-002": {
+  "en": "Draw a Card, Place a Card on Top or Bottom Deck, then give an Opponent Character -2000",
+  "th": "จั่วหนึ่งใบ วางการ์ดหนึ่งใบไว้บนสุดหรือใต้เด็ค แล้วให้ตัวละครฝ่ายตรงข้าม -2000"
+ },
+ "Choice.CardToBottom": {
+  "en": "Place on Deck Bottom",
+  "th": "วางไว้ใต้เด็ค"
+ },
+ "Choice.CardToTop": {
+  "en": "Place on Deck Top",
+  "th": "วางไว้บนเด็ค"
+ },
+ "Action.OP08-021": {
+  "en": "Rest an Opponent Cost 5 or Less",
+  "th": "เรสต์ฝ่ายตรงข้ามคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP08-057": {
+  "en": "(Don -2): Draw 1 Card or Give an Opponent -2 Cost",
+  "th": "(DON!! -2): จั่ว 1 ใบ หรือให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Choice.Minus2Cost": {
+  "en": "Give Opponent -2 Cost",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Log.FlipLifeUp": {
+  "en": "$1: Flip #1 Life Face Up",
+  "th": "$1: หงายไลฟ์ #1 ใบ"
+ },
+ "Log.FlipBotLifeUp": {
+  "en": "$1: Flip #1 Bottom Life Face Up",
+  "th": "$1: หงายไลฟ์ล่างสุด #1 ใบ"
+ },
+ "Log.BuffToOppEnd": {
+  "en": "$1: Grant $2 #1 until opponent's next turn end",
+  "th": "$1: ให้ $2 #1 จนถึงจบเทิร์นหน้าของฝ่ายตรงข้าม"
+ },
+ "Action.OP06-098": {
+  "en": "(1)(Rest): Play a Cost 2 or Lower [Thriller Bark Pirates] Character from Trash Rested",
+  "th": "(1)(เรสต์): ลงตัวละคร [Thriller Bark Pirates] คอสต์ 2 หรือต่ำกว่าจากแทรชในสถานะเรสต์"
+ },
+ "Action.ST14-011": {
+  "en": "(Rest): Give a Black [Straw Hat Crew] Character +2 Cost until Opponent's Turn End",
+  "th": "(เรสต์): ให้ตัวละคร [Straw Hat Crew] สีดำ +2 คอสต์ จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.OP08-103": {
+  "en": "Take your Top Life: Give a Character +1000 until Opponent's Turn End",
+  "th": "รับไลฟ์บนสุดของคุณ: ให้ตัวละคร +1000 จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.ST14-015": {
+  "en": "Grant an Ally +3000, then if you have a Cost 8+, KO a Cost 2 or Less",
+  "th": "ให้พวกเดียวกัน +3000 แล้วถ้าคุณมีคอสต์ 8+ เคโอคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.ST14-004": {
+  "en": "Grant a Black [Straw Hat Crew] +2 Cost until Opponent's Turn End",
+  "th": "ให้ [Straw Hat Crew] สีดำ +2 คอสต์ จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.OP08-084": {
+  "en": "(Rest): Draw 1, Trash 1, then KO a Cost 3 or Lower",
+  "th": "(เรสต์): จั่ว 1 ทิ้ง 1 แล้วเคโอคอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.OP08-107": {
+  "en": "(Rest): Grant a [Charlotte Pudding] +2000",
+  "th": "(เรสต์): ให้ [Charlotte Pudding] +2000"
+ },
+ "Choice.Rest1Don": {
+  "en": "Rest up to 1 Don",
+  "th": "เรสต์ DON!! ไม่เกิน 1 ใบ"
+ },
+ "Choice.KORested6Cost": {
+  "en": "KO a Rested 6 Cost or Less",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.ST14-016": {
+  "en": "Draw 1 Card, then give a Character +3 Cost until Opponent's Turn End",
+  "th": "จั่ว 1 ใบ แล้วให้ตัวละคร +3 คอสต์ จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Guide.WrongStackOrder": {
+  "en": "Other Pending Actions were activated before this, and must be resolved First",
+  "th": "มีความสามารถอื่นที่รออยู่ถูกใช้ก่อนอันนี้ และต้องจัดการก่อน"
+ },
+ "Action.OP08-036": {
+  "en": "All of your Opponent's 7 Cost or Less Rested Characters do not Activate during next Refresh",
+  "th": "ตัวละครที่เรสต์อยู่คอสต์ 7 หรือต่ำกว่าทั้งหมดของฝ่ายตรงข้ามจะไม่แอคทีฟในรีเฟรชหน้า"
+ },
+ "Choice.NoMill": {
+  "en": "Don't Trash Cards from Deck",
+  "th": "ไม่ทิ้งการ์ดจากเด็ค"
+ },
+ "Choice.Trash1Life": {
+  "en": "Trash 1 Life",
+  "th": "ทิ้งไลฟ์ 1 ใบ"
+ },
+ "Choice.Trash0Life": {
+  "en": "Trash 0 Life",
+  "th": "ทิ้งไลฟ์ 0 ใบ"
+ },
+ "Log.EqDonEndTurn": {
+  "en": "Must return Don to match opponent's Don Count at End of Turn!",
+  "th": "ต้องคืน DON!! ให้เท่ากับจำนวน DON!! ของฝ่ายตรงข้ามตอนจบเทิร์น!"
+ },
+ "Action.OP08-074": {
+  "en": "Gain 5 Rested Don, then Return Don at the End of Turn to match Opponent's Don Count",
+  "th": "รับ DON!! แบบเรสต์ 5 ใบ แล้วคืน DON!! ตอนจบเทิร์นให้เท่ากับจำนวน DON!! ของฝ่ายตรงข้าม"
+ },
+ "Status.Confusion": {
+  "en": " Tax #1 ",
+  "th": " ภาษี #1 "
+ },
+ "Log.GrantConfusion": {
+  "en": "$1: $2 must Trash #1 Cards in order to Attack next turn!",
+  "th": "$1: $2 ต้องทิ้งการ์ด #1 ใบเพื่อโจมตีในเทิร์นหน้า!"
+ },
+ "Guide.AttackConfusion": {
+  "en": "Select #1 Cards to Trash Before Attacking",
+  "th": "เลือกการ์ด #1 ใบที่จะทิ้งก่อนโจมตี"
+ },
+ "Action.OP08-076": {
+  "en": "Gain 1 Active Don, then Gain 1 Active Don if there is an Opponent 6000 Power or More Character in Play",
+  "th": "รับ DON!! แอคทีฟ 1 ใบ แล้วรับ DON!! แอคทีฟอีก 1 ใบถ้ามีตัวละครฝ่ายตรงข้ามพาวเวอร์ 6000 ขึ้นไปในสนาม"
+ },
+ "Action.OP08-039": {
+  "en": "(Rest): Activate 1 Rested Don",
+  "th": "(เรสต์): ทำให้ DON!! ที่เรสต์ 1 ใบแอคทีฟ"
+ },
+ "Action.OP08-008": {
+  "en": "Draw your Top Life card, this character gains Rush",
+  "th": "จั่วการ์ดไลฟ์บนสุดของคุณ ตัวละครนี้ได้รับรัช"
+ },
+ "Action.OP08-010": {
+  "en": "Give an \"Animal\" character other than this +1000",
+  "th": "ให้ตัวละคร \"Animal\" ที่ไม่ใช่ใบนี้ +1000"
+ },
+ "Action.OP08-016": {
+  "en": "(Rest): Grant all Tony Tony Chopper characters +2000",
+  "th": "(เรสต์): ให้ตัวละคร Tony Tony Chopper ทั้งหมด +2000"
+ },
+ "Action.OP08-018": {
+  "en": "Grant 3 Characters +1000, then Grant Opponent Character -2000",
+  "th": "ให้ตัวละคร 3 ใบ +1000 แล้วให้ตัวละครฝ่ายตรงข้าม -2000"
+ },
+ "Action.OP08-019": {
+  "en": "Give an Opponent Character -3000, then Grant Character +3000",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -3000 แล้วให้ตัวละคร +3000"
+ },
+ "Action.OP08-032": {
+  "en": "(Rest): Set 1 Don Active",
+  "th": "(เรสต์): ตั้ง DON!! 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP08-037": {
+  "en": "Rest 1 Mink: Rest 1 Opponent Character",
+  "th": "เรสต์ Mink 1 ใบ: เรสต์ตัวละครฝ่ายตรงข้าม 1 ใบ"
+ },
+ "Action.OP08-038": {
+  "en": "Rest 2 Characters: Your characters are immune to KO until end of Opponent's next Turn",
+  "th": "เรสต์ตัวละคร 2 ใบ: ตัวละครของคุณไม่ถูกเคโอจนถึงจบเทิร์นหน้าของฝ่ายตรงข้าม"
+ },
+ "Action.OP08-041": {
+  "en": "(Bounce Self): Send a Cost 1 or Less Character to Owner's Deck Bottom",
+  "th": "(คืนตัวเองขึ้นมือ): ส่งตัวละครคอสต์ 1 หรือต่ำกว่าไปใต้เด็คของเจ้าของ"
+ },
+ "Action.OP08-044": {
+  "en": "Reveal 2 cards including {Whitebeard Pirates}: Gain +2000",
+  "th": "เปิดการ์ด 2 ใบรวม {Whitebeard Pirates}: ได้รับ +2000"
+ },
+ "Action.OP08-053": {
+  "en": "Peek 3, draw a card including {Whitebeard Pirates} or a [Monkey D. Luffy], then place the rest on Top or Bottom of Deck",
+  "th": "ดู 3 ใบ จั่วการ์ดที่มี {Whitebeard Pirates} หรือ [Monkey D. Luffy] แล้ววางที่เหลือไว้บนสุดหรือใต้เด็ค"
+ },
+ "Action.OP08-055": {
+  "en": "Reveal 2 Cards including {Whitebeard Pirates}: Send a 6 Cost Character to Owner's Deck Bottom",
+  "th": "เปิดการ์ด 2 ใบรวม {Whitebeard Pirates}: ส่งตัวละครคอสต์ 6 ไปใต้เด็คของเจ้าของ"
+ },
+ "Action.OP08-059": {
+  "en": "(Trash): Play a Cost 7 or Less [King] from your Hand",
+  "th": "(ทิ้ง): ลง [King] คอสต์ 7 หรือต่ำกว่าจากมือของคุณ"
+ },
+ "Action.OP08-062": {
+  "en": "(Trash): Play a [Charlotte Katakuri] with Cost 3+ and Cost Less than or equal to Opponent's Don Count from your Hand",
+  "th": "(ทิ้ง): ลง [Charlotte Katakuri] ที่คอสต์ 3+ และคอสต์ไม่เกินจำนวน DON!! ของฝ่ายตรงข้ามจากมือของคุณ"
+ },
+ "Action.OP08-064": {
+  "en": "(Don -1): Play one [Cracker Soldier] from Hand",
+  "th": "(DON!! -1): ลง [Cracker Soldier] หนึ่งใบจากมือ"
+ },
+ "Action.OP08-075": {
+  "en": "(Don -1): Rest a Cost 2 Or Less, then flip Life face-down",
+  "th": "(DON!! -1): เรสต์คอสต์ 2 หรือต่ำกว่า แล้วคว่ำไลฟ์"
+ },
+ "Action.OP08-077": {
+  "en": "(Don -2): KO up to 2 Opponent Cost 6 Or Less Characters",
+  "th": "(DON!! -2): เคโอตัวละครฝ่ายตรงข้ามคอสต์ 6 หรือต่ำกว่าไม่เกิน 2 ใบ"
+ },
+ "Action.OP08-079": {
+  "en": "(Trash 1): Send an Opponent's 7 Cost or Lower Character to the Trash, then they Trash 1 Card",
+  "th": "(ทิ้ง 1 ใบ): ส่งตัวละครฝ่ายตรงข้ามคอสต์ 7 หรือต่ำกว่าลงแทรช แล้วเขาทิ้งการ์ด 1 ใบ"
+ },
+ "Action.OP08-082": {
+  "en": "(Rest)(Rest 1 Don): Give an Opponent -2 Cost",
+  "th": "(เรสต์)(เรสต์ DON!! 1 ใบ): ให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Action.OP08-087": {
+  "en": "Give an Opponent -1 Cost",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "Action.OP08-094": {
+  "en": "Return 3 Trash cards to Deck Bottom: KO a Cost 2 Or Less Opponent",
+  "th": "คืนการ์ดจากแทรช 3 ใบไปใต้เด็ค: เคโอฝ่ายตรงข้ามคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.OP08-095": {
+  "en": "Give a Character +2000 until Opponent's Turn End",
+  "th": "ให้ตัวละคร +2000 จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.OP08-097": {
+  "en": "Give an Opponent -2 Cost, then KO a Cost 0",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -2 แล้วเคโอคอสต์ 0"
+ },
+ "Action.OP08-101": {
+  "en": "Trash top Life Card: Add 1 Card to Life at the End of the Turn",
+  "th": "ทิ้งการ์ดไลฟ์บนสุด: เพิ่มการ์ด 1 ใบเข้าไลฟ์ตอนจบเทิร์น"
+ },
+ "Log.HealEndOfTurn": {
+  "en": "Will Heal from Deck at End of Turn!",
+  "th": "จะฟื้นไลฟ์จากเด็คตอนจบเทิร์น!"
+ },
+ "Log.HealEndOfTurnCount": {
+  "en": "Healed #1 at End of Turn!",
+  "th": "ฟื้นไลฟ์ #1 ตอนจบเทิร์น!"
+ },
+ "Action.OP08-117": {
+  "en": "(Take Top or Bottom Life): KO a Cost 7 Or Less",
+  "th": "(รับไลฟ์บนสุดหรือล่างสุด): เคโอคอสต์ 7 หรือต่ำกว่า"
+ },
+ "Action.ST19-003": {
+  "en": "Send a Cost 0 Opponent to the Trash",
+  "th": "ส่งฝ่ายตรงข้ามคอสต์ 0 ลงแทรช"
+ },
+ "Log.Cancel": {
+  "en": "Match cancelled!",
+  "th": "ยกเลิกแมตช์แล้ว!"
+ },
+ "Action.ST15-002": {
+  "en": "(Rest): KO an opponent with 5000 or less Power",
+  "th": "(เรสต์): เคโอฝ่ายตรงข้ามที่มีพาวเวอร์ 5000 หรือน้อยกว่า"
+ },
+ "Action.ST16-001": {
+  "en": "Trash 1 FILM Card: Give Leader or Character 1 Rested Don",
+  "th": "ทิ้งการ์ด FILM 1 ใบ: ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.ST17-005": {
+  "en": "Send 1 Card from Hand to Deck Top: Attach up to 2 Rested Don to a Leader or Character",
+  "th": "ส่งการ์ดบนมือ 1 ใบไปบนสุดของเด็ค: ใส่ DON!! ที่เรสต์ไม่เกิน 2 ใบให้ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.ST19-004": {
+  "en": "Place a Trash Card to Deck Bottom: Give 1 Leader or Character 1 Rested Don",
+  "th": "วางการ์ดจากแทรชไว้ใต้เด็ค: ให้ลีดเดอร์หรือตัวละคร 1 ใบรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.ST19-005": {
+  "en": "Place a Trash Card to Deck Bottom: Give 1 Character -1 Cost",
+  "th": "วางการ์ดจากแทรชไว้ใต้เด็ค: ให้ตัวละคร 1 ใบคอสต์ -1"
+ },
+ "Action.ST20-001": {
+  "en": "Turn your Top Life Face Up: Give 1 Leader or Character 1 Rested Don",
+  "th": "หงายไลฟ์บนสุดของคุณ: ให้ลีดเดอร์หรือตัวละคร 1 ใบรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Choice.Trash2": {
+  "en": "Trash 2 Cards",
+  "th": "ทิ้งการ์ด 2 ใบ"
+ },
+ "Log.Timeout": {
+  "en": "The game ended due to a turn timeout!",
+  "th": "เกมจบเพราะหมดเวลาเทิร์น!"
+ },
+ "Action.PRB01-001": {
+  "en": "Grant an 8 Cost or Lower without \"OnPlay\" effects Rush",
+  "th": "ให้ตัวละครคอสต์ 8 หรือต่ำกว่าที่ไม่มีเอฟเฟกต์ \"OnPlay\" ได้รับรัช"
+ },
+ "Action.OP09-008": {
+  "en": "(Send to Bottom of Deck): Grant Opponent Character -3000",
+  "th": "(ส่งไปใต้เด็ค): ให้ตัวละครฝ่ายตรงข้าม -3000"
+ },
+ "Action.OP09-020": {
+  "en": "Peek 5, Draw a [Red Hair Pirates] Card, and place the rest on Deck Bottom",
+  "th": "ดู 5 ใบ จั่วการ์ด [Red Hair Pirates] และวางที่เหลือไว้ใต้เด็ค"
+ },
+ "Action.OP09-019": {
+  "en": "Give an Opponent Character -3000, then if there is an Opponent Character with 5000 or More, Draw 1 Card",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -3000 แล้วถ้ามีตัวละครฝ่ายตรงข้ามพาวเวอร์ 5000 ขึ้นไป จั่ว 1 ใบ"
+ },
+ "Action.OP09-021": {
+  "en": "(Rest): Give a Character -1000",
+  "th": "(เรสต์): ให้ตัวละคร -1000"
+ },
+ "Action.OP09-022": {
+  "en": "(3): Gain 1 Rested Don, then play a Cost 5 or Less [Odyssey] Character from Hand",
+  "th": "(3): รับ DON!! แบบเรสต์ 1 ใบ แล้วลงตัวละคร [Odyssey] คอสต์ 5 หรือต่ำกว่าจากมือ"
+ },
+ "Log.EffectImmune": {
+  "en": "$1: $2 is Immune To Effects Until Next Turn!",
+  "th": "$1: $2 ไม่ได้รับผลจากเอฟเฟกต์จนถึงเทิร์นหน้า!"
+ },
+ "Action.OP09-040": {
+  "en": "KO a Cost 4 or Less",
+  "th": "เคโอคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP09-042": {
+  "en": "(5) Trash 1 Card: Play a [Cross Guild] Character from your Hand",
+  "th": "(5) ทิ้งการ์ด 1 ใบ: ลงตัวละคร [Cross Guild] จากมือของคุณ"
+ },
+ "Action.OP09-058": {
+  "en": "Force Opponent to Return a Cost 6 or Less",
+  "th": "บังคับให้ฝ่ายตรงข้ามคืนตัวละครคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.OP09-077": {
+  "en": "(Don -2): KO a 6000 or Less",
+  "th": "(DON!! -2): เคโอพาวเวอร์ 6000 หรือน้อยกว่า"
+ },
+ "Status.NoOnPlayToTurnEnd": {
+  "en": " BlackHole ",
+  "th": " หลุมดำ "
+ },
+ "Log.NoOnPlays": {
+  "en": "$1: Opponent can't activate On Play abilities next turn!",
+  "th": "$1: ฝ่ายตรงข้ามใช้ความสามารถ On Play ไม่ได้ในเทิร์นหน้า!"
+ },
+ "Action.OP09-081": {
+  "en": "(Trash 1): Your opponent can't use On Play abilities next turn",
+  "th": "(ทิ้ง 1 ใบ): ฝ่ายตรงข้ามใช้ความสามารถ On Play ไม่ได้ในเทิร์นหน้า"
+ },
+ "Action.OP09-090": {
+  "en": "(Rest): KO a Cost 1 or Lower",
+  "th": "(เรสต์): เคโอคอสต์ 1 หรือต่ำกว่า"
+ },
+ "Action.OP09-092": {
+  "en": "(Rest): Draw 2 and Trash 1 if you have 3 less cards than your Opponent",
+  "th": "(เรสต์): จั่ว 2 และทิ้ง 1 ถ้าคุณมีการ์ดน้อยกว่าฝ่ายตรงข้าม 3 ใบ"
+ },
+ "Action.OP09-093": {
+  "en": "Nullify Opponent Leader, then Nullify an Opponent Character and that Character Can't Attack",
+  "th": "ลบล้างลีดเดอร์ฝ่ายตรงข้าม แล้วลบล้างตัวละครฝ่ายตรงข้ามและตัวละครนั้นโจมตีไม่ได้"
+ },
+ "Action.OP09-096": {
+  "en": "Peek 3, then Draw 1 [Blackbeard Pirates] card other than \"This is MY AGE!!!!\", and Trash the Rest",
+  "th": "ดู 3 ใบ แล้วจั่วการ์ด [Blackbeard Pirates] 1 ใบที่ไม่ใช่ \"This is MY AGE!!!!\" และทิ้งที่เหลือ"
+ },
+ "Action.OP09-117": {
+  "en": "Peek 5, Reveal 2 cards other than \"Dereshi!!\" with Triggers and Draw them",
+  "th": "ดู 5 ใบ เปิดการ์ด 2 ใบที่มีทริกเกอร์ที่ไม่ใช่ \"Dereshi!!\" แล้วจั่วมา"
+ },
+ "Action.OP09-079": {
+  "en": "(Don -2): Rest a Cost 5 or Less, then Draw 1 Card",
+  "th": "(DON!! -2): เรสต์คอสต์ 5 หรือต่ำกว่า แล้วจั่ว 1 ใบ"
+ },
+ "Choice.5RestedDon": {
+  "en": "All 5 Rested Don (Shortcut)",
+  "th": "DON!! เรสต์ทั้ง 5 ใบ (ทางลัด)"
+ },
+ "Action.OP09-057": {
+  "en": "Peek 4 and Draw a [Cross Guild] Card",
+  "th": "ดู 4 ใบ และจั่วการ์ด [Cross Guild]"
+ },
+ "Log.WinEffect": {
+  "en": "$1: Wins the Game!",
+  "th": "$1: ชนะเกม!"
+ },
+ "Action.P-086": {
+  "en": "(Don -3) Send one of your Power 3000 or Higher cards to Deck Bottom: Play a Cost 4 or Less [Heart Pirates] Character from your Hand",
+  "th": "(DON!! -3) ส่งการ์ดของคุณที่มีพาวเวอร์ 3000 ขึ้นไปหนึ่งใบไปใต้เด็ค: ลงตัวละคร [Heart Pirates] คอสต์ 4 หรือต่ำกว่าจากมือ"
+ },
+ "Action.OP09-089": {
+  "en": "(Trash Self)(Trash 1 Card): Draw 1 Card, then give a Character -2 Cost",
+  "th": "(ทิ้งตัวเอง)(ทิ้งการ์ด 1 ใบ): จั่ว 1 ใบ แล้วให้ตัวละคร -2 คอสต์"
+ },
+ "Action.OP09-099": {
+  "en": "(Rest)(Trash 1 Card): Peek 3 and Draw a [Blackbeard Pirates] Card",
+  "th": "(เรสต์)(ทิ้งการ์ด 1 ใบ): ดู 3 ใบ และจั่วการ์ด [Blackbeard Pirates]"
+ },
+ "Choice.GainDouble": {
+  "en": "Gain Double Attack",
+  "th": "รับดับเบิลแอทแทค"
+ },
+ "Choice.GainBanish": {
+  "en": "Gain Banish",
+  "th": "รับแบนิช"
+ },
+ "Choice.GainBlocker": {
+  "en": "Gain Blocker",
+  "th": "รับบล็อกเกอร์"
+ },
+ "Action.P-081": {
+  "en": "(Return to Hand): Play a Cost 5 [Cross Guild] Character from Hand",
+  "th": "(คืนขึ้นมือ): ลงตัวละคร [Cross Guild] คอสต์ 5 จากมือ"
+ },
+ "Action.OP09-084": {
+  "en": "Gain Banish, Double Attack, or Blocker",
+  "th": "รับแบนิช ดับเบิลแอทแทค หรือบล็อกเกอร์"
+ },
+ "Action.OP09-018": {
+  "en": "KO up to 2 Characters with Combined Power 4000 or Less",
+  "th": "เคโอตัวละครไม่เกิน 2 ใบที่มีพาวเวอร์รวมกัน 4000 หรือน้อยกว่า"
+ },
+ "Action.OP09-115": {
+  "en": "KO a Character with a Trigger and Cost 3 or Less",
+  "th": "เคโอตัวละครที่มีทริกเกอร์และคอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.OP09-060": {
+  "en": "(Rest)(Send 2 Hand Cards to Deck Bottom): Draw 2 Cards",
+  "th": "(เรสต์)(ส่งการ์ดบนมือ 2 ใบไปใต้เด็ค): จั่ว 2 ใบ"
+ },
+ "Action.OP09-011": {
+  "en": "(Rest): Give an Opponent Character -2000 Power",
+  "th": "(เรสต์): ให้ตัวละครฝ่ายตรงข้าม -2000 พาวเวอร์"
+ },
+ "Action.OP09-083": {
+  "en": "(Rest): Give an Opponent Character -3 Cost",
+  "th": "(เรสต์): ให้ตัวละครฝ่ายตรงข้าม -3 คอสต์"
+ },
+ "Action.OP09-095": {
+  "en": "(Rest)(1): Peek Top 5 for a [Blackbeard Pirates] Card",
+  "th": "(เรสต์)(1): ดู 5 ใบบนสุดเพื่อหาการ์ด [Blackbeard Pirates]"
+ },
+ "Action.OP09-098": {
+  "en": "Silence 1 Opponent Character, then KO it if it's Cost 4 or Lower",
+  "th": "ลบล้างตัวละครฝ่ายตรงข้าม 1 ใบ แล้วเคโอถ้าคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP10-001": {
+  "en": "Set 2 Don Active if you have a Character with 7000 Power",
+  "th": "ตั้ง DON!! 2 ใบเป็นแอคทีฟถ้าคุณมีตัวละครพาวเวอร์ 7000"
+ },
+ "Action.OP10-022": {
+  "en": "Return 1 Character: Reveal Top Life, Play if it's a 5 Cost Character or Less",
+  "th": "คืนตัวละคร 1 ใบขึ้นมือ: เปิดไลฟ์บนสุด ลงถ้าเป็นตัวละครคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP10-070": {
+  "en": "Peek top 3 and Draw 1 [Donquixote Pirates] Card",
+  "th": "ดู 3 ใบบนสุด และจั่วการ์ด [Donquixote Pirates] 1 ใบ"
+ },
+ "Action.OP10-086": {
+  "en": "KO an Opponent with Original Cost 3 Or Less",
+  "th": "เคโอฝ่ายตรงข้ามที่มีคอสต์ดั้งเดิม 3 หรือต่ำกว่า"
+ },
+ "Action.OP10-088": {
+  "en": "(Rest)(Rest your Dressrosa Leader or Stage): Draw 1, Trash 2 from Deck Top",
+  "th": "(เรสต์)(เรสต์ลีดเดอร์หรือสเตจ Dressrosa ของคุณ): จั่ว 1 ทิ้ง 2 จากบนสุดของเด็ค"
+ },
+ "Action.OP10-087": {
+  "en": "(Rest)(Rest your Dressrosa Leader or Stage): Your Opponent with 5 Cards in Hand Trashes 1, then Trash 2 from your Deck Top",
+  "th": "(เรสต์)(เรสต์ลีดเดอร์หรือสเตจ Dressrosa ของคุณ): ฝ่ายตรงข้ามที่มีการ์ดบนมือ 5 ใบทิ้ง 1 ใบ แล้วทิ้ง 2 ใบจากบนสุดของเด็คของคุณ"
+ },
+ "Action.OP10-030": {
+  "en": "Set 1 Don Active, then all Don Activating effects Can't Be Used",
+  "th": "ตั้ง DON!! 1 ใบเป็นแอคทีฟ แล้วเอฟเฟกต์ที่ทำให้ DON!! แอคทีฟทั้งหมดใช้ไม่ได้"
+ },
+ "Status.CharDonFrozen": {
+  "en": " Can't Activate Don ",
+  "th": " ทำให้ DON!! แอคทีฟไม่ได้ "
+ },
+ "Log.CantActivateDonViaCharacter": {
+  "en": "Can't Activate Don via Character Effects!",
+  "th": "ทำให้ DON!! แอคทีฟด้วยเอฟเฟกต์ตัวละครไม่ได้!"
+ },
+ "Log.CantPlayCardsFromHand": {
+  "en": "Can't Play Cards from Hand!",
+  "th": "ลงการ์ดจากมือไม่ได้!"
+ },
+ "Log.CantPlayAnyCharactersToField": {
+  "en": "Can't Play Characters to Field!",
+  "th": "ลงตัวละครเข้าสนามไม่ได้!"
+ },
+ "Action.OP10-096": {
+  "en": "KO a Cost 8 Or Less [Seven Warlords] Character",
+  "th": "เคโอตัวละคร [Seven Warlords] คอสต์ 8 หรือต่ำกว่า"
+ },
+ "Action.OP10-020": {
+  "en": "Give a Character -4000, then if you have 2 Or Less Life, give your Leader or Character +1000",
+  "th": "ให้ตัวละคร -4000 แล้วถ้าคุณมีไลฟ์ 2 หรือน้อยกว่า ให้ลีดเดอร์หรือตัวละคร +1000"
+ },
+ "Action.OP10-116": {
+  "en": "Look at the Top Life Card of a Player, then place it at the Top or Bottom of their Life. Then KO a Cost 5 or Less",
+  "th": "ดูการ์ดไลฟ์บนสุดของผู้เล่นคนหนึ่ง แล้ววางไว้บนสุดหรือล่างสุดของไลฟ์เขา จากนั้นเคโอคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP10-061": {
+  "en": "Draw 1 Card, then return a Cost 2 Character to Hand",
+  "th": "จั่ว 1 ใบ แล้วคืนตัวละครคอสต์ 2 ขึ้นมือ"
+ },
+ "Action.OP10-040": {
+  "en": "KO a Rested 7 Cost Or Less",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 7 หรือต่ำกว่า"
+ },
+ "Action.OP10-016": {
+  "en": "(Rest): Give up to 2 Rested Don to a Leader or Character, then give an Opponent Character -1000",
+  "th": "(เรสต์): ให้ DON!! ที่เรสต์ไม่เกิน 2 ใบแก่ลีดเดอร์หรือตัวละคร แล้วให้ตัวละครฝ่ายตรงข้าม -1000"
+ },
+ "Action.OP10-019": {
+  "en": "(Rest 5 Don): KO a Character 8000 Power or Less",
+  "th": "(เรสต์ DON!! 5 ใบ): เคโอตัวละครพาวเวอร์ 8000 หรือน้อยกว่า"
+ },
+ "Action.OP10-021": {
+  "en": "Grant a Leader or Character 1 Rested Don",
+  "th": "ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.OP10-026": {
+  "en": "(Return this and a 0 Power Kin'emon in Trash to Deck Bottom): Play a 6 Cost Kin'emon from Hand",
+  "th": "(คืนใบนี้และ Kin'emon พาวเวอร์ 0 ในแทรชไปใต้เด็ค): ลง Kin'emon คอสต์ 6 จากมือ"
+ },
+ "Action.OP10-027": {
+  "en": "(Return this and a 1000 Power Kin'emon in Trash to Deck Bottom): Play a 6 Cost Kin'emon from Hand",
+  "th": "(คืนใบนี้และ Kin'emon พาวเวอร์ 1000 ในแทรชไปใต้เด็ค): ลง Kin'emon คอสต์ 6 จากมือ"
+ },
+ "Action.OP10-028": {
+  "en": "(2)(Trash): Peek Top 5 and Draw Two 'Nine Red Scabbards' Cards",
+  "th": "(2)(ทิ้ง): ดู 5 ใบบนสุด และจั่วการ์ด 'Nine Red Scabbards' สองใบ"
+ },
+ "Action.OP10-039": {
+  "en": "Peek 5 and Draw 2 [Odyssey] Characters",
+  "th": "ดู 5 ใบ และจั่วตัวละคร [Odyssey] 2 ใบ"
+ },
+ "Action.OP10-041": {
+  "en": "Rest a Cost 6 or Lower, then KO a Rested Cost 5 or Lower",
+  "th": "เรสต์คอสต์ 6 หรือต่ำกว่า แล้วเคโอตัวที่เรสต์อยู่คอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP10-114": {
+  "en": "(Rest): If your Life is Equal or Less than Opponent's Life, Rest a Cost 4 or Less",
+  "th": "(เรสต์): ถ้าไลฟ์ของคุณเท่ากับหรือน้อยกว่าไลฟ์ฝ่ายตรงข้าม เรสต์คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP10-059": {
+  "en": "Peek 5, Draw 1 [Dressrosa] Card",
+  "th": "ดู 5 ใบ จั่วการ์ด [Dressrosa] 1 ใบ"
+ },
+ "Action.OP10-060": {
+  "en": "Place a 6000 Power or Less at the Bottom of its Owner's Deck",
+  "th": "วางตัวละครพาวเวอร์ 6000 หรือน้อยกว่าไว้ใต้เด็คของเจ้าของ"
+ },
+ "Action.OP10-065": {
+  "en": "(1)(Rest): Peek 5, Draw 1 [Donquixote Pirates] Card",
+  "th": "(1)(เรสต์): ดู 5 ใบ จั่วการ์ด [Donquixote Pirates] 1 ใบ"
+ },
+ "Action.OP10-075": {
+  "en": "(Trash): Draw 1 if you have Less Don",
+  "th": "(ทิ้ง): จั่ว 1 ใบถ้าคุณมี DON!! น้อยกว่า"
+ },
+ "Action.OP10-079": {
+  "en": "KO a Cost 5 or Less, then Gain 1 Active Don",
+  "th": "เคโอคอสต์ 5 หรือต่ำกว่า แล้วรับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP10-083": {
+  "en": "(Rest)(Rest a Dressrosa Leader or Stage): Give an Opponent -2 Cost",
+  "th": "(เรสต์)(เรสต์ลีดเดอร์หรือสเตจ Dressrosa): ให้ฝ่ายตรงข้ามคอสต์ -2"
+ },
+ "Action.OP10-091": {
+  "en": "(Rest)(Rest a Dressrosa Leader or Stage): KO a Cost 1 and Mill 2",
+  "th": "(เรสต์)(เรสต์ลีดเดอร์หรือสเตจ Dressrosa): เคโอคอสต์ 1 และทิ้งการ์ดจากเด็ค 2 ใบ"
+ },
+ "Action.OP10-093": {
+  "en": "(Trash): Give a Black Character +3 Cost",
+  "th": "(ทิ้ง): ให้ตัวละครสีดำ +3 คอสต์"
+ },
+ "Action.OP10-082": {
+  "en": "(Trash): Draw 1 Card, then play a Cost 5 or Less [Blackbeard Pirates] Character from Trash",
+  "th": "(ทิ้ง): จั่ว 1 ใบ แล้วลงตัวละคร [Blackbeard Pirates] คอสต์ 5 หรือต่ำกว่าจากแทรช"
+ },
+ "Action.OP10-092": {
+  "en": "(Return 2 [Thriller Bark Pirates] cards from Trash to Deck Bottom): Give a Character +2000",
+  "th": "(คืนการ์ด [Thriller Bark Pirates] 2 ใบจากแทรชไปใต้เด็ค): ให้ตัวละคร +2000"
+ },
+ "Action.OP10-097": {
+  "en": "Give a [Dressrosa] Character +2000, and Banish if your Trash is 10 or More",
+  "th": "ให้ตัวละคร [Dressrosa] +2000 และแบนิชถ้าแทรชของคุณมี 10 ใบขึ้นไป"
+ },
+ "Action.OP10-098": {
+  "en": "KO an Original Cost 6 or Less and an Original Cost 4 or Less",
+  "th": "เคโอตัวที่คอสต์ดั้งเดิม 6 หรือต่ำกว่า และตัวที่คอสต์ดั้งเดิม 4 หรือต่ำกว่า"
+ },
+ "Action.OP10-102": {
+  "en": "Grant 3 [Revolutionary Army] Characters +1000, then take your Top Life",
+  "th": "ให้ตัวละคร [Revolutionary Army] 3 ใบ +1000 แล้วรับไลฟ์บนสุดของคุณ"
+ },
+ "Action.ST21-001": {
+  "en": "Give a Character 2 Rested Don",
+  "th": "ให้ตัวละครรับ DON!! ที่เรสต์ 2 ใบ"
+ },
+ "Action.ST21-017": {
+  "en": "Give an Opponent -5000, then if you have a 6000+, KO a 2000 or Less",
+  "th": "ให้ฝ่ายตรงข้าม -5000 แล้วถ้าคุณมีตัวละครพาวเวอร์ 6000+ เคโอตัวพาวเวอร์ 2000 หรือน้อยกว่า"
+ },
+ "Action.ST21-009": {
+  "en": "Give up to 2 Rested Don to a [Straw Hat Crew] Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ไม่เกิน 2 ใบแก่ลีดเดอร์หรือตัวละคร [Straw Hat Crew]"
+ },
+ "Action.ST21-016": {
+  "en": "Give a Leader or Character +1000, then Remove Blocker from a 4000 Or Less",
+  "th": "ให้ลีดเดอร์หรือตัวละคร +1000 แล้วลบบล็อกเกอร์ออกจากตัวละครพาวเวอร์ 4000 หรือน้อยกว่า"
+ },
+ "Action.EB02-008": {
+  "en": "Peek 4, Draw 1 Cost 4 or More",
+  "th": "ดู 4 ใบ จั่ว 1 ใบที่คอสต์ 4 ขึ้นไป"
+ },
+ "Action.EB02-010": {
+  "en": "(Don -2): Set 2 Rested Don to Active and Gain +1000",
+  "th": "(DON!! -2): ตั้ง DON!! ที่เรสต์ 2 ใบเป็นแอคทีฟและได้รับ +1000"
+ },
+ "Action.EB02-060": {
+  "en": "(Rest)(Flip Top Life Up): Give a [Strawhat Crew] Character +1000 until Opponent's Turn End",
+  "th": "(เรสต์)(หงายไลฟ์บนสุด): ให้ตัวละคร [Strawhat Crew] +1000 จนถึงจบเทิร์นฝ่ายตรงข้าม"
+ },
+ "Action.EB02-002": {
+  "en": "(Rest): Give a [Revolutionary Army] Character +2000",
+  "th": "(เรสต์): ให้ตัวละคร [Revolutionary Army] +2000"
+ },
+ "Action.EB02-006": {
+  "en": "Give 1 Rested Don to your Leader and gain Rush",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์ของคุณและรับรัช"
+ },
+ "Action.EB02-007": {
+  "en": "Give up to 3 Leaders or Characters +1000, then KO a 3000 or Less",
+  "th": "ให้ลีดเดอร์หรือตัวละครไม่เกิน 3 ใบ +1000 แล้วเคโอตัวพาวเวอร์ 3000 หรือน้อยกว่า"
+ },
+ "Action.EB02-009": {
+  "en": "(Rest): Give 1 Attached Don to a [Strawhat Crew] Character",
+  "th": "(เรสต์): ย้าย DON!! ที่ใส่อยู่ 1 ใบให้ตัวละคร [Strawhat Crew]"
+ },
+ "Status.CantRest": {
+  "en": " NoRest ",
+  "th": " เรสต์ไม่ได้ "
+ },
+ "Status.Tenacity": {
+  "en": " Tenacity ",
+  "th": " ความอึด "
+ },
+ "Action.EB02-021": {
+  "en": "Give a [Strawhat Crew] Character +6000, then it does not Activate during next Refresh",
+  "th": "ให้ตัวละคร [Strawhat Crew] +6000 แล้วมันจะไม่แอคทีฟในรีเฟรชหน้า"
+ },
+ "Action.EB02-025": {
+  "en": "(1)(Rest): Peek 5 and play a Cost 2 or Less Character Rested",
+  "th": "(1)(เรสต์): ดู 5 ใบ และลงตัวละครคอสต์ 2 หรือต่ำกว่าในสถานะเรสต์"
+ },
+ "Log.ActionGrantTenacity": {
+  "en": "Characters can survive KO by trashing hand this turn",
+  "th": "ตัวละครรอดจากการเคโอได้โดยทิ้งการ์ดบนมือในเทิร์นนี้"
+ },
+ "Action.EB02-039": {
+  "en": "(Trash 1 [Germa 66] 4000 or Less Character): Play a Trash Character 5000 to 7000 Power with the name of the Trashed Character",
+  "th": "(ทิ้งตัวละคร [Germa 66] พาวเวอร์ 4000 หรือน้อยกว่า 1 ใบ): ลงตัวละครจากแทรชพาวเวอร์ 5000 ถึง 7000 ที่ชื่อเดียวกับตัวละครที่ทิ้ง"
+ },
+ "Action.EB02-041": {
+  "en": "(Rest): Give a [Strawhat Crew] Character +2 Cost",
+  "th": "(เรสต์): ให้ตัวละคร [Strawhat Crew] +2 คอสต์"
+ },
+ "Action.EB02-047": {
+  "en": "(Trash 1)(Trash): Play a Cost 5 or Less Character with {CP} from your Trash",
+  "th": "(ทิ้ง 1 ใบ)(ทิ้ง): ลงตัวละครคอสต์ 5 หรือต่ำกว่าที่มี {CP} จากแทรชของคุณ"
+ },
+ "Action.EB02-049": {
+  "en": "(Rest): KO a Cost 1 or Lower",
+  "th": "(เรสต์): เคโอคอสต์ 1 หรือต่ำกว่า"
+ },
+ "Action.EB02-051": {
+  "en": "KO a Cost 2 or Give Opponent -4 Cost",
+  "th": "เคโอคอสต์ 2 หรือให้ฝ่ายตรงข้ามคอสต์ -4"
+ },
+ "Choice.KO2Cost": {
+  "en": "KO a Cost 2 Or Less",
+  "th": "เคโอคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Choice.Minus4Cost": {
+  "en": "Give a Character -4 Cost",
+  "th": "ให้ตัวละคร -4 คอสต์"
+ },
+ "Action.OP11-022": {
+  "en": "(1)(Flip Top Life Up): Play a [Sea King] or [Megalo] from Hand with Cost Equal or Less than your Don",
+  "th": "(1)(หงายไลฟ์บนสุด): ลง [Sea King] หรือ [Megalo] จากมือที่คอสต์เท่ากับหรือน้อยกว่า DON!! ของคุณ"
+ },
+ "Action.OP11-044": {
+  "en": "(Trash 1): Give your [Germa 66] Characters +1000",
+  "th": "(ทิ้ง 1 ใบ): ให้ตัวละคร [Germa 66] ของคุณ +1000"
+ },
+ "Log.PeekOppTopDeckUp": {
+  "en": "$1: <b>Looked at opponent's top deck</b>",
+  "th": "$1: <b>ดูการ์ดบนสุดของเด็คฝ่ายตรงข้าม</b>"
+ },
+ "Log.PeekOppTopDeckDown": {
+  "en": "$1: <b>Finished looking at opponent's top deck</b>",
+  "th": "$1: <b>ดูการ์ดบนสุดของเด็คฝ่ายตรงข้ามเสร็จแล้ว</b>"
+ },
+ "Status.CanAttackActive": {
+  "en": " Attack Active",
+  "th": " โจมตีตัวที่แอคทีฟได้"
+ },
+ "Action.OP11-030": {
+  "en": "(1)(Rest): Peek 5 and Draw 1 [Sea King] or [Fishman Island] Card",
+  "th": "(1)(เรสต์): ดู 5 ใบ และจั่วการ์ด [Sea King] หรือ [Fishman Island] 1 ใบ"
+ },
+ "Action.OP11-031": {
+  "en": "Grant a [Fishman] or [Merfolk] Character the ability to Rush Characters",
+  "th": "ให้ตัวละคร [Fishman] หรือ [Merfolk] มีความสามารถรัชใส่ตัวละคร"
+ },
+ "Status.RushCharacters": {
+  "en": " CharRush ",
+  "th": " รัชตัวละคร "
+ },
+ "Action.OP11-037": {
+  "en": "Peek 4 and draw a [Sea King] or [Fishman Island] Card",
+  "th": "ดู 4 ใบ และจั่วการ์ด [Sea King] หรือ [Fishman Island]"
+ },
+ "Action.OP11-038": {
+  "en": "(1): Rest a Cost 5 or Less Character",
+  "th": "(1): เรสต์ตัวละครคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP11-061": {
+  "en": "Send a Cost 4 Or Less to Deck Bottom",
+  "th": "ส่งตัวละครคอสต์ 4 หรือต่ำกว่าไปใต้เด็ค"
+ },
+ "Action.OP11-066": {
+  "en": "(Rest): Declare a Cost and Match Opponent's Top Deck, KO a Cost 3 or Less and Gain 1 Rested Don",
+  "th": "(เรสต์): ประกาศคอสต์และตรงกับการ์ดบนสุดของเด็คฝ่ายตรงข้าม เคโอคอสต์ 3 หรือต่ำกว่า และรับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP11-070": {
+  "en": "(Don -1)(Rest): Look at the top card of your Opponent's Deck",
+  "th": "(DON!! -1)(เรสต์): ดูการ์ดบนสุดของเด็คฝ่ายตรงข้าม"
+ },
+ "Action.OP11-071": {
+  "en": "(Trash 1): Declare a Cost, if Matches Opp's Top Deck, Draw 1 and gain 1 Active Don",
+  "th": "(ทิ้ง 1 ใบ): ประกาศคอสต์ ถ้าตรงกับการ์ดบนสุดของเด็คฝ่ายตรงข้าม จั่ว 1 และรับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.OP11-072": {
+  "en": "(Don -1)(Rest): Opponent returns 2 Trash to Deck, then take your Top Life",
+  "th": "(DON!! -1)(เรสต์): ฝ่ายตรงข้ามคืนการ์ดจากแทรช 2 ใบเข้าเด็ค แล้วรับไลฟ์บนสุดของคุณ"
+ },
+ "Action.OP11-074": {
+  "en": "(Don -1)(Rest): Declare a Cost, if Matches Opp's Top Deck, Rest a Cost 4 or Less",
+  "th": "(DON!! -1)(เรสต์): ประกาศคอสต์ ถ้าตรงกับการ์ดบนสุดของเด็คฝ่ายตรงข้าม เรสต์คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.OP11-080": {
+  "en": "(2): Add 1 Rested Don",
+  "th": "(2): เพิ่ม DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP11-081": {
+  "en": "Declare a Cost, if Matches Opp's Top Deck, KO a Cost 8 or Less",
+  "th": "ประกาศคอสต์ ถ้าตรงกับการ์ดบนสุดของเด็คฝ่ายตรงข้าม เคโอคอสต์ 8 หรือต่ำกว่า"
+ },
+ "Action.OP11-103": {
+  "en": "(Rest)(Flip Top Life Down): KO a Cost 3 or Less",
+  "th": "(เรสต์)(คว่ำไลฟ์บนสุด): เคโอคอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.OP11-107": {
+  "en": "(Flip Top Life Down): Set this Active at the End of the Turn",
+  "th": "(คว่ำไลฟ์บนสุด): ตั้งใบนี้เป็นแอคทีฟตอนจบเทิร์น"
+ },
+ "Status.ActivateEnd": {
+  "en": " ActivateEnd ",
+  "th": " แอคทีฟตอนจบ "
+ },
+ "Action.OP11-114": {
+  "en": "(3): If total Life is 5 or More, KO an Original Cost 5 or Less",
+  "th": "(3): ถ้าไลฟ์รวมเป็น 5 ขึ้นไป เคโอตัวที่คอสต์ดั้งเดิม 5 หรือต่ำกว่า"
+ },
+ "Action.OP11-116": {
+  "en": "Add a Cost 6 Or Less Character to Top or Bottom Life Face-Up",
+  "th": "เพิ่มตัวละครคอสต์ 6 หรือต่ำกว่าไว้บนสุดหรือล่างสุดของไลฟ์แบบหงายหน้า"
+ },
+ "Action.OP11-117": {
+  "en": "(Flip Top Life Up): Grant a [Sea King] or [Fishman] +1000",
+  "th": "(หงายไลฟ์บนสุด): ให้ [Sea King] หรือ [Fishman] +1000"
+ },
+ "Log.GrantEphemeral": {
+  "en": "$1: $2 will go to Deck Bottom at End of Turn!",
+  "th": "$1: $2 จะไปใต้เด็คตอนจบเทิร์น!"
+ },
+ "Status.Ephemeral": {
+  "en": " Ephemeral",
+  "th": " ชั่วคราว"
+ },
+ "Action.OP11-082": {
+  "en": "(Trash): 1 Navy Character can Attack Active Characters this turn",
+  "th": "(ทิ้ง): ตัวละคร Navy 1 ใบโจมตีตัวที่แอคทีฟได้ในเทิร์นนี้"
+ },
+ "Action.OP11-086": {
+  "en": "(Trash): Play 1 Cost 4 or Less [Caribou] from the Trash",
+  "th": "(ทิ้ง): ลง [Caribou] คอสต์ 4 หรือต่ำกว่า 1 ใบจากแทรช"
+ },
+ "Action.OP11-004": {
+  "en": "(Trash): Give a Character +1000",
+  "th": "(ทิ้ง): ให้ตัวละคร +1000"
+ },
+ "Action.OP11-007": {
+  "en": "(Rest): Give a [Navy] Character +2000",
+  "th": "(เรสต์): ให้ตัวละคร [Navy] +2000"
+ },
+ "Action.OP11-016": {
+  "en": "Give 1 Rested Don to a Leader or Character",
+  "th": "ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.OP11-018": {
+  "en": "Give an Opponent -4000, then KO a 6000 or Less",
+  "th": "ให้ฝ่ายตรงข้าม -4000 แล้วเคโอตัวพาวเวอร์ 6000 หรือน้อยกว่า"
+ },
+ "Action.OP11-060": {
+  "en": "Peek 5 and Draw 1 [Straw Hat Crew] Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Straw Hat Crew] 1 ใบ"
+ },
+ "Action.OP11-098": {
+  "en": "(Mill 3): KO a Cost 2 or Less",
+  "th": "(ทิ้งจากเด็ค 3 ใบ): เคโอคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.OP11-099": {
+  "en": "Peek 3 and Draw a [Navy] Card, then Trash Remainder",
+  "th": "ดู 3 ใบ และจั่วการ์ด [Navy] แล้วทิ้งที่เหลือ"
+ },
+ "Action.OP11-014": {
+  "en": "(Rest): Give a [Navy] Leader or Character the ability to attack Active",
+  "th": "(เรสต์): ให้ลีดเดอร์หรือตัวละคร [Navy] มีความสามารถโจมตีตัวที่แอคทีฟ"
+ },
+ "Action.OP11-020": {
+  "en": "Give 2 Characters -2000, then Give a [Navy] Character +1000",
+  "th": "ให้ตัวละคร 2 ใบ -2000 แล้วให้ตัวละคร [Navy] +1000"
+ },
+ "Action.OP11-034": {
+  "en": "(Rest): An Opponent Cost 3 or Less Can't Be Rested",
+  "th": "(เรสต์): ฝ่ายตรงข้ามคอสต์ 3 หรือต่ำกว่าถูกเรสต์ไม่ได้"
+ },
+ "Choice.SendToHand": {
+  "en": "Send to Hand",
+  "th": "ส่งขึ้นมือ"
+ },
+ "Action.P-091": {
+  "en": "(Rest): Give a [Sea King] Character Rush",
+  "th": "(เรสต์): ให้ตัวละคร [Sea King] รัช"
+ },
+ "Action.ST22-001": {
+  "en": "Reveal a [Whitebeard Pirates]: Draw 1 and put Revealed Card on the top of your Deck",
+  "th": "เปิดการ์ด [Whitebeard Pirates]: จั่ว 1 ใบ และวางการ์ดที่เปิดไว้บนสุดของเด็คของคุณ"
+ },
+ "Action.ST22-007": {
+  "en": "Reveal top deck: If it has [Whitebeard Pirates], attach a Rested Don",
+  "th": "เปิดการ์ดบนสุดของเด็ค: ถ้ามี [Whitebeard Pirates] ใส่ DON!! ที่เรสต์"
+ },
+ "Action.ST22-005": {
+  "en": "(3) Return another character to hand: Set this Active",
+  "th": "(3) คืนตัวละครอื่นขึ้นมือ: ตั้งใบนี้เป็นแอคทีฟ"
+ },
+ "Action.ST22-015": {
+  "en": "Play an [Edward Newgate], then you may add a Life to hand for +2000 Leader Power to opp's next end",
+  "th": "ลง [Edward Newgate] แล้วคุณนำไลฟ์ขึ้นมือเพื่อ +2000 พาวเวอร์ลีดเดอร์จนถึงจบเทิร์นหน้าของฝ่ายตรงข้ามได้"
+ },
+ "Action.ST22-017": {
+  "en": "Reveal 2 cards with {Whitebeard Pirates}: Draw 1 card and place a Cost 5 on Deck Bottom",
+  "th": "เปิดการ์ด 2 ใบที่มี {Whitebeard Pirates}: จั่ว 1 ใบ และวางตัวละครคอสต์ 5 ไว้ใต้เด็ค"
+ },
+ "Action.Joker": {
+  "en": "Switch this Card",
+  "th": "สลับการ์ดใบนี้"
+ },
+ "Action.OP12-001": {
+  "en": "Reveal 2 Events: Give a Character with Base Power 4000 or Less +2000",
+  "th": "เปิดอีเวนต์ 2 ใบ: ให้ตัวละครที่มีพาวเวอร์พื้นฐาน 4000 หรือน้อยกว่า +2000"
+ },
+ "Action.OP12-017": {
+  "en": "Attach 1 Active Don to a [Silvers Rayleigh]: Peek 4, draw 1 Red Event or a Cost 3 or Greater Character",
+  "th": "ใส่ DON!! แอคทีฟ 1 ใบให้ [Silvers Rayleigh]: ดู 4 ใบ จั่วอีเวนต์สีแดง 1 ใบ หรือตัวละครคอสต์ 3 ขึ้นไป"
+ },
+ "Action.OP12-020": {
+  "en": "After Battling a Character, Set Active and Can't Attack Cost 7 or Less",
+  "th": "หลังต่อสู้กับตัวละคร ตั้งเป็นแอคทีฟและโจมตีคอสต์ 7 หรือต่ำกว่าไม่ได้"
+ },
+ "Log.ActivateMainOther": {
+  "en": "$1: Activates $2",
+  "th": "$1: ใช้งาน $2"
+ },
+ "Action.OP12-041": {
+  "en": "(Don -1): Activate a Cost 3 or Less [Straw Hat Crew] Event from Hand",
+  "th": "(DON!! -1): ใช้อีเวนต์ [Straw Hat Crew] คอสต์ 3 หรือต่ำกว่าจากมือ"
+ },
+ "Action.OP12-028": {
+  "en": "(Rest)(1): Peek 5, Draw a Slash card or a Green Event",
+  "th": "(เรสต์)(1): ดู 5 ใบ จั่วการ์ด Slash หรืออีเวนต์สีเขียว"
+ },
+ "Action.OP12-061": {
+  "en": "(Don -1): Your next [Trafalgar Law] with Cost 4 or More costs 2 Less",
+  "th": "(DON!! -1): [Trafalgar Law] ใบถัดไปที่คอสต์ 4 ขึ้นไปใช้คอสต์น้อยลง 2"
+ },
+ "Action.OP12-077": {
+  "en": "Grant a [Trafalgar Law] +2000 and Unblockable",
+  "th": "ให้ [Trafalgar Law] +2000 และบล็อกไม่ได้"
+ },
+ "Choice.OppTake1Life": {
+  "en": "Opponent Takes 1 Life",
+  "th": "ฝ่ายตรงข้ามรับไลฟ์ 1 ใบ"
+ },
+ "Choice.OppTake0Life": {
+  "en": "Opponent Takes 0 Life",
+  "th": "ฝ่ายตรงข้ามรับไลฟ์ 0 ใบ"
+ },
+ "Action.OP12-091": {
+  "en": "(Return 3 Trash Cards): Give 2 [SMILE] Characters +2000",
+  "th": "(คืนการ์ดจากแทรช 3 ใบ): ให้ตัวละคร [SMILE] 2 ใบ +2000"
+ },
+ "Choice.Rest5": {
+  "en": "Rest a 5 Cost or Lower",
+  "th": "เรสต์คอสต์ 5 หรือต่ำกว่า"
+ },
+ "Choice.Rest2": {
+  "en": "Rest a 2 Cost or Lower",
+  "th": "เรสต์คอสต์ 2 หรือต่ำกว่า"
+ },
+ "Choice.KORested5": {
+  "en": "KO a Rested 5 Cost or Lower",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 5 หรือต่ำกว่า"
+ },
+ "Choice.KORested2": {
+  "en": "KO a Rested 2 Cost or Lower",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.ST27-001": {
+  "en": "(Rest 1 Fullalead): Gain +4000",
+  "th": "(เรสต์ Fullalead 1 ใบ): ได้รับ +4000"
+ },
+ "Action.ST27-002": {
+  "en": "(Trash): Give an Opponent -1 Cost",
+  "th": "(ทิ้ง): ให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "Action.ST27-005": {
+  "en": "(Rest): KO a Cost 3 or Less Character",
+  "th": "(เรสต์): เคโอตัวละครคอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.ST23-004": {
+  "en": "(Rest)(1): Give an Opponent -1000",
+  "th": "(เรสต์)(1): ให้ฝ่ายตรงข้าม -1000"
+ },
+ "Action.ST23-005": {
+  "en": "Give 1 Rested Don to a Leader or Character",
+  "th": "ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.ST25-004": {
+  "en": "(Trash 1 and This): Play 1 [Cross Guild] Cost 6 or Less",
+  "th": "(ทิ้ง 1 ใบและใบนี้): ลง [Cross Guild] 1 ใบคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.ST28-004": {
+  "en": "(Return 2 Attached Don): Gain Rush and +1000",
+  "th": "(คืน DON!! ที่ใส่อยู่ 2 ใบ): ได้รับรัชและ +1000"
+ },
+ "Log.DetachDon": {
+  "en": "$1: Detach Don from $2",
+  "th": "$1: ถอด DON!! ออกจาก $2"
+ },
+ "Action.OP12-004": {
+  "en": "(Reveal 2 Events): Gain +2000",
+  "th": "(เปิดอีเวนต์ 2 ใบ): ได้รับ +2000"
+ },
+ "Action.OP12-013": {
+  "en": "(Reveal 2 Events)(Rest): Give 2 Rested Don to a Leader or Character",
+  "th": "(เปิดอีเวนต์ 2 ใบ)(เรสต์): ให้ DON!! ที่เรสต์ 2 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP12-014": {
+  "en": "(Trash): Give 2 Rested Don to a Leader or Character",
+  "th": "(ทิ้ง): ให้ DON!! ที่เรสต์ 2 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP12-016": {
+  "en": "(Give 2 Active Don to a [Silvers Rayleigh]): That Leader or Character can't be Blocked",
+  "th": "(ให้ DON!! แอคทีฟ 2 ใบแก่ [Silvers Rayleigh]): ลีดเดอร์หรือตัวละครนั้นถูกบล็อกไม่ได้"
+ },
+ "Action.OP12-019": {
+  "en": "(Give 1 Active Don to a [Silvers Rayleigh]): Give a Leader or Character +1000",
+  "th": "(ให้ DON!! แอคทีฟ 1 ใบแก่ [Silvers Rayleigh]): ให้ลีดเดอร์หรือตัวละคร +1000"
+ },
+ "Action.OP12-022": {
+  "en": "(Rest): Freeze 1 Rested Cost 5 Or Less Character",
+  "th": "(เรสต์): แช่แข็งตัวละครที่เรสต์อยู่คอสต์ 5 หรือต่ำกว่า 1 ใบ"
+ },
+ "Action.OP12-026": {
+  "en": "(Rest): Rest 1 Original 4 Or Less Character, then Attach up to 3 Rested Don to a [Roronoa Zoro] Leader",
+  "th": "(เรสต์): เรสต์ตัวละครคอสต์ดั้งเดิม 4 หรือต่ำกว่า 1 ใบ แล้วใส่ DON!! ที่เรสต์ไม่เกิน 3 ใบให้ลีดเดอร์ [Roronoa Zoro]"
+ },
+ "Log.DisablePlayOriginalCostOrMore": {
+  "en": "$1: Can't play Cost #1 Or More Characters for the Turn!",
+  "th": "$1: ลงตัวละครคอสต์ #1 ขึ้นไปไม่ได้ในเทิร์นนี้!"
+ },
+ "Action.OP12-037": {
+  "en": "(3): Rest 2 Opponent Characters or Don",
+  "th": "(3): เรสต์ตัวละครหรือ DON!! ของฝ่ายตรงข้าม 2 ใบ"
+ },
+ "Action.OP12-038": {
+  "en": "(2): KO 2 Rested Original Cost 4 Or Less Characters",
+  "th": "(2): เคโอตัวละครที่เรสต์อยู่คอสต์ดั้งเดิม 4 หรือต่ำกว่า 2 ใบ"
+ },
+ "Action.OP12-039": {
+  "en": "Set a [Roronoa Zoro] Leader Active",
+  "th": "ตั้งลีดเดอร์ [Roronoa Zoro] เป็นแอคทีฟ"
+ },
+ "Action.OP12-044": {
+  "en": "(Trash 1): Give 1 Rested Don to a Leader or Character",
+  "th": "(ทิ้ง 1 ใบ): ให้ลีดเดอร์หรือตัวละครรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.OP12-046": {
+  "en": "(Trash): Return a Cost 5 or Less Character to Hand",
+  "th": "(ทิ้ง): คืนตัวละครคอสต์ 5 หรือต่ำกว่าขึ้นมือ"
+ },
+ "Action.OP12-051": {
+  "en": "(Rest)(Trash 1): Remove Blocker from an Original 4 Or Less",
+  "th": "(เรสต์)(ทิ้ง 1 ใบ): ลบบล็อกเกอร์ออกจากตัวที่คอสต์ดั้งเดิม 4 หรือต่ำกว่า"
+ },
+ "Action.OP12-058": {
+  "en": "Reveal Top Deck, Play a \"Whitebeard Pirates\" Character Cost 9 or Less and Grant it Rush",
+  "th": "เปิดการ์ดบนสุดของเด็ค ลงตัวละคร \"Whitebeard Pirates\" คอสต์ 9 หรือต่ำกว่าและให้รัช"
+ },
+ "Action.OP12-059": {
+  "en": "Draw 1 Card",
+  "th": "จั่ว 1 ใบ"
+ },
+ "Action.OP12-060": {
+  "en": "Return a Cost 4 or Less to Hand, or Draw 2 Cards",
+  "th": "คืนตัวละครคอสต์ 4 หรือต่ำกว่าขึ้นมือ หรือจั่ว 2 ใบ"
+ },
+ "Choice.Bounce4": {
+  "en": "Return a Cost 4 or Less to Hand",
+  "th": "คืนตัวละครคอสต์ 4 หรือต่ำกว่าขึ้นมือ"
+ },
+ "Choice.Draw2": {
+  "en": "Draw 2 Cards",
+  "th": "จั่ว 2 ใบ"
+ },
+ "Action.OP12-078": {
+  "en": "Draw 1 Card, then give a Character -3000",
+  "th": "จั่ว 1 ใบ แล้วให้ตัวละคร -3000"
+ },
+ "Action.OP12-079": {
+  "en": "Peek 3 and Draw 1 of them",
+  "th": "ดู 3 ใบ และจั่ว 1 ใบในนั้น"
+ },
+ "Log.DrawHidden": {
+  "en": "$1: Added #1 Cards to Hand",
+  "th": "$1: เพิ่มการ์ด #1 ใบขึ้นมือ"
+ },
+ "Action.OP12-080": {
+  "en": "(Bottom Deck): Peek 3, Draw 1 Event",
+  "th": "(ส่งไปใต้เด็ค): ดู 3 ใบ จั่วอีเวนต์ 1 ใบ"
+ },
+ "Action.OP12-096": {
+  "en": "KO a Cost 4 Or Less, or a Cost 6 Or Less",
+  "th": "เคโอคอสต์ 4 หรือต่ำกว่า หรือคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.OP12-097": {
+  "en": "Peek 3, Draw 1 [Revolutionary Army] Card and Trash the Rest",
+  "th": "ดู 3 ใบ จั่วการ์ด [Revolutionary Army] 1 ใบ และทิ้งที่เหลือ"
+ },
+ "Log.DisableCardDraws": {
+  "en": "$1: Can't Draw via Effects for the Turn!",
+  "th": "$1: จั่วด้วยเอฟเฟกต์ไม่ได้ในเทิร์นนี้!"
+ },
+ "Action.OP12-101": {
+  "en": "(Rest): Grant a [Supernovas] Leader +1000",
+  "th": "(เรสต์): ให้ลีดเดอร์ [Supernovas] +1000"
+ },
+ "Action.OP12-116": {
+  "en": "Peek 5, Draw 2 [Shandian Warrior] or [Mont Blanc Noland] Cards",
+  "th": "ดู 5 ใบ จั่วการ์ด [Shandian Warrior] หรือ [Mont Blanc Noland] 2 ใบ"
+ },
+ "Action.OP12-117": {
+  "en": "(5): Place a Character Cost 9 or Less into Top or Bottom Life",
+  "th": "(5): วางตัวละครคอสต์ 9 หรือต่ำกว่าไว้บนสุดหรือล่างสุดของไลฟ์"
+ },
+ "Action.P-096": {
+  "en": "Give 1 Rested Don to a [Nami]",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ [Nami]"
+ },
+ "Log.FieldUnblockable": {
+  "en": "$1: Opponent can't activate Blocker this turn!",
+  "th": "$1: ฝ่ายตรงข้ามใช้บล็อกเกอร์ไม่ได้ในเทิร์นนี้!"
+ },
+ "Log.UseTrigger": {
+  "en": "$1: Activate Trigger",
+  "th": "$1: ใช้ทริกเกอร์"
+ },
+ "Log.UseCounter": {
+  "en": "$1: Activate Counter",
+  "th": "$1: ใช้เคาน์เตอร์"
+ },
+ "Log.DonMinus": {
+  "en": "$1: Minus #1 Don",
+  "th": "$1: DON!! -#1"
+ },
+ "Log.OptionalDonMinus": {
+  "en": "$1: Minus #1 Extra Don",
+  "th": "$1: DON!! ลบเพิ่ม #1"
+ },
+ "Log.RestDon": {
+  "en": "$1: Rest #1 Don",
+  "th": "$1: เรสต์ DON!! #1 ใบ"
+ },
+ "Status.DonTax": {
+  "en": "Don Tax",
+  "th": "ภาษี DON!!"
+ },
+ "Action.OP13-007": {
+  "en": "(Trash)(Grant 1 Active Don to Any): Give an Opponent -3000",
+  "th": "(ทิ้ง)(ให้ DON!! แอคทีฟ 1 ใบแก่ใครก็ได้): ให้ฝ่ายตรงข้าม -3000"
+ },
+ "Action.PRB02-016": {
+  "en": "(Rest)(Take Top/Bottom Life): Grant an Ally +3000",
+  "th": "(เรสต์)(รับไลฟ์บนสุด/ล่างสุด): ให้พวกเดียวกัน +3000"
+ },
+ "Choice.BottomThisFirst": {
+  "en": "Send Stage to Bottom First",
+  "th": "ส่งสเตจไปใต้เด็คก่อน"
+ },
+ "Choice.BottomHandFirst": {
+  "en": "Send Hand Card to Bottom First",
+  "th": "ส่งการ์ดบนมือไปใต้เด็คก่อน"
+ },
+ "Action.OP13-015": {
+  "en": "(Rest): Give a [Monkey D. Luffy] +2000",
+  "th": "(เรสต์): ให้ [Monkey D. Luffy] +2000"
+ },
+ "Action.OP13-021": {
+  "en": "Give 1 Rested Don to a [Monkey D. Luffy], then give Opponent Character -2000",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ [Monkey D. Luffy] แล้วให้ตัวละครฝ่ายตรงข้าม -2000"
+ },
+ "Action.OP13-038": {
+  "en": "Rest a Cost 5 or Less Character, then set 2 Don Active at End of Turn",
+  "th": "เรสต์ตัวละครคอสต์ 5 หรือต่ำกว่า แล้วตั้ง DON!! 2 ใบเป็นแอคทีฟตอนจบเทิร์น"
+ },
+ "Action.OP13-022": {
+  "en": "(Rest): Give a 2000 Base or Less Character +1000",
+  "th": "(เรสต์): ให้ตัวละครพื้นฐาน 2000 หรือน้อยกว่า +1000"
+ },
+ "Action.OP13-058": {
+  "en": "(1): Send a Character 3000 Or Less Power to Deck Bottom",
+  "th": "(1): ส่งตัวละครพาวเวอร์ 3000 หรือน้อยกว่าไปใต้เด็ค"
+ },
+ "Action.OP13-026": {
+  "en": "(1): Gain +2000 Power",
+  "th": "(1): ได้รับพาวเวอร์ +2000"
+ },
+ "Status.CantPlayAny": {
+  "en": " Can't Play Cards",
+  "th": " ลงการ์ดไม่ได้"
+ },
+ "Status.CantPlayChar": {
+  "en": " Can't Play Characters",
+  "th": " ลงตัวละครไม่ได้"
+ },
+ "Status.CantPlayCost": {
+  "en": " Only Cost <#1",
+  "th": " ใช้ได้เฉพาะคอสต์ <#1"
+ },
+ "Choice.ActiveAll": {
+  "en": "Activate All",
+  "th": "ทำให้แอคทีฟทั้งหมด"
+ },
+ "Choice.LessThan10": {
+  "en": "Choose Less Than 10",
+  "th": "เลือกน้อยกว่า 10"
+ },
+ "Action.OP13-120": {
+  "en": "Give a Character +2 Cost, then Attach 1 Rested Don to Leader",
+  "th": "ให้ตัวละคร +2 คอสต์ แล้วใส่ DON!! ที่เรสต์ 1 ใบให้ลีดเดอร์"
+ },
+ "Log.ForceMainPhaseAction": {
+  "en": "$1: Forcing opponent action during next Main Phase!",
+  "th": "$1: บังคับให้ฝ่ายตรงข้ามทำความสามารถในเมนเฟสหน้า!"
+ },
+ "Action.OP13-019": {
+  "en": "(4): Give a Character -3000 then KO a 3000 Or Less",
+  "th": "(4): ให้ตัวละคร -3000 แล้วเคโอตัวพาวเวอร์ 3000 หรือน้อยกว่า"
+ },
+ "Action.OP13-040": {
+  "en": "(2): Freeze 2 Rested Opponents Cost 7 Or Less",
+  "th": "(2): แช่แข็งฝ่ายตรงข้ามที่เรสต์คอสต์ 7 หรือต่ำกว่า 2 ใบ"
+ },
+ "Action.OP13-057": {
+  "en": "(1): Give your Leader Unblockable",
+  "th": "(1): ให้ลีดเดอร์ของคุณบล็อกไม่ได้"
+ },
+ "Action.OP13-077": {
+  "en": "(3): KO a Base Cost 4000 or Less and a Base Cost 3000 or Less",
+  "th": "(3): เคโอตัวที่คอสต์พื้นฐาน 4000 หรือน้อยกว่า และตัวที่คอสต์พื้นฐาน 3000 หรือน้อยกว่า"
+ },
+ "Action.OP13-079": {
+  "en": "(Trash 1 Celestial Dragon Character): Draw 1 Card",
+  "th": "(ทิ้งตัวละคร Celestial Dragon 1 ใบ): จั่ว 1 ใบ"
+ },
+ "Action.OP13-082": {
+  "en": "(1)(Trash 1): Trash your Field and play 5 [Five Elders] Characters from Trash",
+  "th": "(1)(ทิ้ง 1 ใบ): ทิ้งสนามของคุณ และลงตัวละคร [Five Elders] 5 ใบจากแทรช"
+ },
+ "Action.OP13-094": {
+  "en": "Peek 3, Draw a [Celestial Dragons] Card and Trash the Rest",
+  "th": "ดู 3 ใบ จั่วการ์ด [Celestial Dragons] แล้วทิ้งที่เหลือ"
+ },
+ "Action.OP13-097": {
+  "en": "(5): KO a Base Cost 6 or Less",
+  "th": "(5): เคโอตัวที่คอสต์พื้นฐาน 6 หรือต่ำกว่า"
+ },
+ "Action.OP13-098": {
+  "en": "(1): KO a Stage Cost 7 or Less",
+  "th": "(1): เคโอสเตจคอสต์ 7 หรือต่ำกว่า"
+ },
+ "Action.OP13-099": {
+  "en": "(3)(Rest): Play 1 Black [Five Elders] Character Of Your Don Count Or Less From Hand",
+  "th": "(3)(เรสต์): ลงตัวละคร [Five Elders] สีดำ 1 ใบที่คอสต์เท่ากับหรือน้อยกว่าจำนวน DON!! ของคุณจากมือ"
+ },
+ "Msg.LoadStateParseError": {
+  "en": "Failed to load game state!<br> Make sure the format is correct",
+  "th": "โหลดสถานะเกมไม่สำเร็จ!<br> ตรวจสอบว่ารูปแบบถูกต้อง"
+ },
+ "Action.OP13-020": {
+  "en": "Give a Character -5000",
+  "th": "ให้ตัวละคร -5000"
+ },
+ "Action.OP13-059": {
+  "en": "(Return 1 Character): Return a Cost 6 or Less",
+  "th": "(คืนตัวละคร 1 ใบ): คืนตัวละครคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.OP13-075": {
+  "en": "(1): Gain 1 Rested Don",
+  "th": "(1): รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP13-076": {
+  "en": "(5): Give a Character -8000",
+  "th": "(5): ให้ตัวละคร -8000"
+ },
+ "Action.OP13-102": {
+  "en": "(Trash): Draw 1, then Rest a Cost 3 or Less",
+  "th": "(ทิ้ง): จั่ว 1 แล้วเรสต์คอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.OP13-116": {
+  "en": "Peek 5 and Draw 1 [Supernova]",
+  "th": "ดู 5 ใบ และจั่ว [Supernova] 1 ใบ"
+ },
+ "Action.OP13-117": {
+  "en": "(Turn 1 Life Face-Up): KO a Base Cost 6 or Less",
+  "th": "(หงายไลฟ์ 1 ใบ): เคโอตัวที่คอสต์พื้นฐาน 6 หรือต่ำกว่า"
+ },
+ "Action.EB03-001": {
+  "en": "(Rest): Give Character -2000, then a Character without \"When Attacking\" gains Rush",
+  "th": "(เรสต์): ให้ตัวละคร -2000 แล้วตัวละครที่ไม่มี \"When Attacking\" ได้รับรัช"
+ },
+ "Action.EB03-006": {
+  "en": "Give a Character -1000",
+  "th": "ให้ตัวละคร -1000"
+ },
+ "Action.EB03-008": {
+  "en": "Give a Character -1000",
+  "th": "ให้ตัวละคร -1000"
+ },
+ "Action.EB03-009": {
+  "en": "(Rest): Give a Vanilla Character +2000",
+  "th": "(เรสต์): ให้ตัวละครไร้เอฟเฟกต์ +2000"
+ },
+ "Action.EB03-012": {
+  "en": "(Rest): Rest a [Smile] or [Animal] Character or 1 Don",
+  "th": "(เรสต์): เรสต์ตัวละคร [Smile] หรือ [Animal] หรือ DON!! 1 ใบ"
+ },
+ "Action.EB03-013": {
+  "en": "KO a Rested Cost 5 or Less, then play a [Zou]",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 5 หรือต่ำกว่า แล้วลง [Zou]"
+ },
+ "Action.EB03-014": {
+  "en": "(Rest): Give 2 Rested Don to a [Slash] Leader",
+  "th": "(เรสต์): ให้ DON!! ที่เรสต์ 2 ใบแก่ลีดเดอร์ [Slash]"
+ },
+ "Action.EB03-016": {
+  "en": "(Trash): Give 1 Rested Don to a [Land of Wano] Leader",
+  "th": "(ทิ้ง): ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์ [Land of Wano]"
+ },
+ "Action.EB03-026": {
+  "en": "(Place Character on Deck Bottom): Give 1 Leader and 1 Character 1 Rested Don",
+  "th": "(วางตัวละครไว้ใต้เด็ค): ให้ลีดเดอร์ 1 ใบและตัวละคร 1 ใบรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.EB03-028": {
+  "en": "(Trash): Draw 2 Cards",
+  "th": "(ทิ้ง): จั่ว 2 ใบ"
+ },
+ "Action.EB03-029": {
+  "en": "(4): Play 1 [Amazon Lily] or [Kuja Pirates] Character Cost 6 or Less",
+  "th": "(4): ลงตัวละคร [Amazon Lily] หรือ [Kuja Pirates] 1 ใบคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.EB03-038": {
+  "en": "(1): Gain up to 2 Rested Don",
+  "th": "(1): รับ DON!! แบบเรสต์ไม่เกิน 2 ใบ"
+ },
+ "Action.EB03-049": {
+  "en": "(7): Play a Cost 6 or Less and a Cost 4 or Less [Thriller Bark Pirates] Character from Hand or Trash",
+  "th": "(7): ลงตัวละคร [Thriller Bark Pirates] คอสต์ 6 หรือต่ำกว่าและคอสต์ 4 หรือต่ำกว่าจากมือหรือแทรช"
+ },
+ "Action.EB03-052": {
+  "en": "(Trash): Gain 1 Life, then [Neptunian] Characters Gain +1000",
+  "th": "(ทิ้ง): รับไลฟ์ 1 ใบ แล้วตัวละคร [Neptunian] ได้รับ +1000"
+ },
+ "Action.EB03-060": {
+  "en": "Peek 4 and Draw a Card with Cost between 2 and 8",
+  "th": "ดู 4 ใบ และจั่วการ์ดที่มีคอสต์ระหว่าง 2 ถึง 8"
+ },
+ "Action.EB03-061": {
+  "en": "Activate a Don, then Rest an Opponent's Don or Cost 4 or Less Character",
+  "th": "ทำให้ DON!! แอคทีฟ แล้วเรสต์ DON!! ของฝ่ายตรงข้ามหรือตัวละครคอสต์ 4 หรือต่ำกว่า"
+ },
+ "Action.EB03-062": {
+  "en": "(Trash)(Trash 1): Heal 1, then play a [Trafalgar Law] Cost 7 or Less from Hand",
+  "th": "(ทิ้ง)(ทิ้ง 1 ใบ): ฟื้นไลฟ์ 1 แล้วลง [Trafalgar Law] คอสต์ 7 หรือต่ำกว่าจากมือ"
+ },
+ "Action.OP14-001": {
+  "en": "Swap the Base Power of 2 of your [Supernova] or [Heart Pirates] Characters",
+  "th": "สลับพาวเวอร์พื้นฐานของตัวละคร [Supernova] หรือ [Heart Pirates] ของคุณ 2 ใบ"
+ },
+ "Action.OP14-017": {
+  "en": "Swap the Base Power of 2 Opponent Characters with 9000 or Less Base Power",
+  "th": "สลับพาวเวอร์พื้นฐานของตัวละครฝ่ายตรงข้าม 2 ใบที่มีพาวเวอร์พื้นฐาน 9000 หรือน้อยกว่า"
+ },
+ "Action.OP14-019": {
+  "en": "Peek 4 a Draw a [Straw Hat Crew] or [Supernovas] Character",
+  "th": "ดู 4 ใบ และจั่วตัวละคร [Straw Hat Crew] หรือ [Supernovas]"
+ },
+ "Action.OP14-020": {
+  "en": "(Rest 1 Card): Set 3 Don Active, then you can't play Characters from Hand",
+  "th": "(เรสต์การ์ด 1 ใบ): ตั้ง DON!! 3 ใบเป็นแอคทีฟ แล้วคุณลงตัวละครจากมือไม่ได้"
+ },
+ "Action.OP14-029": {
+  "en": "(Rest 2 Cards): Gain +2000 to Opponent's End Phase",
+  "th": "(เรสต์การ์ด 2 ใบ): ได้รับ +2000 ในเอนด์เฟสของฝ่ายตรงข้าม"
+ },
+ "Action.OP14-037": {
+  "en": "(Rest 3 Cards): KO a Rested Character 7000 Base Power or Less",
+  "th": "(เรสต์การ์ด 3 ใบ): เคโอตัวละครที่เรสต์อยู่พาวเวอร์พื้นฐาน 7000 หรือน้อยกว่า"
+ },
+ "Action.OP14-038": {
+  "en": "(Rest 2 Cards): Draw 1 Card, then Rest a Character 7000 Base Power or Less",
+  "th": "(เรสต์การ์ด 2 ใบ): จั่ว 1 ใบ แล้วเรสต์ตัวละครพาวเวอร์พื้นฐาน 7000 หรือน้อยกว่า"
+ },
+ "Action.OP14-040": {
+  "en": "(Trash 1): Give a [Fish-Man] or [Merfolk] Leader or Character 2 Rested Don",
+  "th": "(ทิ้ง 1 ใบ): ให้ DON!! ที่เรสต์ 2 ใบแก่ลีดเดอร์หรือตัวละคร [Fish-Man] หรือ [Merfolk]"
+ },
+ "Action.OP14-057": {
+  "en": "All [Fish-Man] and [Merfolk] Leaders and Characters Gain +1000",
+  "th": "ลีดเดอร์และตัวละคร [Fish-Man] และ [Merfolk] ทั้งหมดได้รับ +1000"
+ },
+ "Action.OP14-058": {
+  "en": "(3): Play a [Fish-Man] Cost 3 or Less from Hand, then return a 6000 Base Power Opponent Character to Hand",
+  "th": "(3): ลง [Fish-Man] คอสต์ 3 หรือต่ำกว่าจากมือ แล้วคืนตัวละครฝ่ายตรงข้ามพาวเวอร์พื้นฐาน 6000 ขึ้นมือ"
+ },
+ "Action.OP14-059": {
+  "en": "Draw 2 Cards",
+  "th": "จั่ว 2 ใบ"
+ },
+ "Choice.KOCard": {
+  "en": "KO Card",
+  "th": "เคโอการ์ด"
+ },
+ "Choice.RestCard": {
+  "en": "Rest Card",
+  "th": "เรสต์การ์ด"
+ },
+ "Choice.KOCost8": {
+  "en": "KO a Cost 8 Or Less",
+  "th": "เคโอคอสต์ 8 หรือต่ำกว่า"
+ },
+ "Choice.CantRest3Cost7": {
+  "en": "Opponent Can't Rest 3 Cost 7 Or Less",
+  "th": "ฝ่ายตรงข้ามเรสต์คอสต์ 7 หรือต่ำกว่า 3 ใบไม่ได้"
+ },
+ "Action.OP14-076": {
+  "en": "(2): Gain 1 Rested Don",
+  "th": "(2): รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.OP14-079": {
+  "en": "(KO a [Baroque Works]): Give an Opponent -10 and Mill 2",
+  "th": "(เคโอ [Baroque Works]): ให้ฝ่ายตรงข้าม -10 และทิ้งการ์ดจากเด็ค 2 ใบ"
+ },
+ "Action.OP14-080": {
+  "en": "(KO a [Thriller Bark Pirates]): Your Leader and Characters Gain +1000",
+  "th": "(เคโอ [Thriller Bark Pirates]): ลีดเดอร์และตัวละครของคุณได้รับ +1000"
+ },
+ "Action.OP14-083": {
+  "en": "(Trash): Give a Cost 0 Opponent -3000",
+  "th": "(ทิ้ง): ให้ฝ่ายตรงข้ามคอสต์ 0 -3000"
+ },
+ "Action.OP14-096": {
+  "en": "(2): Silence a Cost 5 or Less Character",
+  "th": "(2): ลบล้างตัวละครคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP14-097": {
+  "en": "Peek 3, Draw a [Thriller Bark Pirates] Card, and Trash the Rest",
+  "th": "ดู 3 ใบ จั่วการ์ด [Thriller Bark Pirates] และทิ้งที่เหลือ"
+ },
+ "Choice.AddToTopLife": {
+  "en": "Add to Top Life",
+  "th": "เพิ่มไว้บนสุดของไลฟ์"
+ },
+ "Action.OP14-105": {
+  "en": "(Reveal 3 [Amazon Lily]/[Kuja Pirates] Cards): Give your Leader and any Characters 1 Rested Don",
+  "th": "(เปิดการ์ด [Amazon Lily]/[Kuja Pirates] 3 ใบ): ให้ลีดเดอร์และตัวละครใดก็ได้ของคุณรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.OP14-098": {
+  "en": "Give [Baroque Works] Character +3 Cost to Opp's End Turn",
+  "th": "ให้ตัวละคร [Baroque Works] +3 คอสต์ จนถึงจบเทิร์นของฝ่ายตรงข้าม"
+ },
+ "Choice.Mill2": {
+  "en": "Mill 2 Cards",
+  "th": "ทิ้งการ์ดจากเด็ค 2 ใบ"
+ },
+ "Choice.Mill0": {
+  "en": "Don't Mill",
+  "th": "ไม่ทิ้งการ์ดจากเด็ค"
+ },
+ "Button.SignIn": {
+  "en": "Sign In",
+  "th": "ลงชื่อเข้าใช้"
+ },
+ "Text.NewUser": {
+  "en": "New user detected!<br>Please choose a User Name:",
+  "th": "พบผู้ใช้ใหม่!<br>กรุณาเลือกชื่อผู้ใช้:"
+ },
+ "Button.ChooseName": {
+  "en": "Use This Name",
+  "th": "ใช้ชื่อนี้"
+ },
+ "Text.UnityAuth": {
+  "en": "Authenticating with Unity Servers...",
+  "th": "กำลังยืนยันตัวตนกับเซิร์ฟเวอร์ Unity..."
+ },
+ "Button.SignOut": {
+  "en": "Sign Out of Account",
+  "th": "ออกจากระบบบัญชี"
+ },
+ "Button.AttemptAuth": {
+  "en": "Attempt to Reconnect to Unity Servers",
+  "th": "ลองเชื่อมต่อกับเซิร์ฟเวอร์ Unity อีกครั้ง"
+ },
+ "Button.LinkUnity": {
+  "en": "Link to a Unity Account",
+  "th": "เชื่อมต่อบัญชี Unity"
+ },
+ "Text.AnonAccount": {
+  "en": "Looks like you are not currently linked to a Unity Account! Please attach a Unity Account with the button below, or sign out and sign back in with an existing Unity Account if you have set one up on another device.",
+  "th": "ดูเหมือนว่าคุณยังไม่ได้เชื่อมต่อบัญชี Unity! กรุณาเชื่อมต่อบัญชี Unity ด้วยปุ่มด้านล่าง หรือออกจากระบบแล้วเข้าสู่ระบบใหม่ด้วยบัญชี Unity ที่มีอยู่ ถ้าคุณตั้งไว้แล้วบนอุปกรณ์อื่น"
+ },
+ "Action.OP14-005": {
+  "en": "Give 1 Rested Don to a Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP14-046": {
+  "en": "(Trash): Give a [Fishman] or [Merfolk] Leader or Character +2000",
+  "th": "(ทิ้ง): ให้ลีดเดอร์หรือตัวละคร [Fishman] หรือ [Merfolk] +2000"
+ },
+ "Action.OP14-099": {
+  "en": "Peek 3, Draw a Card including \"Baroque Works\" and Trash the Rest",
+  "th": "ดู 3 ใบ จั่วการ์ดที่มี \"Baroque Works\" และทิ้งที่เหลือ"
+ },
+ "Action.OP14-114": {
+  "en": "Give 1 Rested Don to a [Kuja Pirates] Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร [Kuja Pirates]"
+ },
+ "Choice.PeronaLeaderRest": {
+  "en": "Rest a Cost 4 or Less",
+  "th": "เรสต์คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Choice.PeronaLeaderCost": {
+  "en": "Give an Opponent -1 Cost",
+  "th": "ให้ฝ่ายตรงข้ามคอสต์ -1"
+ },
+ "Choice.Rest6": {
+  "en": "Rest a Cost 6 or Less",
+  "th": "เรสต์คอสต์ 6 หรือต่ำกว่า"
+ },
+ "Choice.KORested6": {
+  "en": "KO a Rested Cost 6 or Less",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 6 หรือต่ำกว่า"
+ },
+ "Choice.KO6": {
+  "en": "KO a Cost 6 or Less",
+  "th": "เคโอคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.EB04-019": {
+  "en": "(Rest Any): Give a Character -3 Cost",
+  "th": "(เรสต์ใบใดก็ได้): ให้ตัวละคร -3 คอสต์"
+ },
+ "Action.ST29-014": {
+  "en": "(Trash 1 Trigger): Draw 1 and grant 1 Rested Don to a Leader or Character",
+  "th": "(ทิ้งทริกเกอร์ 1 ใบ): จั่ว 1 ใบ และให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.ST29-016": {
+  "en": "Grant your [Monkey D. Luffy] Leader Unblockable",
+  "th": "ให้ลีดเดอร์ [Monkey D. Luffy] ของคุณบล็อกไม่ได้"
+ },
+ "Action.EB04-031": {
+  "en": "(Rest): Gain 1 Active Don and 1 Rested Don",
+  "th": "(เรสต์): รับ DON!! แอคทีฟ 1 ใบและ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.EB04-041": {
+  "en": "Play 1 [Sanji] with 6000 power or less from your Hand or Trash",
+  "th": "ลง [Sanji] พาวเวอร์ 6000 หรือน้อยกว่า 1 ใบจากมือหรือแทรช"
+ },
+ "Action.ST29-012": {
+  "en": "Give 1 Rested Don to a [Monkey D. Luffy]",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ [Monkey D. Luffy]"
+ },
+ "Action.EB04-001": {
+  "en": "Give a Character -1000, then if you have 2 or More Life, you may take your Top Life",
+  "th": "ให้ตัวละคร -1000 แล้วถ้าคุณมีไลฟ์ 2 ขึ้นไป คุณรับไลฟ์บนสุดของคุณได้"
+ },
+ "Action.EB04-008": {
+  "en": "Give a Character -3000",
+  "th": "ให้ตัวละคร -3000"
+ },
+ "Action.EB04-012": {
+  "en": "Set your [Land of Wano] Leader Active",
+  "th": "ตั้งลีดเดอร์ [Land of Wano] ของคุณเป็นแอคทีฟ"
+ },
+ "Action.OP13-081": {
+  "en": "(Return 1 Trash to Deck): Give a Rested Don to a Character or Leader",
+  "th": "(คืนการ์ดจากแทรช 1 ใบเข้าเด็ค): ให้ DON!! ที่เรสต์หนึ่งใบแก่ตัวละครหรือลีดเดอร์"
+ },
+ "Action.EB03-015": {
+  "en": "(Rest): Give a Rested Don to a [Fish-Man] or [Merfolk] Leader or Character, then Rest a Cost 2 or Less",
+  "th": "(เรสต์): ให้ DON!! ที่เรสต์หนึ่งใบแก่ลีดเดอร์หรือตัวละคร [Fish-Man] หรือ [Merfolk] แล้วเรสต์คอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.EB04-014": {
+  "en": "Give 1 Rested Don to your [Land of Wano] Leader",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์ [Land of Wano] ของคุณ"
+ },
+ "Action.EB04-016": {
+  "en": "Set 1 Don Active, then Unable to Activate Don via Characters",
+  "th": "ตั้ง DON!! 1 ใบเป็นแอคทีฟ แล้วทำให้ DON!! แอคทีฟผ่านตัวละครไม่ได้"
+ },
+ "Action.EB04-021": {
+  "en": "(Trash 1): Give 1 Rested Don to a Leader or Character",
+  "th": "(ทิ้ง 1 ใบ): ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.EB04-024": {
+  "en": "(Rest and Trash 1): Grant an [Alabasta] Character Unblockable",
+  "th": "(เรสต์และทิ้ง 1 ใบ): ให้ตัวละคร [Alabasta] บล็อกไม่ได้"
+ },
+ "Action.EB04-028": {
+  "en": "(Trash 1): 2 Opponent Characters with 10000 or Less Power Can't Attack Next Turn",
+  "th": "(ทิ้ง 1 ใบ): ตัวละครฝ่ายตรงข้าม 2 ใบที่มีพาวเวอร์ 10000 หรือน้อยกว่าโจมตีไม่ได้ในเทิร์นหน้า"
+ },
+ "Action.EB04-029": {
+  "en": "Peek 3, Draw a [Sanji] or Event and Trash the Rest",
+  "th": "ดู 3 ใบ จั่ว [Sanji] หรืออีเวนต์ แล้วทิ้งที่เหลือ"
+ },
+ "Action.EB04-032": {
+  "en": "(2): Gain 1 Rested Don",
+  "th": "(2): รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.EB04-036": {
+  "en": "Gain 1 Rested Don",
+  "th": "รับ DON!! แบบเรสต์ 1 ใบ"
+ },
+ "Action.EB04-039": {
+  "en": "(Trash Self): Play a Cost 5 or Less [Kid Pirates] from Hand",
+  "th": "(ทิ้งตัวเอง): ลง [Kid Pirates] คอสต์ 5 หรือต่ำกว่าจากมือ"
+ },
+ "Action.EB04-040": {
+  "en": "(6): Give a [Kaido] +3000, then Rest 1 Character",
+  "th": "(6): ให้ [Kaido] +3000 แล้วเรสต์ตัวละคร 1 ใบ"
+ },
+ "Action.EB04-045": {
+  "en": "(Rest): Grant a [Revolutionary Army] Leader or Character +1000",
+  "th": "(เรสต์): ให้ลีดเดอร์หรือตัวละคร [Revolutionary Army] +1000"
+ },
+ "Action.EB04-059": {
+  "en": "(Turn Top Life Face-Up): KO a Cost 6 or Less and a Cost 5 or Less",
+  "th": "(หงายไลฟ์บนสุด): เคโอคอสต์ 6 หรือต่ำกว่า และคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.P-122": {
+  "en": "Give an Ace Sabo and Luffy +1000",
+  "th": "ให้ Ace Sabo และ Luffy +1000"
+ },
+ "Action.P-134": {
+  "en": "Peek 3, Draw 1 [Monkey D. Luffy], [Sabo], or [Portgas D. Ace], or Draw 1 Card if none chosen",
+  "th": "ดู 3 ใบ จั่ว [Monkey D. Luffy], [Sabo] หรือ [Portgas D. Ace] 1 ใบ หรือจั่ว 1 ใบถ้าไม่ได้เลือก"
+ },
+ "Action.EB04-007": {
+  "en": "Gain Rush:Character",
+  "th": "ได้รับรัช:ตัวละคร"
+ },
+ "Action.EB04-009": {
+  "en": "(Attach 1 Don): Give a Character -2000",
+  "th": "(ใส่ DON!! 1 ใบ): ให้ตัวละคร -2000"
+ },
+ "Action.EB04-049": {
+  "en": "(Mill 2): KO a Base Cost 5 or Less",
+  "th": "(ทิ้งจากเด็ค 2 ใบ): เคโอตัวที่คอสต์พื้นฐาน 5 หรือต่ำกว่า"
+ },
+ "Action.EB04-047": {
+  "en": "(Trash): Play a Cost 3 or Less [Sword] Character from Hand or Trash",
+  "th": "(ทิ้ง): ลงตัวละคร [Sword] คอสต์ 3 หรือต่ำกว่าจากมือหรือแทรช"
+ },
+ "Action.EB04-050": {
+  "en": "1 [Sword] Leader or Character can attack Active",
+  "th": "ลีดเดอร์หรือตัวละคร [Sword] 1 ใบโจมตีตัวที่แอคทีฟได้"
+ },
+ "Log.SaveTarget": {
+  "en": "$1: Prevent Effect To $2",
+  "th": "$1: ป้องกันเอฟเฟกต์ที่มีต่อ $2"
+ },
+ "Action.OP15-001": {
+  "en": "Rest a Character with 2 or More Given Don",
+  "th": "เรสต์ตัวละครที่มี DON!! ที่ได้รับ 2 ใบขึ้นไป"
+ },
+ "Action.OP15-002": {
+  "en": "Draw 1 Card",
+  "th": "จั่ว 1 ใบ"
+ },
+ "Action.OP15-008": {
+  "en": "Give Opponent Characters -1000 Per Given Don",
+  "th": "ให้ตัวละครฝ่ายตรงข้าม -1000 ต่อ DON!! ที่ได้รับแต่ละใบ"
+ },
+ "Log.LoseEffect": {
+  "en": "$1: Loses the Game!",
+  "th": "$1: แพ้เกม!"
+ },
+ "Action.OP15-022": {
+  "en": "Mill 4, then if you have 0 in deck, set 1 Character Active",
+  "th": "ทิ้งการ์ดจากเด็ค 4 ใบ แล้วถ้าคุณมีการ์ดในเด็ค 0 ใบ ตั้งตัวละคร 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP15-032": {
+  "en": "(Trash): Set a Base Cost 8 or Less as Active",
+  "th": "(ทิ้ง): ตั้งตัวที่คอสต์พื้นฐาน 8 หรือต่ำกว่าเป็นแอคทีฟ"
+ },
+ "Action.OP15-039": {
+  "en": "(Rest)(Return 1 Dressrosa): Play a [Dressrosa] Character with Cost 3 or Less",
+  "th": "(เรสต์)(คืน Dressrosa 1 ใบ): ลงตัวละคร [Dressrosa] คอสต์ 3 หรือต่ำกว่า"
+ },
+ "Action.OP15-058": {
+  "en": "Gain 1 Active, 4 Rested, then Attach 4 Rested Don",
+  "th": "รับ DON!! แอคทีฟ 1 ใบ แบบเรสต์ 4 ใบ แล้วใส่ DON!! ที่เรสต์ 4 ใบ"
+ },
+ "Action.OP15-060": {
+  "en": "(Don -1): Gain Blocker, then Trash 1 Card",
+  "th": "(DON!! -1): ได้รับบล็อกเกอร์ แล้วทิ้งการ์ด 1 ใบ"
+ },
+ "Action.OP15-114": {
+  "en": "Give 1 Rested Don to a [Sky Island] Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร [Sky Island]"
+ },
+ "Action.OP15-023": {
+  "en": "(Attach an Opponent's Rested Don): Attach an Active or Rested Don to an Opponent",
+  "th": "(ใส่ DON!! ที่เรสต์ของฝ่ายตรงข้าม): ใส่ DON!! แอคทีฟหรือเรสต์ให้ฝ่ายตรงข้าม"
+ },
+ "Action.OP15-041": {
+  "en": "(Place 1 Character on Deck Bottom): Gain Rush",
+  "th": "(วางตัวละคร 1 ใบไว้ใต้เด็ค): ได้รับรัช"
+ },
+ "Action.OP15-054": {
+  "en": "Return a Stage, or Draw 2 Trash 1 and Play a Cost 4 Or Less [Dressrosa] Character",
+  "th": "คืนสเตจ หรือจั่ว 2 ทิ้ง 1 และลงตัวละคร [Dressrosa] คอสต์ 4 หรือต่ำกว่า"
+ },
+ "Choice.ReturnStage": {
+  "en": "Return a Stage",
+  "th": "คืนสเตจ"
+ },
+ "Choice.DressrosaChar": {
+  "en": "Draw 2 Trash 1, and Play a Dressrosa Character",
+  "th": "จั่ว 2 ทิ้ง 1 และลงตัวละคร Dressrosa"
+ },
+ "Action.OP15-097": {
+  "en": "Character Cost 5 or Less Can't Attack",
+  "th": "ตัวละครคอสต์ 5 หรือต่ำกว่าโจมตีไม่ได้"
+ },
+ "Action.EB04-060": {
+  "en": "(Add 1 Life to Hand): Add 1 [Egghead] Character to the Top of Life and give a Character -1000",
+  "th": "(นำไลฟ์ 1 ใบขึ้นมือ): เพิ่มตัวละคร [Egghead] 1 ใบไว้บนสุดของไลฟ์ และให้ตัวละคร -1000"
+ },
+ "Action.OP15-003": {
+  "en": "(Give 1 Rested Don to Opponent): Give 1 Active/Rested Don to Opponent's Leader or Character",
+  "th": "(ให้ DON!! ที่เรสต์ 1 ใบแก่ฝ่ายตรงข้าม): ให้ DON!! แอคทีฟ/เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละครของฝ่ายตรงข้าม"
+ },
+ "Action.OP15-010": {
+  "en": "Give 1 Rested Don to a Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP15-017": {
+  "en": "(Give 1 Rested Don to Opponent): Give 1 Active/Rested Don to Opponent's Leader or Character",
+  "th": "(ให้ DON!! ที่เรสต์ 1 ใบแก่ฝ่ายตรงข้าม): ให้ DON!! แอคทีฟ/เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละครของฝ่ายตรงข้าม"
+ },
+ "Action.OP15-019": {
+  "en": "Draw 1 Card and Give Leader +1000 to Opponent's Turn",
+  "th": "จั่ว 1 ใบ และให้ลีดเดอร์ +1000 ในเทิร์นของฝ่ายตรงข้าม"
+ },
+ "Action.OP15-020": {
+  "en": "Give Leader +3000 and an Opponent -8000 to their Turn End, Then (Trash 2) to KO a 0 Power",
+  "th": "ให้ลีดเดอร์ +3000 และให้ฝ่ายตรงข้าม -8000 จนถึงจบเทิร์นของเขา จากนั้น (ทิ้ง 2 ใบ) เพื่อเคโอตัวพาวเวอร์ 0"
+ },
+ "Action.OP15-021": {
+  "en": "Give a Character -3000",
+  "th": "ให้ตัวละคร -3000"
+ },
+ "Action.OP15-026": {
+  "en": "(Trash): Give an opponent's Rested Don to a Character",
+  "th": "(ทิ้ง): ให้ DON!! ที่เรสต์ของฝ่ายตรงข้ามแก่ตัวละคร"
+ },
+ "Action.OP15-037": {
+  "en": "Peek 5 and Draw an [East Blue] Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [East Blue]"
+ },
+ "Action.OP15-038": {
+  "en": "Freeze a Cost 8 or Less with 2 or more Given Don",
+  "th": "แช่แข็งตัวที่คอสต์ 8 หรือต่ำกว่าที่มี DON!! ที่ได้รับ 2 ใบขึ้นไป"
+ },
+ "Action.OP15-055": {
+  "en": "Draw 2 Cards OR Grant a [Dressrosa] Blocker",
+  "th": "จั่ว 2 ใบ หรือให้ [Dressrosa] บล็อกเกอร์"
+ },
+ "Choice.DressBlocker": {
+  "en": "Grant a [Dressrosa] Character Blocker",
+  "th": "ให้ตัวละคร [Dressrosa] บล็อกเกอร์"
+ },
+ "Action.OP15-056": {
+  "en": "Draw 2, then Gain Double Attack and +3000",
+  "th": "จั่ว 2 แล้วได้รับดับเบิลแอทแทคและ +3000"
+ },
+ "Choice.Return1Active": {
+  "en": "Return 1 Active Don",
+  "th": "คืน DON!! แอคทีฟ 1 ใบ"
+ },
+ "Choice.Allow2k": {
+  "en": "Let Opponent Give a Leader or Character -2000",
+  "th": "ให้ฝ่ายตรงข้ามให้ลีดเดอร์หรือตัวละคร -2000"
+ },
+ "Action.OP15-064": {
+  "en": "(Don -2, Rest): Rest a 5000 or Less",
+  "th": "(DON!! -2, เรสต์): เรสต์ตัวพาวเวอร์ 5000 หรือน้อยกว่า"
+ },
+ "Action.OP15-072": {
+  "en": "(Don -2, Rest): Give a Character -3000",
+  "th": "(DON!! -2, เรสต์): ให้ตัวละคร -3000"
+ },
+ "Action.OP15-074": {
+  "en": "(Don -1): Draw 1 Card, then Give a Character +2 Cost",
+  "th": "(DON!! -1): จั่ว 1 ใบ แล้วให้ตัวละคร +2 คอสต์"
+ },
+ "Action.OP15-075": {
+  "en": "(Don -1): Grant +1000, then KO a 3000 Or Less",
+  "th": "(DON!! -1): ให้ +1000 แล้วเคโอตัวพาวเวอร์ 3000 หรือน้อยกว่า"
+ },
+ "Action.OP15-076": {
+  "en": "(Don -1): Draw 1 Card, then Give a Character -1000",
+  "th": "(DON!! -1): จั่ว 1 ใบ แล้วให้ตัวละคร -1000"
+ },
+ "Action.OP15-077": {
+  "en": "(Don -1): Draw 1 Card, then Freeze a 6000 Or Less",
+  "th": "(DON!! -1): จั่ว 1 ใบ แล้วแช่แข็งตัวพาวเวอร์ 6000 หรือน้อยกว่า"
+ },
+ "Action.OP15-078": {
+  "en": "(Don -2): Draw 1 Card, then Rest a 5000 Or Less",
+  "th": "(DON!! -2): จั่ว 1 ใบ แล้วเรสต์ตัวพาวเวอร์ 5000 หรือน้อยกว่า"
+ },
+ "Action.OP15-083": {
+  "en": "(Trash): Give 1 Rested Don to a Leader or Character",
+  "th": "(ทิ้ง): ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP15-085": {
+  "en": "(Trash): Add a [Straw Hat Crew] Character from Trash to Hand",
+  "th": "(ทิ้ง): นำตัวละคร [Straw Hat Crew] จากแทรชขึ้นมือ"
+ },
+ "Action.OP15-093": {
+  "en": "(Trash): Grant a [Monkey D. Luffy] Rush:Character and Slash",
+  "th": "(ทิ้ง): ให้ [Monkey D. Luffy] รัช:ตัวละครและ Slash"
+ },
+ "Log.GrantSlash": {
+  "en": "$1: Give $2 Slash Attribute",
+  "th": "$1: ให้ $2 แอตทริบิวต์ Slash"
+ },
+ "Action.OP15-095": {
+  "en": "(1): Grant a [Straw Hat Crew] Character +3000",
+  "th": "(1): ให้ตัวละคร [Straw Hat Crew] +3000"
+ },
+ "Action.OP15-096": {
+  "en": "(1): Mill 5",
+  "th": "(1): ทิ้งการ์ดจากเด็ค 5 ใบ"
+ },
+ "Action.OP15-099": {
+  "en": "(Turn 1 Life Face-Down): Attach 1 Rested Don to a Character/Leader",
+  "th": "(คว่ำไลฟ์ 1 ใบ): ใส่ DON!! ที่เรสต์ 1 ใบให้ตัวละคร/ลีดเดอร์"
+ },
+ "Action.OP15-115": {
+  "en": "KO a Cost 4 or Less, then Take 1 Life",
+  "th": "เคโอคอสต์ 4 หรือต่ำกว่า แล้วรับไลฟ์ 1 ใบ"
+ },
+ "Action.OP15-116": {
+  "en": "Trash 1 Life, Gain 1 Life, and Trash 1 Card",
+  "th": "ทิ้งไลฟ์ 1 ใบ รับไลฟ์ 1 ใบ และทิ้งการ์ด 1 ใบ"
+ },
+ "Action.OP15-117": {
+  "en": "Draw 1 Card, then Grant 1 Rested Don to a [Sky Island] Character/Leader",
+  "th": "จั่ว 1 ใบ แล้วให้ DON!! ที่เรสต์ 1 ใบแก่ตัวละคร/ลีดเดอร์ [Sky Island]"
+ },
+ "Action.OP16-022": {
+  "en": "Set 2 Don Active",
+  "th": "ตั้ง DON!! 2 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP16-056": {
+  "en": "(Trash): Draw 2 and a Cost 9 or Less Can't Attack",
+  "th": "(ทิ้ง): จั่ว 2 และตัวละครคอสต์ 9 หรือต่ำกว่าโจมตีไม่ได้"
+ },
+ "Action.OP16-060": {
+  "en": "(Active Don-8): Play 3 [Admiral]s with Different Names",
+  "th": "(DON!! แอคทีฟ -8): ลง [Admiral] 3 ใบที่ชื่อต่างกัน"
+ },
+ "Action.OP16-063": {
+  "en": "(Don -1): Remove [Blocker] from One Opponent",
+  "th": "(DON!! -1): ลบ [Blocker] ออกจากฝ่ายตรงข้ามหนึ่งใบ"
+ },
+ "Action.OP16-065": {
+  "en": "(1): Gain 2 Active Don",
+  "th": "(1): รับ DON!! แอคทีฟ 2 ใบ"
+ },
+ "Action.P-998": {
+  "en": "This Way, Zoro Don",
+  "th": "ทางนี้ โซโล DON!!"
+ },
+ "Log.ZoroDon": {
+  "en": "<b>Finds one of their Don!</b>",
+  "th": "<b>เจอ DON!! ของตัวเองหนึ่งใบ!</b>"
+ },
+ "Action.OP16-094": {
+  "en": "Give a [Wano Country] Leader or Character 1 Rested Don",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร [Wano Country]"
+ },
+ "OPBounty.Label.Nickname": {
+  "en": "Nickname",
+  "th": "ชื่อเล่น"
+ },
+ "OPBounty.Label.NicknameColon": {
+  "en": "Nickname:",
+  "th": "ชื่อเล่น:"
+ },
+ "OPBounty.Label.UsernameColon": {
+  "en": "Username:",
+  "th": "ชื่อผู้ใช้:"
+ },
+ "OPBounty.Label.PasswordColon": {
+  "en": "Password:",
+  "th": "รหัสผ่าน:"
+ },
+ "OPBounty.Placeholder.Nickname": {
+  "en": "Enter your nickname...",
+  "th": "ใส่ชื่อเล่นของคุณ..."
+ },
+ "OPBounty.Placeholder.Username": {
+  "en": "Enter your username...",
+  "th": "ใส่ชื่อผู้ใช้ของคุณ..."
+ },
+ "OPBounty.Placeholder.Password": {
+  "en": "Enter your password...",
+  "th": "ใส่รหัสผ่านของคุณ..."
+ },
+ "OPBounty.Msg.ChooseNicknameFaction": {
+  "en": "Please choose your nickname and faction!",
+  "th": "กรุณาเลือกชื่อเล่นและฝ่ายของคุณ!"
+ },
+ "OPBounty.Msg.LoginPrompt": {
+  "en": "Please login or create an account...",
+  "th": "กรุณาเข้าสู่ระบบหรือสร้างบัญชี..."
+ },
+ "OPBounty.Msg.StatsStandaloneBlurb": {
+  "en": "For full stats tracking, replays, decklists and matchups from the best players use the OPBounty Standalone client.",
+  "th": "หากต้องการติดตามสถิติครบถ้วน รีเพลย์ รายการเด็ค และแมตช์อัปของผู้เล่นระดับสูง ให้ใช้โปรแกรม OPBounty Standalone"
+ },
+ "OPBounty.Msg.Disclaimer": {
+  "en": "OPBounty is a ranked matchmacking app and has no direct affiliation with the SIM",
+  "th": "OPBounty เป็นแอปจับคู่แรงก์ และไม่ได้เกี่ยวข้องกับ SIM โดยตรง"
+ },
+ "OPBounty.Button.OpenOPBounty": {
+  "en": "Open OPBounty",
+  "th": "เปิด OPBounty"
+ },
+ "OPBounty.Button.HideOPBounty": {
+  "en": "Hide<br>OPBounty",
+  "th": "ซ่อน<br>OPBounty"
+ },
+ "OPBounty.Button.LeaveMatch": {
+  "en": "Leave Match",
+  "th": "ออกจากแมตช์"
+ },
+ "OPBounty.Button.Confirm": {
+  "en": "Confirm",
+  "th": "ยืนยัน"
+ },
+ "OPBounty.Button.CreateAccount": {
+  "en": "Create",
+  "th": "สร้าง"
+ },
+ "OPBounty.Button.Login": {
+  "en": "Login",
+  "th": "เข้าสู่ระบบ"
+ },
+ "OPBounty.Button.Stats": {
+  "en": "Stats",
+  "th": "สถิติ"
+ },
+ "OPBounty.Button.Logout": {
+  "en": "Logout",
+  "th": "ออกจากระบบ"
+ },
+ "OPBounty.Title.VS": {
+  "en": "VS",
+  "th": "VS"
+ },
+ "OPBounty.Button.LeaveQueue": {
+  "en": "Leave Queue",
+  "th": "ออกจากคิว"
+ },
+ "OPBounty.Button.QueueStandard": {
+  "en": "Play Standard Ranked",
+  "th": "เล่นแรงก์มาตรฐาน"
+ },
+ "OPBounty.Button.QueueExRegulation": {
+  "en": "Play Ex. Regulation Ranked",
+  "th": "เล่นแรงก์ Ex. Regulation"
+ },
+ "OPBounty.Button.QueueOP16": {
+  "en": "Play OP16 Ranked",
+  "th": "เล่นแรงก์ OP16"
+ },
+ "OPBounty.Msg.MatchFoundShort": {
+  "en": "Match found!",
+  "th": "พบแมตช์แล้ว!"
+ },
+ "OPBounty.Msg.InQueue": {
+  "en": "In queue...",
+  "th": "อยู่ในคิว..."
+ },
+ "OPBounty.Msg.SelectMode": {
+  "en": "Select a mode to find a match.",
+  "th": "เลือกโหมดเพื่อหาแมตช์"
+ },
+ "OPBounty.Msg.LogInFirst": {
+  "en": "Log in first.",
+  "th": "กรุณาเข้าสู่ระบบก่อน"
+ },
+ "OPBounty.Msg.JoiningQueue": {
+  "en": "Joining queue...",
+  "th": "กำลังเข้าคิว..."
+ },
+ "OPBounty.Msg.LeftQueue": {
+  "en": "Left queue.",
+  "th": "ออกจากคิวแล้ว"
+ },
+ "OPBounty.Msg.LeftMatch": {
+  "en": "Left match.",
+  "th": "ออกจากแมตช์แล้ว"
+ },
+ "OPBounty.Msg.OpponentLeftQueue": {
+  "en": "Opponent left the queue.",
+  "th": "ฝ่ายตรงข้ามออกจากคิวแล้ว"
+ },
+ "OPBounty.Msg.MatchFoundHostInstructions": {
+  "en": "Match found. You are the host.\\nTap Start to create the room and send the code.",
+  "th": "พบแมตช์แล้ว คุณเป็นเจ้าของห้อง\\nกดเริ่มเพื่อสร้างห้องและส่งรหัส"
+ },
+ "OPBounty.Msg.MatchFoundClientInstructions": {
+  "en": "Match found.\\nTap Start and wait for the host's room code.",
+  "th": "พบแมตช์แล้ว\\nกดเริ่มและรอรหัสห้องจากเจ้าของห้อง"
+ },
+ "OPBounty.Match.OpponentConnected": {
+  "en": "Opponent connected. Match in progress — you can hide this panel.",
+  "th": "ฝ่ายตรงข้ามเชื่อมต่อแล้ว แมตช์กำลังดำเนินอยู่ — คุณซ่อนแผงนี้ได้"
+ },
+ "OPBounty.Match.You": {
+  "en": "You",
+  "th": "คุณ"
+ },
+ "OPBounty.Match.HostCreating": {
+  "en": "You are the host. Creating the room and sending the code...",
+  "th": "คุณเป็นเจ้าของห้อง กำลังสร้างห้องและส่งรหัส..."
+ },
+ "OPBounty.Match.WaitingHostRoom": {
+  "en": "Waiting for your opponent to create a room. You will join with the code they send.",
+  "th": "กำลังรอฝ่ายตรงข้ามสร้างห้อง คุณจะเข้าร่วมด้วยรหัสที่เขาส่งมา"
+ },
+ "OPBounty.Match.JoinFieldPlaceholder": {
+  "en": "Enter Host's IP Address or Room ID",
+  "th": "ใส่ IP แอดเดรสหรือรหัสห้องของเจ้าของห้อง"
+ },
+ "OPBounty.Match.MatchFinished": {
+  "en": "Match finished.",
+  "th": "แมตช์จบแล้ว"
+ },
+ "OPBounty.Match.MatchEnded": {
+  "en": "Match ended.",
+  "th": "แมตช์สิ้นสุดแล้ว"
+ },
+ "OPBounty.Match.MatchCancelledPrefix": {
+  "en": "Match cancelled.",
+  "th": "ยกเลิกแมตช์แล้ว"
+ },
+ "OPBounty.Match.MatchFinishedPrefix": {
+  "en": "Match finished.",
+  "th": "แมตช์จบแล้ว"
+ },
+ "OPBounty.Match.CreatingRoom": {
+  "en": "Creating room...",
+  "th": "กำลังสร้างห้อง..."
+ },
+ "OPBounty.Match.ErrHostGameplayNotFound": {
+  "en": "Error: Host or gameplay not found.",
+  "th": "ข้อผิดพลาด: ไม่พบเจ้าของห้องหรือเกมเพลย์"
+ },
+ "OPBounty.Match.DeckNotLegal": {
+  "en": "Deck is not legal for this OPBounty mode. Fix your deck and try again.",
+  "th": "เด็คไม่ถูกต้องตามกติกาของโหมด OPBounty นี้ แก้เด็คแล้วลองใหม่"
+ },
+ "OPBounty.Match.FailedCreateSendCode": {
+  "en": "Failed to create room or send code to OPBounty.",
+  "th": "สร้างห้องหรือส่งรหัสไปที่ OPBounty ไม่สำเร็จ"
+ },
+ "OPBounty.Match.RoomCreatedWaiting": {
+  "en": "Room created. Code sent to opponent. Waiting for them to join...",
+  "th": "สร้างห้องแล้ว ส่งรหัสให้ฝ่ายตรงข้ามแล้ว กำลังรอเขาเข้าร่วม..."
+ },
+ "OPBounty.Match.ErrPrefix": {
+  "en": "Error: ",
+  "th": "ข้อผิดพลาด: "
+ },
+ "OPBounty.Match.GotCodeJoining": {
+  "en": "Got room code. Joining match...",
+  "th": "ได้รับรหัสห้องแล้ว กำลังเข้าร่วมแมตช์..."
+ },
+ "OPBounty.Match.RelayJoinFailed": {
+  "en": "Could not join the relay session. Check the code or your connection.",
+  "th": "เข้าร่วมเซสชัน Relay ไม่ได้ ตรวจสอบรหัสหรือการเชื่อมต่อของคุณ"
+ },
+ "OPBounty.Match.ConnectionFailed": {
+  "en": "Connection failed before the match started.",
+  "th": "เชื่อมต่อไม่สำเร็จก่อนแมตช์เริ่ม"
+ },
+ "OPBounty.Match.ErrHostNotFound": {
+  "en": "Error: Host not found.",
+  "th": "ข้อผิดพลาด: ไม่พบเจ้าของห้อง"
+ },
+ "OPBounty.Match.CouldNotStartJoin": {
+  "en": "Could not start join: HostJoin not found.",
+  "th": "เริ่มการเข้าร่วมไม่ได้: ไม่พบ HostJoin"
+ },
+ "OPBounty.Match.InMatch": {
+  "en": "In match.",
+  "th": "อยู่ในแมตช์"
+ },
+ "OPBounty.Match.YouLeft": {
+  "en": "You left the match.",
+  "th": "คุณออกจากแมตช์แล้ว"
+ },
+ "OPBounty.Match.ReportResultNoMatchId": {
+  "en": "Could not report match result (missing match id).",
+  "th": "รายงานผลแมตช์ไม่ได้ (ไม่มีรหัสแมตช์)"
+ },
+ "OPBounty.Match.ResultWin": {
+  "en": "Result sent: win recorded on OPBounty.",
+  "th": "ส่งผลแล้ว: บันทึกชัยชนะบน OPBounty"
+ },
+ "OPBounty.Match.ResultLoss": {
+  "en": "Result sent: loss recorded on OPBounty.",
+  "th": "ส่งผลแล้ว: บันทึกความพ่ายแพ้บน OPBounty"
+ },
+ "OPBounty.Match.MatchClosed": {
+  "en": "Match closed.",
+  "th": "ปิดแมตช์แล้ว"
+ },
+ "OPBounty.Match.Opponent": {
+  "en": "Opponent",
+  "th": "ฝ่ายตรงข้าม"
+ },
+ "OPBounty.Label.Marine": {
+  "en": "Marine",
+  "th": "นาวิกโยธิน"
+ },
+ "OPBounty.Label.Pirate": {
+  "en": "Pirate",
+  "th": "โจรสลัด"
+ },
+ "Action.ST30-014": {
+  "en": "(Rest): Attach 2 Rested Don to 2 Different Characters",
+  "th": "(เรสต์): ใส่ DON!! ที่เรสต์ 2 ใบให้ตัวละครที่ต่างกัน 2 ใบ"
+ },
+ "Action.ST30-017": {
+  "en": "Peek 5 and Draw a Character with 6000 Power",
+  "th": "ดู 5 ใบ และจั่วตัวละครพาวเวอร์ 6000"
+ },
+ "Action.P-136": {
+  "en": "(Rest): Attach 1 Rested Don to a [Straw Hat Crew] Leader or Character",
+  "th": "(เรสต์): ใส่ DON!! ที่เรสต์ 1 ใบให้ลีดเดอร์หรือตัวละคร [Straw Hat Crew]"
+ },
+ "Action.P-148": {
+  "en": "Attach 1 Rested Don to a Leader or Character",
+  "th": "ใส่ DON!! ที่เรสต์ 1 ใบให้ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP16-047": {
+  "en": "(Rest): Opponent Send 2 Hand Cards to Deck Bottom",
+  "th": "(เรสต์): ฝ่ายตรงข้ามส่งการ์ดบนมือ 2 ใบไปใต้เด็ค"
+ },
+ "Action.OP16-049": {
+  "en": "(Rest): Draw 1 Card",
+  "th": "(เรสต์): จั่ว 1 ใบ"
+ },
+ "Action.OP16-098": {
+  "en": "(Trash): Play a Black [Yamato] Cost 8 From Trash",
+  "th": "(ทิ้ง): ลง [Yamato] สีดำคอสต์ 8 จากแทรช"
+ },
+ "Action.OP16-019": {
+  "en": "Play 2 Characters with [Whitebeard Pirates] typing and 8000 Power",
+  "th": "ลงตัวละคร 2 ใบที่เป็นประเภท [Whitebeard Pirates] และมีพาวเวอร์ 8000"
+ },
+ "Action.OP16-020": {
+  "en": "(1): Reveal an 8000 Character: Draw 1",
+  "th": "(1): เปิดตัวละคร 8000 หนึ่งใบ: จั่ว 1"
+ },
+ "Action.OP16-021": {
+  "en": "(Trash): Give 1 Rested Don to a Leader or Character",
+  "th": "(ทิ้ง): ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP16-038": {
+  "en": "(6): Set Leader and all Characters Active",
+  "th": "(6): ตั้งลีดเดอร์และตัวละครทั้งหมดเป็นแอคทีฟ"
+ },
+ "Action.OP16-040": {
+  "en": "Freeze a Cost 6 or Less Rested Character",
+  "th": "แช่แข็งตัวละครที่เรสต์อยู่คอสต์ 6 หรือต่ำกว่า"
+ },
+ "Action.OP16-058": {
+  "en": "Your [Prisoner of Impel Down] Characters are Base 7000 Power",
+  "th": "ตัวละคร [Prisoner of Impel Down] ของคุณมีพาวเวอร์พื้นฐาน 7000"
+ },
+ "Action.OP16-076": {
+  "en": "(3) Give 3 [Admiral] Characters +2000",
+  "th": "(3) ให้ตัวละคร [Admiral] 3 ใบ +2000"
+ },
+ "Action.OP16-077": {
+  "en": "Peek 5, Draw 2 [Navy] Cards, then Trash 1 Card",
+  "th": "ดู 5 ใบ จั่วการ์ด [Navy] 2 ใบ แล้วทิ้งการ์ด 1 ใบ"
+ },
+ "Action.OP16-099": {
+  "en": "(6): Mill 5, Play a 6 Cost or Less [Land of Wano] Character from Trash",
+  "th": "(6): ทิ้งการ์ดจากเด็ค 5 ใบ ลงตัวละคร [Land of Wano] คอสต์ 6 หรือต่ำกว่าจากแทรช"
+ },
+ "Action.OP16-100": {
+  "en": "(2): Set [Yamato] Leader Active",
+  "th": "(2): ตั้งลีดเดอร์ [Yamato] เป็นแอคทีฟ"
+ },
+ "Action.OP16-101": {
+  "en": "Give a Leader or Character +3000, then KO a Cost 2 or Less",
+  "th": "ให้ลีดเดอร์หรือตัวละคร +3000 แล้วเคโอคอสต์ 2 หรือต่ำกว่า"
+ },
+ "Action.OP16-115": {
+  "en": "Add 1 Card with [Trigger] other than [Black Vortex] from Trash to Hand",
+  "th": "นำการ์ดที่มี [Trigger] ที่ไม่ใช่ [Black Vortex] จากแทรชขึ้นมือ 1 ใบ"
+ },
+ "Action.OP16-116": {
+  "en": "Play 1 [Marshall D. Teach] from Hand, then Opponent Takes 1 Life",
+  "th": "ลง [Marshall D. Teach] 1 ใบจากมือ แล้วฝ่ายตรงข้ามรับไลฟ์ 1 ใบ"
+ },
+ "Action.OP16-117": {
+  "en": "(Trash 1 Card with Trigger): Silence a Character with Cost 8 or Less",
+  "th": "(ทิ้งการ์ดที่มีทริกเกอร์ 1 ใบ): ลบล้างตัวละครคอสต์ 8 หรือต่ำกว่า"
+ },
+ "Action.OP16-039": {
+  "en": "Give a [Monkey D. Luffy] Double Attack, then Rest 2 Cost 3 or Less Characters",
+  "th": "ให้ [Monkey D. Luffy] ดับเบิลแอทแทค แล้วเรสต์ตัวละครคอสต์ 3 หรือต่ำกว่า 2 ใบ"
+ },
+ "Action.OP16-052": {
+  "en": "Give 1 Rested Don to a Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร"
+ },
+ "Action.OP16-059": {
+  "en": "(7): Peek 5 and Play 2 [Impel Down] Characters with 6000 Power or Less",
+  "th": "(7): ดู 5 ใบ และลงตัวละคร [Impel Down] พาวเวอร์ 6000 หรือน้อยกว่า 2 ใบ"
+ },
+ "Action.OP16-078": {
+  "en": "(Don -1)(Rest): Draw 1 and Trash 1",
+  "th": "(DON!! -1)(เรสต์): จั่ว 1 ทิ้ง 1"
+ },
+ "Action.OP16-081": {
+  "en": "(Rest): Give a Character -2000",
+  "th": "(เรสต์): ให้ตัวละคร -2000"
+ },
+ "Action.OP16-084": {
+  "en": "(Trash): Play 1 Cost 9 [Kouzuki Momonosuke] from Trash",
+  "th": "(ทิ้ง): ลง [Kouzuki Momonosuke] คอสต์ 9 จำนวน 1 ใบจากแทรช"
+ },
+ "Log.Micropatch": {
+  "en": "Opponent has new mini patch! Updating to $1...",
+  "th": "ฝ่ายตรงข้ามมีแพตช์เล็กใหม่! กำลังอัปเดตเป็น $1..."
+ },
+ "Action.ST31-005": {
+  "en": "(Rest): Give 1 Rested Don to a [Monkey D. Luffy]",
+  "th": "(เรสต์): ให้ DON!! ที่เรสต์ 1 ใบแก่ [Monkey D. Luffy]"
+ },
+ "Choice.FlipTopLifeDown": {
+  "en": "Flip Top Life Down",
+  "th": "คว่ำไลฟ์บนสุด"
+ },
+ "Choice.FlipBotLifeDown": {
+  "en": "Flip Bottom Life Down",
+  "th": "คว่ำไลฟ์ล่างสุด"
+ },
+ "Choice.FlipTopLifeUp": {
+  "en": "Flip Top Life Up",
+  "th": "หงายไลฟ์บนสุด"
+ },
+ "Choice.FlipBotLifeUp": {
+  "en": "Flip Bottom Life Up",
+  "th": "หงายไลฟ์ล่างสุด"
+ },
+ "Action.ST36-005": {
+  "en": "(Turn Top or Bottom Life Up): Give 1 Rested Don to your Leader",
+  "th": "(หงายไลฟ์บนสุดหรือล่างสุด): ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์ของคุณ"
+ },
+ "Action.OP17-020": {
+  "en": "(Trash 1 Card or Rest 1 Don): Freeze 1 Rested Character",
+  "th": "(ทิ้งการ์ด 1 ใบหรือเรสต์ DON!! 1 ใบ): แช่แข็งตัวละครที่เรสต์ 1 ใบ"
+ },
+ "Choice.Trash1": {
+  "en": "Trash 1 Card",
+  "th": "ทิ้งการ์ด 1 ใบ"
+ },
+ "Choice.DonTap1": {
+  "en": "Rest 1 Don",
+  "th": "เรสต์ DON!! 1 ใบ"
+ },
+ "Choice.OppTrashHeal": {
+  "en": "Opponent Trashes 1 and Heals 1",
+  "th": "ฝ่ายตรงข้ามทิ้ง 1 และฟื้นไลฟ์ 1"
+ },
+ "Choice.RandomTrash": {
+  "en": "Trash 1 Random Card",
+  "th": "ทิ้งการ์ดสุ่ม 1 ใบ"
+ },
+ "Action.OP17-063": {
+  "en": "(Don-1): Negate and KO a Cost 6 Or Less Character",
+  "th": "(DON!! -1): ลบล้างและเคโอตัวละครคอสต์ 6 หรือต่ำกว่า"
+ },
+ "Choice.Nothing": {
+  "en": "Do Nothing",
+  "th": "ไม่ทำอะไร"
+ },
+ "Action.OP17-034": {
+  "en": "Set 1 Don Active, then set Leader's Base Power to 6000",
+  "th": "ตั้ง DON!! 1 ใบเป็นแอคทีฟ แล้วตั้งพาวเวอร์พื้นฐานของลีดเดอร์เป็น 6000"
+ },
+ "Action.OP17-025": {
+  "en": "Give a [Shanks] Leader 1 Rested Don",
+  "th": "ให้ลีดเดอร์ [Shanks] รับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Choice.Trash3": {
+  "en": "Trash 3 Cards",
+  "th": "ทิ้งการ์ด 3 ใบ"
+ },
+ "Choice.DontTrash": {
+  "en": "Don't Trash",
+  "th": "ไม่ทิ้ง"
+ },
+ "Action.OP17-098": {
+  "en": "(6): KO 2 Characters Cost 6 or Less",
+  "th": "(6): เคโอตัวละครคอสต์ 6 หรือต่ำกว่า 2 ใบ"
+ },
+ "Action.OP17-078": {
+  "en": "(2)(Trash 2): Gain up to 3 Rested Don Cards",
+  "th": "(2)(ทิ้ง 2 ใบ): รับ DON!! แบบเรสต์ไม่เกิน 3 ใบ"
+ },
+ "Action.OP17-038": {
+  "en": "(4): Rest 1 Character",
+  "th": "(4): เรสต์ตัวละคร 1 ใบ"
+ },
+ "Action.OP17-061": {
+  "en": "(Trash): Play 1 [King], [Queen], or [Jack]",
+  "th": "(ทิ้ง): ลง [King], [Queen] หรือ [Jack] 1 ใบ"
+ },
+ "Action.OP05-021": {
+  "en": "(Rest)(Trash 1): Peek 3 and draw a [Revolutionary Army] Card",
+  "th": "(เรสต์)(ทิ้ง 1 ใบ): ดู 3 ใบ และจั่วการ์ด [Revolutionary Army]"
+ },
+ "Action.OP17-116": {
+  "en": "(2): KO a Stage",
+  "th": "(2): เคโอสเตจ"
+ },
+ "Action.OP17-019": {
+  "en": "Peek 5 and Draw 1 Card including \"Whitebeard Pirates\"",
+  "th": "ดู 5 ใบ และจั่วการ์ดที่มี \"Whitebeard Pirates\" 1 ใบ"
+ },
+ "Action.OP17-101": {
+  "en": "(Take 1 Life): Give an Opponent Character -3000",
+  "th": "(รับไลฟ์ 1 ใบ): ให้ตัวละครฝ่ายตรงข้าม -3000"
+ },
+ "Action.OP17-056": {
+  "en": "(5): Send a Cost 5 or Less Character to Hand",
+  "th": "(5): ส่งตัวละครคอสต์ 5 หรือต่ำกว่าขึ้นมือ"
+ },
+ "Action.OP17-055": {
+  "en": "(1): Give a [Rocks D. Xebec] Unblockable",
+  "th": "(1): ให้ [Rocks D. Xebec] บล็อกไม่ได้"
+ },
+ "Action.OP17-044": {
+  "en": "(Rest): Draw 1 Card and Trash 1 Card",
+  "th": "(เรสต์): จั่ว 1 ใบ และทิ้งการ์ด 1 ใบ"
+ },
+ "Action.OP17-053": {
+  "en": "(Trash 1): Gain +3000",
+  "th": "(ทิ้ง 1 ใบ): ได้รับ +3000"
+ },
+ "Action.OP17-030": {
+  "en": "Set 1 Don Active",
+  "th": "ตั้ง DON!! 1 ใบเป็นแอคทีฟ"
+ },
+ "Action.OP17-037": {
+  "en": "Peek 5 and Draw 1 \"Red-Haired Pirates\" Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด \"Red-Haired Pirates\" 1 ใบ"
+ },
+ "Action.OP17-054": {
+  "en": "(Rest)(3): Prevent 1 Opponent Character from Attacking",
+  "th": "(เรสต์)(3): ห้ามตัวละครฝ่ายตรงข้าม 1 ใบโจมตี"
+ },
+ "Action.OP17-036": {
+  "en": "(6): Rest 1 Character, then KO 2 Rested Cost 6 or Less",
+  "th": "(6): เรสต์ตัวละคร 1 ใบ แล้วเคโอตัวละครที่เรสต์อยู่คอสต์ 6 หรือต่ำกว่า 2 ใบ"
+ },
+ "Action.OP17-115": {
+  "en": "Grant 1 [Charlotte Linlin] Unblockable",
+  "th": "ให้ [Charlotte Linlin] 1 ใบบล็อกไม่ได้"
+ },
+ "Rocks.Shiki": {
+  "en": "[Temp] Shiki (7) + 2 or less",
+  "th": "[Temp] Shiki (7) + 2 หรือน้อยกว่า"
+ },
+ "Rocks.Newgate": {
+  "en": "[Temp] Newgate (6) + 3 or less",
+  "th": "[Temp] Newgate (6) + 3 หรือน้อยกว่า"
+ },
+ "Rocks.Other": {
+  "en": "[Temp] 5 or less + 4 or less",
+  "th": "[Temp] 5 หรือน้อยกว่า + 4 หรือน้อยกว่า"
+ },
+ "Action.OP17-017": {
+  "en": "(2): KO a Stage",
+  "th": "(2): เคโอสเตจ"
+ },
+ "Action.OP17-077": {
+  "en": "(3)(Trash 2): Add Up to 3 Rested Don",
+  "th": "(3)(ทิ้ง 2 ใบ): รับ DON!! แบบเรสต์ไม่เกิน 3 ใบ"
+ },
+ "Action.OP17-097": {
+  "en": "Give all Opponent Characters -1 Cost",
+  "th": "ให้ตัวละครฝ่ายตรงข้ามทั้งหมดคอสต์ -1"
+ },
+ "Action.OP17-010": {
+  "en": "Gain Blocker and +2000 Power to Opponent's End Phase",
+  "th": "ได้รับบล็อกเกอร์และ +2000 พาวเวอร์จนถึงเอนด์เฟสของฝ่ายตรงข้าม"
+ },
+ "Action.OP18-021": {
+  "en": "(Don -1): Play a Cost 5 or Less Stage",
+  "th": "(DON!! -1): ลงสเตจคอสต์ 5 หรือต่ำกว่า"
+ },
+ "Action.OP18-078": {
+  "en": "(Rest): Give 4 Leaders or Characters 1 Rested Don",
+  "th": "(เรสต์): ให้ลีดเดอร์หรือตัวละคร 4 ใบรับ DON!! ที่เรสต์ 1 ใบ"
+ },
+ "Action.OP18-119": {
+  "en": "Play 1 [Holy Knights of God] Cost 6 or Less from Trash",
+  "th": "ลง [Holy Knights of God] คอสต์ 6 หรือต่ำกว่า 1 ใบจากแทรช"
+ },
+ "Action.OP18-060": {
+  "en": "(Trash 1): Gain 1 Active Don",
+  "th": "(ทิ้ง 1 ใบ): รับ DON!! แอคทีฟ 1 ใบ"
+ },
+ "Action.EB05-010": {
+  "en": "Set 1 <Wisdom> and Power less than 6000 Character to Active",
+  "th": "ตั้งตัวละคร <Wisdom> 1 ใบที่พาวเวอร์น้อยกว่า 6000 เป็นแอคทีฟ"
+ },
+ "Action.EB05-001": {
+  "en": "Give a Leader or Character with 6000 or More Power -1000",
+  "th": "ให้ลีดเดอร์หรือตัวละครที่มีพาวเวอร์ 6000 ขึ้นไป -1000"
+ },
+ "Action.EB05-005": {
+  "en": "(Trash): Give a Character -2000",
+  "th": "(ทิ้ง): ให้ตัวละคร -2000"
+ },
+ "Action.EB05-006": {
+  "en": "(Take 1 Life): Give a Character +3000 or -4000",
+  "th": "(รับไลฟ์ 1 ใบ): ให้ตัวละคร +3000 หรือ -4000"
+ },
+ "Choice.AnyPlus3": {
+  "en": "Grant any Character +3000",
+  "th": "ให้ตัวละครใดก็ได้ +3000"
+ },
+ "Choice.AnyMinus4": {
+  "en": "Grant any Character -4000",
+  "th": "ให้ตัวละครใดก็ได้ -4000"
+ },
+ "Action.EB05-009": {
+  "en": "Give +1000 to all Base 4000 or Less",
+  "th": "ให้ +1000 แก่ตัวละครพื้นฐาน 4000 หรือน้อยกว่าทั้งหมด"
+ },
+ "Action.EB05-014": {
+  "en": "(Rest): Give a Neptunian with 6000 Power or Less Rush",
+  "th": "(เรสต์): ให้ Neptunian ที่มีพาวเวอร์ 6000 หรือน้อยกว่ารัช"
+ },
+ "Action.EB05-020": {
+  "en": "(Rest Shirahoshi): Draw 2",
+  "th": "(เรสต์ Shirahoshi): จั่ว 2"
+ },
+ "Action.EB05-031": {
+  "en": "(Trash): Gain up to 4 Active Don",
+  "th": "(ทิ้ง): รับ DON!! แอคทีฟไม่เกิน 4 ใบ"
+ },
+ "Action.EB05-040": {
+  "en": "(Active Don-1): Draw 3 Trash 1",
+  "th": "(DON!! แอคทีฟ -1): จั่ว 3 ทิ้ง 1"
+ },
+ "Action.EB05-048": {
+  "en": "(1)(KO a Baroque Works): Characters with Cost 0 Can't Block",
+  "th": "(1)(เคโอ Baroque Works): ตัวละครที่คอสต์ 0 บล็อกไม่ได้"
+ },
+ "Action.EB05-049": {
+  "en": "(KO a Thriller Barks): Give an Opponent -3 Cost",
+  "th": "(เคโอ Thriller Bark): ให้ฝ่ายตรงข้าม -3 คอสต์"
+ },
+ "Action.EB05-057": {
+  "en": "Give 1 Rested Don to a <Special> or <Wisdom> Card",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่การ์ด <Special> หรือ <Wisdom>"
+ },
+ "Action.EB05-060": {
+  "en": "(Trash 1 Egghead): Gain 1 Life",
+  "th": "(ทิ้ง Egghead 1 ใบ): รับไลฟ์ 1 ใบ"
+ },
+ "Action.OP18-028": {
+  "en": "(Rest this and Gonbe): Set your [Monkey D. Luffy] Leader Active",
+  "th": "(เรสต์ใบนี้และ Gonbe): ตั้งลีดเดอร์ [Monkey D. Luffy] ของคุณเป็นแอคทีฟ"
+ },
+ "Action.OP18-066": {
+  "en": "(KO a Stage): Gain Rush",
+  "th": "(เคโอสเตจ): ได้รับรัช"
+ },
+ "Action.OP18-079": {
+  "en": "(Rest)(2)(Trash 1 \"CP\" Card): Gain 1 Life",
+  "th": "(เรสต์)(2)(ทิ้งการ์ด \"CP\" 1 ใบ): รับไลฟ์ 1 ใบ"
+ },
+ "Action.EB05-030": {
+  "en": "Return a Cost 5 or Less to Hand",
+  "th": "คืนตัวละครคอสต์ 5 หรือต่ำกว่าขึ้นมือ"
+ },
+ "Action.P-163": {
+  "en": "(Rest 1 Card): Give 3 Rested Don to this Leader",
+  "th": "(เรสต์การ์ด 1 ใบ): ให้ DON!! ที่เรสต์ 3 ใบแก่ลีดเดอร์นี้"
+ },
+ "Action.EB05-029": {
+  "en": "(Trash 1): Silence a Cost 6 or Less and Return it to Hand",
+  "th": "(ทิ้ง 1 ใบ): ลบล้างตัวละครคอสต์ 6 หรือต่ำกว่าและคืนขึ้นมือ"
+ },
+ "Action.EB05-039": {
+  "en": "(Don -1): Give a Character -4000",
+  "th": "(DON!! -1): ให้ตัวละคร -4000"
+ },
+ "Action.EB05-008": {
+  "en": "(Give 1 Active to Leader and Reveal 2 Events): Give a Rested Character -7000",
+  "th": "(ให้ DON!! แอคทีฟ 1 ใบแก่ลีดเดอร์และเปิดอีเวนต์ 2 ใบ): ให้ตัวละครที่เรสต์ -7000"
+ },
+ "Action.OP18-084": {
+  "en": "(4): Play a Cost 6 or Less [Holy Knights of God] from Trash",
+  "th": "(4): ลง [Holy Knights of God] คอสต์ 6 หรือต่ำกว่าจากแทรช"
+ },
+ "Action.OP16-001": {
+  "en": "Give a [Monkey D. Luffy] or [Whitebeard Pirates] with 8000 or More Power [Rush]",
+  "th": "ให้ [Monkey D. Luffy] หรือ [Whitebeard Pirates] ที่มีพาวเวอร์ 8000 ขึ้นไปได้รับ [Rush]"
+ },
+ "Log.TakeAllLife": {
+  "en": "$1: Takes All Life",
+  "th": "$1: นำไลฟ์ทั้งหมดขึ้นมือ"
+ },
+ "Log.AddToBotLife": {
+  "en": "$1: Added card to bottom of Life from Hand",
+  "th": "$1: เพิ่มการ์ดจากมือไว้ล่างสุดของไลฟ์"
+ },
+ "Log.AddCharacterToBotLife": {
+  "en": "$1: Add $2 to bottom of Life",
+  "th": "$1: เพิ่ม $2 ไว้ล่างสุดของไลฟ์"
+ },
+ "Log.TrashAllLife": {
+  "en": "$1: Trashes All Life",
+  "th": "$1: ทิ้งไลฟ์ทั้งหมด"
+ },
+ "Action.EB05-059": {
+  "en": "Draw 1, and [Big Mom Pirates] characters with 4000 Base Power or Less can't be Combat KO'd",
+  "th": "จั่ว 1 ใบ และตัวละคร [Big Mom Pirates] ที่มีพาวเวอร์พื้นฐาน 4000 หรือน้อยกว่าไม่ถูกเคโอจากการต่อสู้"
+ },
+ "Action.ST38-001": {
+  "en": "(KO a Cost 3 or More Baroque Works): Draw 1",
+  "th": "(เคโอ Baroque Works คอสต์ 3 ขึ้นไป): จั่ว 1 ใบ"
+ },
+ "Action.OP18-075": {
+  "en": "(Rest)(Don -2): Set a 7000 or Less Straw Hat Crew Character as Active",
+  "th": "(เรสต์)(DON!! -2): ตั้งตัวละคร Straw Hat Crew พาวเวอร์ 7000 หรือน้อยกว่าเป็นแอคทีฟ"
+ },
+ "Action.OP18-077": {
+  "en": "(Rest): Give a Straw Hat Crew Character Rush:Character",
+  "th": "(เรสต์): ให้ตัวละคร Straw Hat Crew ได้รับรัช:ตัวละคร"
+ },
+ "Action.OP18-085": {
+  "en": "(Return): Give a [Saint Shamrock] Rush, Banish, or Unblockable",
+  "th": "(คืนขึ้นมือ): ให้ [Saint Shamrock] ได้รับรัช บานิช หรือโจมตีโดยไม่ถูกบล็อก"
+ },
+ "Choice.GainRush": {
+  "en": "Gain Rush",
+  "th": "ได้รับรัช"
+ },
+ "Choice.GainUnblockable": {
+  "en": "Gain Unblockable",
+  "th": "ได้รับโจมตีโดยไม่ถูกบล็อก"
+ },
+ "Action.OP18-108": {
+  "en": "(Rest): Give a [Spandam] +1000",
+  "th": "(เรสต์): ให้ [Spandam] +1000"
+ },
+ "Action.OP18-018": {
+  "en": "Give all [Alabasta] Characters +1000",
+  "th": "ให้ตัวละคร [Alabasta] ทั้งหมด +1000"
+ },
+ "Action.OP18-040": {
+  "en": "KO a Rested 7 Cost or Less",
+  "th": "เคโอตัวที่เรสต์อยู่คอสต์ 7 หรือต่ำกว่า"
+ },
+ "Action.OP18-009": {
+  "en": "(Trash): Play 1 [Karoo] from Hand",
+  "th": "(ทิ้ง): ลง [Karoo] 1 ใบจากมือ"
+ },
+ "Action.OP18-019": {
+  "en": "Give a Character -3000",
+  "th": "ให้ตัวละคร -3000"
+ },
+ "Action.OP18-038": {
+  "en": "Peek 5 and draw a [Sogeking] or [Straw Hat Crew] Card",
+  "th": "ดู 5 ใบ และจั่ว [Sogeking] หรือการ์ด [Straw Hat Crew]"
+ },
+ "Action.OP18-042": {
+  "en": "Give 1 Rested Don to a [Dressrosa] Leader or Character",
+  "th": "ให้ DON!! ที่เรสต์ 1 ใบแก่ลีดเดอร์หรือตัวละคร [Dressrosa]"
+ },
+ "Action.OP18-057": {
+  "en": "(3): Bounce a Cost 5 or Less",
+  "th": "(3): คืนตัวที่คอสต์ 5 หรือน้อยกว่าขึ้นมือ"
+ },
+ "Action.OP18-058": {
+  "en": "(Return 1 Character): Send a Cost 4 or Less to Deck Bottom",
+  "th": "(คืนตัวละคร 1 ใบขึ้นมือ): ส่งตัวที่คอสต์ 4 หรือน้อยกว่าไปใต้เด็ค"
+ },
+ "Action.OP18-059": {
+  "en": "(1)(Trash 1 Baroque Works Card): Draw 2",
+  "th": "(1)(ทิ้งการ์ด Baroque Works 1 ใบ): จั่ว 2 ใบ"
+ },
+ "Action.OP18-072": {
+  "en": "(KO Stage): Give a Character -3000",
+  "th": "(เคโอสเตจ): ให้ตัวละคร -3000"
+ },
+ "Action.OP18-094": {
+  "en": "Peek 5 and Draw 1 [Elbaph] Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Elbaph] 1 ใบ"
+ },
+ "Action.OP18-095": {
+  "en": "Peek 5 and Draw 1 [Sleeptids] or [Holy Knights of God] Card",
+  "th": "ดู 5 ใบ และจั่วการ์ด [Sleeptids] หรือ [Holy Knights of God] 1 ใบ"
+ },
+ "Action.OP18-096": {
+  "en": "(3): Play a [Holy Knights of God] Cost 6 or Less from Trash",
+  "th": "(3): ลง [Holy Knights of God] คอสต์ 6 หรือน้อยกว่าจากแทรช"
+ },
+ "Action.OP18-115": {
+  "en": "KO a Cost 5 or Less",
+  "th": "เคโอตัวที่คอสต์ 5 หรือน้อยกว่า"
+ },
+ "Action.OP18-117": {
+  "en": "(Trash All Life): Trash All Characters, Play 5 [Vice Admiral] Characters from Deck or Trash",
+  "th": "(ทิ้งไลฟ์ทั้งหมด): ทิ้งตัวละครทั้งหมด แล้วลงตัวละคร [Vice Admiral] 5 ใบจากเด็คหรือแทรช"
+ }
+}

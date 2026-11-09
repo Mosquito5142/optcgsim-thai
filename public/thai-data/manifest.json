@@ -1,0 +1,11 @@
+{
+ "version": "20261109.094212",
+ "files": {
+  "data/cards_en.json": "63e0a0a8bb2a5680ead5d626803f52c21271743f424e7c38f4ca0dad38cca9f1",
+  "data/sentences_th.json": "5e0dbae822d94c6ac9016e22dc198d326373f37a152d40f97644ca25de19cd3e",
+  "data/tokens.json": "f31e5f1c72859e62e42db5b5a43bc048e0df73a0d1a882ac80cc3b7e198b8472",
+  "data/ui_th.json": "c00f124e63896cb206104206c512e0a70588f1d76c6f6d664dbc4e91f0ec1020",
+  "keywords.json": "4e5781238eda9582430515eeeed3106b19f1b27b1f9d2f78bbb38114a86b4c1d",
+  "layout.json": "9907d768593e832d9e9e93e77e9e4c905790f34625a158754d193cffc242e7aa"
+ }
+}
